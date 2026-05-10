@@ -106,8 +106,7 @@ Use exactly this format:
   "skills": [],
   "projects": [],
   "experience": [],
-  "domains": [],
-  "search_text": ""
+  "domains": []
 }}
 
 Extraction rules:
@@ -119,11 +118,9 @@ Extraction rules:
 - projects: key project keywords or short phrases
 - experience: job titles ONLY
 - domains: infer broad professional domains
-- search_text: combine domains, skills, projects, and experience into one concise search text
 
 Important:
 - skills, projects, domains must NOT be empty
-- search_text must NOT be empty
 - keep responses concise
 - domains should contain 1 to 5 items
 

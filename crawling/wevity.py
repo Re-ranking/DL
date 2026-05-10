@@ -106,7 +106,7 @@ def parse_detail_page(source_url):
     return data
 
 
-def crawl_wevity_web_mobile_it(max_pages=8):
+def crawl_wevity_web_mobile_it(max_pages=5):
     results = []
     seen_urls = set()
 
@@ -154,7 +154,7 @@ def crawl_wevity_web_mobile_it(max_pages=8):
 
 
 def main():
-    contests = crawl_wevity_web_mobile_it(max_pages=10)
+    contests = crawl_wevity_web_mobile_it(max_pages=5)
 
     df = pd.DataFrame(contests)
 
@@ -171,7 +171,7 @@ def main():
     ]
 
     df = df[columns]
-    df.to_json("wevity_contests.json",
+    df.to_json("contests_result.json",
                orient="records",
                force_ascii=False,
                indent=2
@@ -179,7 +179,7 @@ def main():
 
     print()
     print(f"저장 완료: {len(df)}개")
-    print("파일명: wevity_contests.json")
+    print("파일명: contests_result.json")
 
 
 if __name__ == "__main__":

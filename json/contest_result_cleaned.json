@@ -1,0 +1,157 @@
+[
+  {
+    "contest_id": 1,
+    "title": "2026년 전주MBC K-하이테크 플랫폼 제2회 가상현실 공간 창작 공모전",
+    "domains": [
+      "Web Development"
+    ],
+    "skills": [],
+    "source_url": "https://www.wevity.com?c=find&s=_university&gub=1&cidx=20&gbn=view&gp=1&ix=106656",
+    "original_field": "기획/아이디어, 영상/UCC/사진, 웹/모바일/IT, 게임/소프트웨어, 과학/공학, 건축/건설/인테리어, 기타",
+    "target": "제한없음, 기타",
+    "organizer": "전주MBC K-하이테크 플랫폼",
+    "period": "2026-06-15 ~ 2026-07-14 D-69",
+    "total_prize": "3천만원~1천만원",
+    "first_prize": "맥북 (300만원 상당) + 도지사상"
+  },
+  {
+    "contest_id": 2,
+    "title": "제4회 문화체육관광 인공지능·데이터 활용 공모전",
+    "domains": [
+      "AI",
+      "Data Science"
+    ],
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "Data Visualization"
+    ],
+    "source_url": "https://www.wevity.com?c=find&s=_university&gub=1&cidx=20&gbn=view&gp=1&ix=106965",
+    "original_field": "기획/아이디어, 논문/리포트, 웹/모바일/IT, 게임/소프트웨어, 과학/공학, 대외활동/서포터즈",
+    "target": "제한없음",
+    "organizer": "문화체육관광부 / 한국문화정보원, 국민체육진흥공단, 한국관광공사, 한국문화예술위원회, 한국콘텐츠진흥원",
+    "period": "2026-04-27 ~ 2026-06-26 D-51",
+    "total_prize": "5천만원이상",
+    "first_prize": "1,000만원"
+  },
+  {
+    "contest_id": 3,
+    "title": "2026 현대오토에버 배리어프리 앱 개발 콘테스트 공모전",
+    "domains": [
+      "Software Development",
+      "Web Development"
+    ],
+    "skills": [],
+    "source_url": "https://www.wevity.com?c=find&s=_university&gub=1&cidx=20&gbn=view&gp=1&ix=106687",
+    "original_field": "기획/아이디어, 웹/모바일/IT, 게임/소프트웨어, 과학/공학, 대외활동/서포터즈",
+    "target": "대학생",
+    "organizer": "현대오토에버, 서울사회복지공동모금회 / 사단법인 그린라이트",
+    "period": "2026-04-20 ~ 2026-05-17 D-11",
+    "total_prize": "1천만원이하",
+    "first_prize": "500만원"
+  },
+  {
+    "contest_id": 4,
+    "title": "[과학기술정보통신부] 2026 글로벌 피우다프로젝트 (SW개발 경진대회)",
+    "domains": [
+      "Software Development"
+    ],
+    "skills": [],
+    "source_url": "https://www.wevity.com?c=find&s=_university&gub=1&cidx=20&gbn=view&gp=1&ix=106194",
+    "original_field": "기획/아이디어, 웹/모바일/IT, 게임/소프트웨어, 과학/공학, 기타",
+    "target": "제한없음",
+    "organizer": "과학기술정보통신부 / 정보통신산업진흥원, 전국ICT콤플렉스 운영기관",
+    "period": "2026-04-01 ~ 2026-05-17 D-11",
+    "total_prize": "1천만원이하",
+    "first_prize": "300만원"
+  },
+  {
+    "contest_id": 5,
+    "title": "2026 세종특별자치시 데이터·AI 활용 경진대회",
+    "domains": [
+      "Data Science",
+      "AI"
+    ],
+    "skills": [
+      "Machine Learning",
+      "Python"
+    ],
+    "source_url": "https://www.wevity.com?c=find&s=_university&gub=1&cidx=20&gbn=view&gp=1&ix=106884",
+    "original_field": "웹/모바일/IT",
+    "target": "제한없음",
+    "organizer": "세종특별자치시",
+    "period": "2026-04-06 ~ 2026-05-29 D-23",
+    "total_prize": "1천만원이하",
+    "first_prize": "100만원"
+  },
+  {
+    "contest_id": 6,
+    "title": "2026 경상남도 빅데이터 활용 공모전",
+    "domains": [
+      "Data Science",
+      "Analytics"
+    ],
+    "skills": [],
+    "source_url": "https://www.wevity.com?c=find&s=_university&gub=1&cidx=20&gbn=view&gp=1&ix=106718",
+    "original_field": "웹/모바일/IT",
+    "target": "제한없음",
+    "organizer": "경상남도 / 경상남도 빅데이터센터",
+    "period": "2026-04-13 ~ 2026-06-15 D-40",
+    "total_prize": "1천만원이하",
+    "first_prize": "300만원"
+  },
+  {
+    "contest_id": 7,
+    "title": "2026 RecurDyn Simulation 경진대회",
+    "domains": [
+      "Web Development"
+    ],
+    "skills": [],
+    "source_url": "https://www.wevity.com?c=find&s=_university&gub=1&cidx=20&gbn=view&gp=1&ix=106531",
+    "original_field": "웹/모바일/IT",
+    "target": "대학생",
+    "organizer": "펑션베이",
+    "period": "2026-05-25 ~ 2026-05-27 D-21",
+    "total_prize": "1천만원이하",
+    "first_prize": "200만원"
+  },
+  {
+    "contest_id": 8,
+    "title": "2026년 국토교통 데이터 활용 경진대회",
+    "domains": [
+      "Data Science",
+      "Data Analysis"
+    ],
+    "skills": [
+      "Python",
+      "R",
+      "SQL",
+      "Data Visualization"
+    ],
+    "source_url": "https://www.wevity.com?c=find&s=_university&gub=1&cidx=20&gbn=view&gp=1&ix=106412",
+    "original_field": "웹/모바일/IT",
+    "target": "제한없음",
+    "organizer": "국토교통부",
+    "period": "2026-04-06 ~ 2026-05-29 D-23",
+    "total_prize": "5천만원~3천만원",
+    "first_prize": ""
+  },
+  {
+    "contest_id": 9,
+    "title": "2026 아두이노 메이커 공모전",
+    "domains": [
+      "Software Development",
+      "Web Development"
+    ],
+    "skills": [],
+    "source_url": "https://www.wevity.com?c=find&s=_university&gub=1&cidx=20&gbn=view&gp=1&ix=106229",
+    "original_field": "웹/모바일/IT",
+    "target": "제한없음",
+    "organizer": "엔티렉스",
+    "period": "2026-04-01 ~ 2026-06-30 D-55",
+    "total_prize": "1천만원이하",
+    "first_prize": "100만원"
+  }
+]

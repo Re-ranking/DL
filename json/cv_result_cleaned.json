@@ -11,6 +11,9 @@
     "skills": [
       "Java",
       "Python",
+      "Spark",
+      "MapReduce",
+      "Predictive Modeling",
       "Machine Learning"
     ],
     "projects": [
@@ -36,9 +39,11 @@
       "Led SDK Architect"
     ],
     "domains": [
-      "Data Science"
+      "Data Science",
+      "Software Development"
     ],
-    "search_text": "Data Science Java Python Machine Learning"
+    "search_text": "data science engineer software development leadership predictive analytics machine learning",
+    "tags": "Data Science, Software Development, Java, Python, Spark, MapReduce, Predictive Modeling, Machine Learning"
   },
   {
     "user_id": "user_003",
@@ -49,8 +54,10 @@
     "email": [],
     "skills": [
       "Python",
+      "ArcGIS",
       "JavaScript",
-      "HTML"
+      "HTML",
+      "CSS"
     ],
     "projects": [
       "Spatial data analysis and modelling",
@@ -65,7 +72,8 @@
       "Software Development",
       "Data Analysis"
     ],
-    "search_text": "Software Development Data Analysis Python JavaScript HTML"
+    "search_text": "Python, ArcGIS, JavaScript, HTML/HTML5, CS8/CSS3, Spatial data analysis and modelling, Web-based spatial data analysis and downloads, Director of Information Technology, Information Technology Coordinator, Intern Information Technology",
+    "tags": "Software Development, Data Analysis, Python, ArcGIS, JavaScript, HTML, CSS"
   },
   {
     "user_id": "user_004",
@@ -74,9 +82,9 @@
     "email": [],
     "skills": [
       "ETL",
-      "Database Administration",
+      "Database Design",
       "Data Warehousing",
-      "SQL"
+      "Database Administration"
     ],
     "projects": [],
     "experience": [
@@ -85,7 +93,8 @@
     "domains": [
       "Database"
     ],
-    "search_text": "Database ETL Database Administration Data Warehousing SQL"
+    "search_text": "Database Development, Data Migration, Data Partitioning, Database Scripting",
+    "tags": "Database, ETL, Database Design, Data Warehousing, Database Administration"
   },
   {
     "user_id": "user_006",
@@ -98,11 +107,10 @@
       "m"
     ],
     "skills": [
-      "Python",
       "PHP",
+      "Python",
       "HTML",
-      "CSS",
-      "PyTorch"
+      "CSS"
     ],
     "projects": [
       "Network/Studio programs"
@@ -113,7 +121,8 @@
     "domains": [
       "Data Science"
     ],
-    "search_text": "Data Science Python PHP HTML CSS PyTorch"
+    "search_text": "data scientist, computer science, data analytics, network/studio programs",
+    "tags": "Data Science, PHP, Python, HTML, CSS"
   },
   {
     "user_id": "user_007",
@@ -126,8 +135,7 @@
       "linkedin.com/in/trishastamm"
     ],
     "skills": [
-      "Machine Learning",
-      "Python"
+      "Machine Learning"
     ],
     "projects": [
       "Predict stock price with 25% more accuracy",
@@ -139,9 +147,11 @@
       "Junior Data Scientist"
     ],
     "domains": [
-      "Data Science"
+      "Data Science",
+      "Machine Learning"
     ],
-    "search_text": "Data Science Machine Learning Python"
+    "search_text": "data science, machine learning, statistics, predictive analytics",
+    "tags": "Data Science, Machine Learning, Machine Learning"
   },
   {
     "user_id": "user_008",
@@ -153,7 +163,7 @@
     ],
     "skills": [
       "SQL",
-      "Machine Learning"
+      "ETL"
     ],
     "projects": [
       "Complex SQL Development",
@@ -165,8 +175,11 @@
       "SQL Developer",
       "Data Migration Specialist"
     ],
-    "domains": [],
-    "search_text": "SQL Machine Learning"
+    "domains": [
+      "IT Infrastructure"
+    ],
+    "search_text": "SQL, T-SOL, Data Migration, Audit Coding, Stakeholder Presentations, Information Technology",
+    "tags": "IT Infrastructure, SQL, ETL"
   },
   {
     "user_id": "user_009",
@@ -191,9 +204,11 @@
       "Data Scientist"
     ],
     "domains": [
-      "Data Science"
+      "Data Science",
+      "Business Intelligence"
     ],
-    "search_text": "Data Science Analytics"
+    "search_text": "Data Scientist, Data Entry, Planning, Analyzing, Sales Force allocation, market penetration, modeling",
+    "tags": "Data Science, Business Intelligence, Analytics"
   },
   {
     "user_id": "user_010",
@@ -220,9 +235,11 @@
     ],
     "domains": [
       "Data Science",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Computer Vision"
     ],
-    "search_text": "Data Science Natural Language Processing Python TensorFlow PyTorch"
+    "search_text": "Data Scientist, NLP Expert, Computer Vision, Python, TensorFlow, Pytorch, recommender system optimization, image recognition model development, Object Detection project",
+    "tags": "Data Science, Natural Language Processing, Computer Vision, Python, TensorFlow, PyTorch"
   },
   {
     "user_id": "user_011",
@@ -234,11 +251,9 @@
       "jane.knightley@email.com"
     ],
     "skills": [
-      "Python",
       "SQL",
-      "Data Visualization",
-      "NLP",
-      "Computer Vision"
+      "REST API",
+      "Python"
     ],
     "projects": [
       "resolved complex network issues",
@@ -253,10 +268,11 @@
       "Research Study Assistant"
     ],
     "domains": [
-      "Software Development",
-      "Database"
+      "IT Infrastructure",
+      "Marketing"
     ],
-    "search_text": "Software Development Database Python SQL Data Visualization NLP Computer Vision"
+    "search_text": "IT Technician, Network Infrastructure, SOL, Python, Customer Service",
+    "tags": "IT Infrastructure, Marketing, SQL, REST API, Python"
   },
   {
     "user_id": "user_012",
@@ -268,11 +284,7 @@
       "ofoeew@ikresume.com",
       "wwe@cilkre@suirne.com"
     ],
-    "skills": [
-      "Python",
-      "SQL",
-      "Database Administration"
-    ],
+    "skills": [],
     "projects": [
       "IT solutions",
       "data collection systems"
@@ -281,10 +293,9 @@
       "Information Technology Specialist",
       "Principal Information Technology Specialist"
     ],
-    "domains": [
-      "Computer Vision"
-    ],
-    "search_text": "Computer Vision Python SQL Database Administration"
+    "domains": [],
+    "search_text": "IT specialist, computer technology, IT solutions",
+    "tags": ""
   },
   {
     "user_id": "user_014",
@@ -295,8 +306,7 @@
     ],
     "skills": [
       "Python",
-      "R",
-      "SQL"
+      "R"
     ],
     "projects": [
       "predicting house prices",
@@ -309,9 +319,10 @@
     ],
     "domains": [
       "Machine Learning",
-      "Data Science"
+      "Healthcare"
     ],
-    "search_text": "Machine Learning Data Science Python R SQL"
+    "search_text": "CHRISTA TIM, Data Scientist, Python, R, Machine Learning, Statistics, Healthcare, Technology",
+    "tags": "Machine Learning, Healthcare, Python, R"
   },
   {
     "user_id": "user_015",
@@ -334,9 +345,10 @@
       "SQL Developer"
     ],
     "domains": [
-      "Data Science"
+      "Data Engineering"
     ],
-    "search_text": "Data Science SQL ETL"
+    "search_text": "sql developer, microsoft sql, etl, data migration, automated reporting, cross-functional data migration",
+    "tags": "Data Engineering, SQL, ETL"
   },
   {
     "user_id": "user_017",
@@ -356,8 +368,11 @@
     "experience": [
       "IT TECH SPECIALIST"
     ],
-    "domains": [],
-    "search_text": "Python"
+    "domains": [
+      "Marketing"
+    ],
+    "search_text": "Avery Davis, IT TECH SPECIALIST, Marketing, Digital marketing campaigns, Programming",
+    "tags": "Marketing, Python"
   },
   {
     "user_id": "user_018",
@@ -371,7 +386,8 @@
     ],
     "skills": [
       "Oracle",
-      "SQL"
+      "SQL",
+      "Database Design"
     ],
     "projects": [
       "database projects",
@@ -384,9 +400,11 @@
       "OCA Certified SQL Developer"
     ],
     "domains": [
-      "Data Science"
+      "Data Engineering",
+      "Software Development"
     ],
-    "search_text": "Data Science Oracle SQL"
+    "search_text": "OCA Oracle PL/SQL SQL Developer Database Architecture SSIS Development Data Management",
+    "tags": "Data Engineering, Software Development, Oracle, SQL, Database Design"
   },
   {
     "user_id": "user_019",
@@ -398,10 +416,10 @@
       "phi123@gmail.com"
     ],
     "skills": [
-      "Python",
       "HTML",
       "CSS",
-      "JavaScript"
+      "JavaScript",
+      "Python"
     ],
     "projects": [
       "Debugging",
@@ -415,7 +433,8 @@
     "domains": [
       "Software Development"
     ],
-    "search_text": "Software Development Python HTML CSS JavaScript"
+    "search_text": "Philip Nguyen, Software debugging, Hardware repair, Intranet maintenance, Upgrade computer system, Troubleshoot copier and scanner, IT support, Technical Support, Computer Science",
+    "tags": "Software Development, HTML, CSS, JavaScript, Python"
   },
   {
     "user_id": "user_021",
@@ -443,9 +462,12 @@
       "Associate Data Scientist"
     ],
     "domains": [
-      "Data Science"
+      "Data Science",
+      "Marketing",
+      "Analytics"
     ],
-    "search_text": "Data Science SQL Python"
+    "search_text": "senior data scientist, data science, customer segmentation algorithm, digital marketing campaign, data conference",
+    "tags": "Data Science, Marketing, Analytics, SQL, Python"
   },
   {
     "user_id": "user_022",
@@ -461,7 +483,9 @@
       "Python",
       "R",
       "Java",
-      "SQL"
+      "C++",
+      "SQL",
+      "MySQL"
     ],
     "projects": [
       "real-time analytics dashboard",
@@ -477,7 +501,8 @@
       "Data Science",
       "Machine Learning"
     ],
-    "search_text": "Data Science Machine Learning Machine Learning Python R Java SQL"
+    "search_text": "data science, machine learning, python, r, java, c/c++, pattern recognition, database algorithms, sql, mysql, natural language processing",
+    "tags": "Data Science, Machine Learning, Machine Learning, Python, R, Java, C++, SQL, MySQL"
   },
   {
     "user_id": "user_023",
@@ -490,7 +515,14 @@
     ],
     "skills": [
       "Python",
+      "Java",
+      "C",
+      "Scala",
+      "R",
       "Hadoop",
+      "MongoDB",
+      "MapReduce",
+      "Flask",
       "Scikit-learn"
     ],
     "projects": [
@@ -502,9 +534,12 @@
       "Data Scientist"
     ],
     "domains": [
+      "Marketing",
+      "Analytics",
       "Machine Learning"
     ],
-    "search_text": "Machine Learning Python Hadoop Scikit-learn"
+    "search_text": "senior data scientist, marketing, analytics, machine learning, python, java, c++, scala, r, hadoop, rapid miner, qlikview, monboDB, hdfs, hbase, mapreduce, flask, scikit-learn, sas programming, spss",
+    "tags": "Marketing, Analytics, Machine Learning, Python, Java, C, Scala, R, Hadoop, MongoDB, MapReduce, Flask, Scikit-learn"
   },
   {
     "user_id": "user_024",
@@ -516,6 +551,8 @@
       "steph@email.com"
     ],
     "skills": [
+      "Agile",
+      "REST API",
       "Python"
     ],
     "projects": [
@@ -530,7 +567,8 @@
     "domains": [
       "Software Development"
     ],
-    "search_text": "Software Development Python"
+    "search_text": "software development lifecycle cycle project management it manager business analysis",
+    "tags": "Software Development, Agile, REST API, Python"
   },
   {
     "user_id": "user_025",
@@ -540,8 +578,8 @@
     ],
     "email": [],
     "skills": [
-      "Python",
-      "Machine Learning"
+      "Analytics",
+      "Agile"
     ],
     "projects": [
       "Digital strategy for customer experience",
@@ -553,9 +591,10 @@
       "Hickle-Kunze IT"
     ],
     "domains": [
-      "Software Development"
+      "IT Infrastructure"
     ],
-    "search_text": "Software Development Python Machine Learning"
+    "search_text": "LORY HINTZ, Information Technology, Professional Services, Decision-making, Strategic planning, Online learning, Medical simulation, Logical analysis, Influencing, Learning new technologies, HHS knowledge, Organizational Change Management, Business Process Mapping",
+    "tags": "IT Infrastructure, Analytics, Agile"
   },
   {
     "user_id": "user_026",
@@ -578,7 +617,8 @@
     "domains": [
       "Web Development"
     ],
-    "search_text": "Web Development React CSS"
+    "search_text": "React JS, Web Development, Error Analysis, Debugging",
+    "tags": "Web Development, React, CSS"
   },
   {
     "user_id": "user_027",
@@ -590,11 +630,12 @@
       "davidj@gmail.com"
     ],
     "skills": [
-      "Python",
-      "JavaScript",
       "CSS",
       "HTML",
-      "SQL"
+      "JavaScript",
+      "Swift",
+      "Python",
+      "Blockchain"
     ],
     "projects": [
       "Cisco Data Center System",
@@ -605,10 +646,11 @@
       "Cloud Developer Intern"
     ],
     "domains": [
-      "Data Science",
-      "Software Development"
+      "Data Engineering",
+      "IT Infrastructure"
     ],
-    "search_text": "Data Science Software Development Python JavaScript CSS HTML SQL"
+    "search_text": "IT, Data Management, Networking, Cisco, Blockchain, Cloud",
+    "tags": "Data Engineering, IT Infrastructure, CSS, HTML, JavaScript, Swift, Python, Blockchain"
   },
   {
     "user_id": "user_028",
@@ -620,7 +662,7 @@
       "kaylee@gmail.com"
     ],
     "skills": [
-      "SQL"
+      "Agile"
     ],
     "projects": [
       "Global IT Strategy",
@@ -639,9 +681,11 @@
       "Product Development Excellence Group"
     ],
     "domains": [
+      "IT Infrastructure",
       "Software Development"
     ],
-    "search_text": "Software Development SQL"
+    "search_text": "IT leadership, software development, agile development, lean startup, cloud, SaaS, international team leadership, global IT strategy",
+    "tags": "IT Infrastructure, Software Development, Agile"
   },
   {
     "user_id": "user_029",
@@ -655,7 +699,9 @@
     "skills": [
       "SQL",
       "Query Optimization",
-      "ETL"
+      "Database Design",
+      "ETL",
+      "PostgreSQL"
     ],
     "projects": [
       "optimized SQL database system",
@@ -670,9 +716,11 @@
     ],
     "domains": [
       "Database Administration",
-      "Software Development"
+      "Software Development",
+      "Data Analysis"
     ],
-    "search_text": "Database Administration Software Development SQL Query Optimization ETL"
+    "search_text": "SQL, Database Administrator, Azure, Oracle, PostgreSQL, Query optimization, Indexing strategies, Stored procedures, ETL processes",
+    "tags": "Database Administration, Software Development, Data Analysis, SQL, Query Optimization, Database Design, ETL, PostgreSQL"
   },
   {
     "user_id": "user_030",
@@ -680,8 +728,10 @@
     "phone": [],
     "email": [],
     "skills": [
+      "Analytics",
+      "Data Mining",
       "Predictive Modeling",
-      "SQL"
+      "Machine Learning"
     ],
     "projects": [
       "deepen relationships, strengthen longevity and personalize interactions with customers",
@@ -693,9 +743,12 @@
       "Research Associate"
     ],
     "domains": [
-      "Data Science"
+      "Data Science",
+      "Analytics",
+      "Business Intelligence"
     ],
-    "search_text": "Data Science Predictive Modeling SQL"
+    "search_text": "data scientist, quantitative analyst, predictive modeling, machine learning algorithms, data-driven personalization, business intelligence",
+    "tags": "Data Science, Analytics, Business Intelligence, Analytics, Data Mining, Predictive Modeling, Machine Learning"
   },
   {
     "user_id": "user_031",
@@ -721,10 +774,12 @@
       "T-SQL Developer"
     ],
     "domains": [
-      "Data Science",
-      "Database Administration"
+      "Data Engineering",
+      "Database Administration",
+      "Software Development"
     ],
-    "search_text": "Data Science Database Administration SQL Oracle Agile ETL Query Optimization"
+    "search_text": "Brent Roberts, Senior SQL Developer, Data Engineering, Database Administration, Software Development, Agile methodologies, SDLC, ETL processes, Snowflake Data Warehouse",
+    "tags": "Data Engineering, Database Administration, Software Development, SQL, Oracle, Agile, ETL, Query Optimization"
   },
   {
     "user_id": "user_032",
@@ -735,7 +790,7 @@
     "email": [],
     "skills": [
       "SQL",
-      "Java"
+      "ETL"
     ],
     "projects": [
       "ETL processes",
@@ -752,11 +807,12 @@
       "IT releases"
     ],
     "domains": [
-      "Data Science",
+      "Data Analysis",
       "Software Development",
       "Business Intelligence"
     ],
-    "search_text": "Data Science Software Development Business Intelligence SQL Java"
+    "search_text": "T-SQL, SQL, PL/SQL, Oracle Apex, Talend ETL, Java/J2EE, Database design, Business intelligence, Campaigns, Call center data",
+    "tags": "Data Analysis, Software Development, Business Intelligence, SQL, ETL"
   },
   {
     "user_id": "user_034",
@@ -766,11 +822,12 @@
       "help@enhancv.com"
     ],
     "skills": [
+      "React",
       "JavaScript",
       "CSS",
       "HTML",
-      "React",
-      "Redux"
+      "Redux",
+      "Performance Testing"
     ],
     "projects": [
       "Reusable ReactJS components",
@@ -787,9 +844,10 @@
     ],
     "domains": [
       "Web Development",
-      "Software Development"
+      "Frontend Development"
     ],
-    "search_text": "Web Development Software Development JavaScript CSS HTML React Redux"
+    "search_text": "Web Development, Front-end Development, React.js, JavaScript, CSS, HTML, Performance Testing, Project Management",
+    "tags": "Web Development, Frontend Development, React, JavaScript, CSS, HTML, Redux, Performance Testing"
   },
   {
     "user_id": "user_036",
@@ -802,8 +860,14 @@
     ],
     "skills": [
       "React",
-      "JavaScript",
+      "Redux",
       "TypeScript",
+      "JavaScript",
+      "Angular",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Express.js",
       "Python"
     ],
     "projects": [
@@ -814,9 +878,13 @@
       "Senior React Developer"
     ],
     "domains": [
-      "Software Development"
+      "E-commerce",
+      "Travel",
+      "Finance",
+      "Healthcare"
     ],
-    "search_text": "Software Development React JavaScript TypeScript Python"
+    "search_text": "React, Redux, TypeScript, JavaScript, Angular, HTML, CSS, NodeJS, Express, Python, CBPAS, Medical Domain Application, Senior React Developer",
+    "tags": "E-commerce, Travel, Finance, Healthcare, React, Redux, TypeScript, JavaScript, Angular, HTML, CSS, Node.js, Express.js, Python"
   },
   {
     "user_id": "user_037",
@@ -830,6 +898,7 @@
     ],
     "skills": [
       "Machine Learning",
+      "Data Visualization",
       "Python",
       "R",
       "Java",
@@ -849,7 +918,8 @@
       "Data Science",
       "Big Data"
     ],
-    "search_text": "Machine Learning Data Science Big Data Machine Learning Python R Java Scala"
+    "search_text": "Data Scientist, Machine Leaming, Data Visualization, Big Data, Python, R, Java, Scala",
+    "tags": "Machine Learning, Data Science, Big Data, Machine Learning, Data Visualization, Python, R, Java, Scala"
   },
   {
     "user_id": "user_038",
@@ -861,8 +931,9 @@
       "trishastamm@gmail.com"
     ],
     "skills": [
-      "Python",
       "R",
+      "Python",
+      "Hadoop",
       "Machine Learning",
       "Data Visualization",
       "Statistics"
@@ -878,7 +949,8 @@
     "domains": [
       "Data Science"
     ],
-    "search_text": "Data Science Python R Machine Learning Data Visualization Statistics"
+    "search_text": "Microsoft Certified, Data Scientist, Predictive Modeling, Stock Price Prediction, Investment Returns",
+    "tags": "Data Science, R, Python, Hadoop, Machine Learning, Data Visualization, Statistics"
   },
   {
     "user_id": "user_039",
@@ -892,6 +964,8 @@
     "skills": [
       "SQL",
       "ETL",
+      "Database Administration",
+      "Database Design",
       "C#"
     ],
     "projects": [
@@ -905,7 +979,8 @@
     "domains": [
       "Software Development"
     ],
-    "search_text": "Software Development SQL ETL C#"
+    "search_text": "Chace Legge, SQL Developer, Software Development, Data Administration",
+    "tags": "Software Development, SQL, ETL, Database Administration, Database Design, C#"
   },
   {
     "user_id": "user_040",
@@ -917,10 +992,9 @@
       "lovetta.brewton@gmail.com"
     ],
     "skills": [
-      "Machine Learning",
-      "Python",
+      "TensorFlow",
       "Hadoop",
-      "SQL"
+      "Spark"
     ],
     "projects": [
       "predictive analytics system for YouTube",
@@ -933,7 +1007,8 @@
     "domains": [
       "Data Science"
     ],
-    "search_text": "Data Science Machine Learning Python Hadoop SQL"
+    "search_text": "data scientist, machine learning, predictive analytics, real-time recommendations",
+    "tags": "Data Science, TensorFlow, Hadoop, Spark"
   },
   {
     "user_id": "user_042",
@@ -945,7 +1020,6 @@
       "lila.patel@example.com"
     ],
     "skills": [
-      "React",
       "React Native"
     ],
     "projects": [
@@ -958,9 +1032,11 @@
       "Mobile App Developer"
     ],
     "domains": [
-      "Software Development"
+      "E-commerce",
+      "Mobile Development"
     ],
-    "search_text": "Software Development React React Native"
+    "search_text": "Lila Patel, React Native, E-commerce, Mobile app development, cross-platform applications",
+    "tags": "E-commerce, Mobile Development, React Native"
   },
   {
     "user_id": "user_043",
@@ -985,9 +1061,11 @@
       "FREELANCE DATA SCIENTIST"
     ],
     "domains": [
-      "Data Science"
+      "Data Science",
+      "Analytics"
     ],
-    "search_text": "Data Science Python Statistics"
+    "search_text": "data science, analytics, visualization, python, vb, cloudera",
+    "tags": "Data Science, Analytics, Python, Statistics"
   },
   {
     "user_id": "user_044",
@@ -997,8 +1075,12 @@
     ],
     "email": [],
     "skills": [
+      "Predictive Modeling",
       "Machine Learning",
-      "SQL"
+      "Data Mining",
+      "Statistics",
+      "SQL",
+      "Testing"
     ],
     "projects": [
       "building and productionizing predictive models",
@@ -1008,9 +1090,11 @@
       "DATA SCIENTIST"
     ],
     "domains": [
-      "Data Science"
+      "Data Science",
+      "Analytics"
     ],
-    "search_text": "Data Science Machine Learning SQL"
+    "search_text": "data scientist, predictive models, machine learning, data mining, SQL, Unit Test code, analytics, ITIL",
+    "tags": "Data Science, Analytics, Predictive Modeling, Machine Learning, Data Mining, Statistics, SQL, Testing"
   },
   {
     "user_id": "user_045",
@@ -1019,8 +1103,10 @@
     "email": [],
     "skills": [
       "SQL",
-      "Python",
-      "Machine Learning"
+      "Oracle",
+      "MySQL",
+      "Machine Learning",
+      "Python"
     ],
     "projects": [
       "Data Visualization"
@@ -1031,9 +1117,11 @@
       "Data Analyst"
     ],
     "domains": [
-      "Data Science"
+      "Data Science",
+      "Analytics"
     ],
-    "search_text": "Data Science SQL Python Machine Learning"
+    "search_text": "data science, data analytics, machine learning, data visualization",
+    "tags": "Data Science, Analytics, SQL, Oracle, MySQL, Machine Learning, Python"
   },
   {
     "user_id": "user_046",
@@ -1048,11 +1136,13 @@
     ],
     "skills": [
       "Python",
+      "Java",
+      "C",
+      "Git",
       "Hive",
       "MapReduce",
       "MongoDB",
-      "SQL",
-      "Machine Learning"
+      "Statistics"
     ],
     "projects": [
       "digitized filing system",
@@ -1068,9 +1158,10 @@
     ],
     "domains": [
       "Data Science",
-      "Database Administration"
+      "Analytics"
     ],
-    "search_text": "Data Science Database Administration Python Hive MapReduce MongoDB SQL Machine Learning"
+    "search_text": "Data Scientist, Analytics, Statistical Analysis Tools, Market Research, Road Safety",
+    "tags": "Data Science, Analytics, Python, Java, C, Git, Hive, MapReduce, MongoDB, Statistics"
   },
   {
     "user_id": "user_047",
@@ -1082,8 +1173,10 @@
     "skills": [
       "JavaScript",
       "React",
+      "Redux",
       "HTML",
-      "CSS"
+      "Tailwind CSS",
+      "Python"
     ],
     "projects": [
       "IMS Version-3",
@@ -1094,9 +1187,11 @@
       "Web Developer"
     ],
     "domains": [
-      "Software Development"
+      "Software Development",
+      "Frontend Development"
     ],
-    "search_text": "Software Development JavaScript React HTML CSS"
+    "search_text": "react developer, software development, frontend development, JavaScript, React, Redux Toolkit",
+    "tags": "Software Development, Frontend Development, JavaScript, React, Redux, HTML, Tailwind CSS, Python"
   },
   {
     "user_id": "user_048",
@@ -1109,9 +1204,8 @@
     ],
     "skills": [
       "SQL",
-      "Machine Learning",
-      "ETL",
-      "Data Warehousing"
+      "SQL Server",
+      "Query Optimization"
     ],
     "projects": [
       "Custom database applications",
@@ -1128,9 +1222,10 @@
     ],
     "domains": [
       "Database Administration",
-      "Data Science"
+      "Data Engineering"
     ],
-    "search_text": "Database Administration Data Science SQL Machine Learning ETL Data Warehousing"
+    "search_text": "Abigail Biwer, T-SQL, SSIS, SSRS, SSAS, PowerBl, Azure SQL, Database Optimization, Custom database applications, Data processing efficiency, SQL Server performance tuning, Legacy data migration, Report generation time improvement, Donor matching algorithm, Comprehensive data warehouse solution",
+    "tags": "Database Administration, Data Engineering, SQL, SQL Server, Query Optimization"
   },
   {
     "user_id": "user_049",
@@ -1140,12 +1235,13 @@
       "help@enhancv.com"
     ],
     "skills": [
-      "React",
+      "React Native",
       "Java",
       "C#",
       "Redux",
-      "JavaScript",
-      "Spring Boot"
+      "REST API",
+      "Spring Boot",
+      "JavaScript"
     ],
     "projects": [
       "Revamped user interface",
@@ -1164,7 +1260,8 @@
     "domains": [
       "Software Development"
     ],
-    "search_text": "Software Development React Java C# Redux JavaScript Spring Boot"
+    "search_text": "React Native, Java, C#, software development, senior software engineer",
+    "tags": "Software Development, React Native, Java, C#, Redux, REST API, Spring Boot, JavaScript"
   },
   {
     "user_id": "user_050",
@@ -1174,8 +1271,7 @@
       "carol@kohn.com"
     ],
     "skills": [
-      "SQL",
-      "Python"
+      "ETL"
     ],
     "projects": [
       "27 SSRS reports",
@@ -1185,10 +1281,12 @@
       "SQL Developer"
     ],
     "domains": [
-      "Data Science",
-      "Database"
+      "Data Engineering",
+      "Business Intelligence",
+      "Database Administration"
     ],
-    "search_text": "Data Science Database SQL Python"
+    "search_text": "Caroline M. Kohn, SQL Developer, Migration to SQL Server, SSRS Reporting, Automation, Spanish, Data Management, Business Intelligence, Database Administration",
+    "tags": "Data Engineering, Business Intelligence, Database Administration, ETL"
   },
   {
     "user_id": "user_051",
@@ -1199,7 +1297,10 @@
     "email": [
       "brandon@hiration.com"
     ],
-    "skills": [],
+    "skills": [
+      "Testing",
+      "Performance Testing"
+    ],
     "projects": [
       "10+ web applications",
       "7+ web applications",
@@ -1209,9 +1310,11 @@
       "Frontend Developer"
     ],
     "domains": [
+      "Web Development",
       "Software Development"
     ],
-    "search_text": "Software Development"
+    "search_text": "Brandon Smith, Frontend Developer, React, Web Application Development, Debugging, Client Servicing",
+    "tags": "Web Development, Software Development, Testing, Performance Testing"
   },
   {
     "user_id": "user_052",
@@ -1223,8 +1326,9 @@
       "lilah.harryman@gmail.com"
     ],
     "skills": [
-      "SQL",
-      "Query Optimization"
+      "Query Optimization",
+      "Database Administration",
+      "SQL"
     ],
     "projects": [
       "PL SQL-based billing system",
@@ -1237,9 +1341,11 @@
     ],
     "domains": [
       "Database",
-      "Software Development"
+      "Software Development",
+      "IT Infrastructure"
     ],
-    "search_text": "Database Software Development SQL Query Optimization"
+    "search_text": "PL/SQL, Database Development, Software Development, Information Technology",
+    "tags": "Database, Software Development, IT Infrastructure, Query Optimization, Database Administration, SQL"
   },
   {
     "user_id": "user_053",
@@ -1251,7 +1357,10 @@
       "letitia.taman@agmail.com"
     ],
     "skills": [
-      "SQL"
+      "SQL",
+      "Database Design",
+      "Query Optimization",
+      "Database Administration"
     ],
     "projects": [
       "reporting system",
@@ -1262,9 +1371,11 @@
       "Junior Oracle PL SQL Developer"
     ],
     "domains": [
-      "Database Administration"
+      "Database Administration",
+      "Data Engineering"
     ],
-    "search_text": "Database Administration SQL"
+    "search_text": "Letitia Taman, Oracle PL/SQL Developer, PL/SQL, SQL, Oracle APEX, Data Modeling, Performance Tuning, reporting system, inventory management system",
+    "tags": "Database Administration, Data Engineering, SQL, Database Design, Query Optimization, Database Administration"
   },
   {
     "user_id": "user_054",
@@ -1276,10 +1387,11 @@
       "resumepowersample@gmail.com"
     ],
     "skills": [
-      "Java",
-      "C",
+      "Oracle",
       "SQL",
-      "Oracle"
+      "C",
+      "Java",
+      "HTML"
     ],
     "projects": [
       "database administration",
@@ -1296,7 +1408,8 @@
     "domains": [
       "Database Administration"
     ],
-    "search_text": "Database Administration Java C SQL Oracle"
+    "search_text": "Oracle Database, IT, Entry-Level Oracle Database Administrator, Database Administration",
+    "tags": "Database Administration, Oracle, SQL, C, Java, HTML"
   },
   {
     "user_id": "user_055",
@@ -1313,6 +1426,12 @@
       "Python",
       "Scikit-learn",
       "OpenCV",
+      "Spark",
+      "Hadoop",
+      "R",
+      "Django",
+      "Angular",
+      "HTML",
       "SQL",
       "JavaScript",
       "PHP"
@@ -1328,10 +1447,10 @@
       "Business Analyst / Statistician"
     ],
     "domains": [
-      "AI",
-      "Machine Learning"
+      "AI"
     ],
-    "search_text": "AI Machine Learning Python Scikit-learn OpenCV SQL JavaScript PHP"
+    "search_text": "Data Scientist, predictive models, machine learning, natural language processing, deep learning, data analytics, renewable energy, artificial intelligence",
+    "tags": "AI, Python, Scikit-learn, OpenCV, Spark, Hadoop, R, Django, Angular, HTML, SQL, JavaScript, PHP"
   },
   {
     "user_id": "user_056",
@@ -1343,7 +1462,6 @@
       "kennedy.klekampi@igmail.com"
     ],
     "skills": [
-      "Python",
       "Django",
       "Flask"
     ],
@@ -1357,9 +1475,10 @@
     ],
     "domains": [
       "Software Development",
-      "Data Science"
+      "Data Analysis"
     ],
-    "search_text": "Software Development Data Science Python Django Flask"
+    "search_text": "Python, Django, Flask, Data Analysis, Open-source, Agile",
+    "tags": "Software Development, Data Analysis, Django, Flask"
   },
   {
     "user_id": "user_058",
@@ -1389,7 +1508,8 @@
     "domains": [
       "Software Development"
     ],
-    "search_text": "Software Development Java HTML REST API"
+    "search_text": "software development, java, jsp, leadership, serverless computing",
+    "tags": "Software Development, Java, HTML, REST API"
   },
   {
     "user_id": "user_059",
@@ -1403,11 +1523,14 @@
     ],
     "skills": [
       "Python",
+      "Java",
+      "AWS",
       "REST API",
       "Spring",
       "Spring Boot",
       "Git",
-      "Linux"
+      "Linux",
+      "DevOps"
     ],
     "projects": [
       "API solutions",
@@ -1421,7 +1544,8 @@
       "Software Development",
       "Cloud Computing"
     ],
-    "search_text": "Software Development Cloud Computing Python REST API Spring Spring Boot Git Linux"
+    "search_text": "python developer, java, aws lambda, rest api, software development, cloud computing",
+    "tags": "Software Development, Cloud Computing, Python, Java, AWS, REST API, Spring, Spring Boot, Git, Linux, DevOps"
   },
   {
     "user_id": "user_060",
@@ -1433,9 +1557,8 @@
       "elisarasgado@gmail.com"
     ],
     "skills": [
-      "SQL",
-      "PostgreSQL",
-      "Python"
+      "SQL Server",
+      "PostgreSQL"
     ],
     "projects": [
       "Database Administration",
@@ -1448,7 +1571,8 @@
     "domains": [
       "Database"
     ],
-    "search_text": "Database SQL PostgreSQL Python"
+    "search_text": "Database Administrator, IT, Database Management, SQL Server, Postgres database",
+    "tags": "Database, SQL Server, PostgreSQL"
   },
   {
     "user_id": "user_061",
@@ -1461,11 +1585,9 @@
       "hello@reallygreatsite.com"
     ],
     "skills": [
-      "Java",
       "Spring",
-      "HTML",
-      "CSS",
-      "DevOps"
+      "DevOps",
+      "HTML"
     ],
     "projects": [
       "API development",
@@ -1477,9 +1599,11 @@
       "Java Developer"
     ],
     "domains": [
-      "Software Development"
+      "Software Development",
+      "IT Infrastructure"
     ],
-    "search_text": "Software Development Java Spring HTML CSS DevOps"
+    "search_text": "Java, JSP, Servlets, Struts, Spring, API development, Dashboards with visualizations, Networked irrigation controller system, UDOO",
+    "tags": "Software Development, IT Infrastructure, Spring, DevOps, HTML"
   },
   {
     "user_id": "user_062",
@@ -1491,10 +1615,11 @@
       "pa.desmond038@gmail.com"
     ],
     "skills": [
+      "R",
       "Python",
+      "Data Visualization",
       "Machine Learning",
-      "Statistics",
-      "Data Visualization"
+      "Statistics"
     ],
     "projects": [
       "Predict stock prices and investment returns",
@@ -1505,10 +1630,12 @@
       "Technical Data Scientist"
     ],
     "domains": [
-      "AI",
-      "Data Science"
+      "Data Science",
+      "Machine Learning",
+      "Analytics"
     ],
-    "search_text": "AI Data Science Python Machine Learning Statistics Data Visualization"
+    "search_text": "Data Scientist Machine Learning Analytics Principal Technical Predictions Investment Returns R Studio Python Cloudera",
+    "tags": "Data Science, Machine Learning, Analytics, R, Python, Data Visualization, Machine Learning, Statistics"
   },
   {
     "user_id": "user_063",
@@ -1520,8 +1647,9 @@
       "hello@kickresume.com"
     ],
     "skills": [
-      "SQL",
-      "Python"
+      "Oracle",
+      "SQL Server",
+      "SQLite"
     ],
     "projects": [
       "data protection processes and procedures",
@@ -1532,9 +1660,10 @@
       "Database Assistant"
     ],
     "domains": [
-      "Data Science"
+      "Data Engineering"
     ],
-    "search_text": "Data Science SQL Python"
+    "search_text": "Data Management, Computer Science, Database Assistant, Oracle Database, Microsoft Office, SQL Server",
+    "tags": "Data Engineering, Oracle, SQL Server, SQLite"
   },
   {
     "user_id": "user_064",
@@ -1546,9 +1675,7 @@
       "data scientist@example.com"
     ],
     "skills": [
-      "Predictive Modeling",
-      "SQL",
-      "Machine Learning"
+      "Predictive Modeling"
     ],
     "projects": [
       "Analyzing complex data sets",
@@ -1561,7 +1688,8 @@
     "domains": [
       "Data Science"
     ],
-    "search_text": "Data Science Predictive Modeling SQL Machine Learning"
+    "search_text": "data scientist, predictive modeling, data verification and maintenance, excellent communication skills",
+    "tags": "Data Science, Predictive Modeling"
   },
   {
     "user_id": "user_065",
@@ -1571,9 +1699,9 @@
       "trishastamm@gmail.com"
     ],
     "skills": [
-      "Python",
       "R",
-      "SQL",
+      "Python",
+      "Hadoop",
       "Machine Learning",
       "Data Visualization",
       "Statistics"
@@ -1588,10 +1716,11 @@
       "Junior Data Scientist"
     ],
     "domains": [
-      "AI",
+      "Data Science",
       "Machine Learning"
     ],
-    "search_text": "AI Machine Learning Python R SQL Machine Learning Data Visualization Statistics"
+    "search_text": "data scientist, machine learning, data visualization, statistics",
+    "tags": "Data Science, Machine Learning, R, Python, Hadoop, Machine Learning, Data Visualization, Statistics"
   },
   {
     "user_id": "user_066",
@@ -1601,7 +1730,9 @@
     ],
     "email": [],
     "skills": [
-      "SQL"
+      "SQL",
+      "Database Administration",
+      "SQL Server"
     ],
     "projects": [
       "Azure migration",
@@ -1615,7 +1746,8 @@
       "Database Administration",
       "Cloud Computing"
     ],
-    "search_text": "Database Administration Cloud Computing SQL"
+    "search_text": "SQL Database Administrator, Azure migration, Hosted to Azure migration, Disaster and Recovery processes and execution, ITIL practices",
+    "tags": "Database Administration, Cloud Computing, SQL, Database Administration, SQL Server"
   },
   {
     "user_id": "user_067",
@@ -1631,10 +1763,10 @@
       "HTML",
       "CSS",
       "Agile",
-      "SQL",
-      "Machine Learning",
+      "Database Design",
       "Data Warehousing",
-      "Testing"
+      "Testing",
+      "Performance Testing"
     ],
     "projects": [
       "Web services",
@@ -1647,11 +1779,10 @@
       "Python Developer"
     ],
     "domains": [
-      "Software Development",
-      "DevOps",
-      "Data Science"
+      "Software Development"
     ],
-    "search_text": "Software Development DevOps Data Science Python Java JavaScript HTML CSS Agile SQL Machine Learning Data Warehousing Testing"
+    "search_text": "ANDREW NICOLAS, Python, Java, JavaScript, HTML, CSS, Agile tools, Database architecture, Data modeling, Data warehousing, Test automation, Performance testing, Load testing, Functional testing, Web services, Software engineering projects, Project delivery, CI/CD support, DevOps, Data analytics",
+    "tags": "Software Development, Python, Java, JavaScript, HTML, CSS, Agile, Database Design, Data Warehousing, Testing, Performance Testing"
   },
   {
     "user_id": "user_068",
@@ -1664,7 +1795,6 @@
     ],
     "skills": [
       "Python",
-      "Machine Learning",
       "Predictive Modeling",
       "Data Mining",
       "Deep Learning"
@@ -1683,7 +1813,8 @@
       "Machine Learning",
       "Data Science"
     ],
-    "search_text": "Machine Learning Data Science Python Machine Learning Predictive Modeling Data Mining Deep Learning"
+    "search_text": "Malik Rabb, Data Scientist, Python, Machine Learning, Data Science",
+    "tags": "Machine Learning, Data Science, Python, Predictive Modeling, Data Mining, Deep Learning"
   },
   {
     "user_id": "user_069",
@@ -1711,7 +1842,8 @@
     "domains": [
       "Data Science"
     ],
-    "search_text": "Data Science R SQL Python C++"
+    "search_text": "Data Scientist, R, SQL, Python, C++, Mass Shootings Model",
+    "tags": "Data Science, R, SQL, Python, C++"
   },
   {
     "user_id": "user_070",
@@ -1730,6 +1862,8 @@
       "MySQL",
       "AWS",
       "NumPy",
+      "Matplotlib",
+      "Machine Learning",
       "Scikit-learn"
     ],
     "projects": [
@@ -1742,9 +1876,11 @@
     "domains": [
       "Cloud Computing",
       "Data Science",
-      "Machine Learning"
+      "Machine Learning",
+      "IT Infrastructure"
     ],
-    "search_text": "Cloud Computing Data Science Machine Learning Python SQL JavaScript MongoDB MySQL AWS NumPy Scikit-learn"
+    "search_text": "Python, Junior, Cloud Computing, Data Science, Machine Learning, IT Services",
+    "tags": "Cloud Computing, Data Science, Machine Learning, IT Infrastructure, Python, SQL, JavaScript, MongoDB, MySQL, AWS, NumPy, Matplotlib, Machine Learning, Scikit-learn"
   },
   {
     "user_id": "user_071",
@@ -1755,10 +1891,7 @@
     "email": [
       "info@resumekraft.com"
     ],
-    "skills": [
-      "Python",
-      "SQL"
-    ],
+    "skills": [],
     "projects": [
       "Data Analysis",
       "Teamwork",
@@ -1768,7 +1901,8 @@
       "Student"
     ],
     "domains": [],
-    "search_text": "Python SQL"
+    "search_text": "Eric Nathan, Data Science, DotNet, Programming Langmace, Data Analysis, Teamwork, Coding",
+    "tags": ""
   },
   {
     "user_id": "user_073",
@@ -1781,7 +1915,8 @@
     ],
     "skills": [
       "Java",
-      "Spring"
+      "Spring",
+      "Spring Boot"
     ],
     "projects": [
       "PMS",
@@ -1791,8 +1926,12 @@
     "experience": [
       "Java Developer"
     ],
-    "domains": [],
-    "search_text": "Java Spring"
+    "domains": [
+      "Finance",
+      "Business Intelligence"
+    ],
+    "search_text": "Java, EJB2, Spring, Hibernate, Swing, J2EE, StringBuilder, Reusability, Application servers, Spring Boot, PMS, Bodog Live Dealer, Ecommerce platform of Nokia, Financial and Retailing, IT Solutions, Customs Business Processes Management, Load Testing",
+    "tags": "Finance, Business Intelligence, Java, Spring, Spring Boot"
   },
   {
     "user_id": "user_074",
@@ -1805,7 +1944,6 @@
     ],
     "skills": [
       "SQL",
-      "Python",
       "Data Visualization"
     ],
     "projects": [
@@ -1820,7 +1958,8 @@
       "Data Science",
       "Machine Learning"
     ],
-    "search_text": "Data Science Machine Learning SQL Python Data Visualization"
+    "search_text": "data science, machine learning, data visualization, SAS, SQL, linear regression, logistic regression, decision trees, support vector machines, k-means clustering, principal component analysis",
+    "tags": "Data Science, Machine Learning, SQL, Data Visualization"
   },
   {
     "user_id": "user_075",
@@ -1833,9 +1972,10 @@
       "annsimpson@somedomain.com"
     ],
     "skills": [
+      "Oracle",
+      "SQL Server",
       "Java",
       "C++",
-      "SQL",
       "Linux"
     ],
     "projects": [
@@ -1848,8 +1988,11 @@
       "Database Administrator",
       "IT Internship"
     ],
-    "domains": [],
-    "search_text": "Java C++ SQL Linux"
+    "domains": [
+      "IT Infrastructure"
+    ],
+    "search_text": "Ann Simpson, Oracle 9i/10g, Database Administration, IT",
+    "tags": "IT Infrastructure, Oracle, SQL Server, Java, C++, Linux"
   },
   {
     "user_id": "user_076",
@@ -1860,6 +2003,8 @@
     "email": [],
     "skills": [
       "Python",
+      "Testing",
+      "Jenkins",
       "DevOps"
     ],
     "projects": [
@@ -1874,9 +2019,11 @@
       "JUNIOR P¥THON DEVELOPER"
     ],
     "domains": [
+      "Cybersecurity",
       "Software Development"
     ],
-    "search_text": "Software Development Python DevOps"
+    "search_text": "Python, Tornado, Robot test framework, Jenkins, SDN, network switches/routers, DevOps, software development life cycle, agile approach",
+    "tags": "Cybersecurity, Software Development, Python, Testing, Jenkins, DevOps"
   },
   {
     "user_id": "user_077",
@@ -1889,11 +2036,8 @@
     ],
     "skills": [
       "HTML",
-      "CSS",
-      "JavaScript",
-      "Python",
-      "SQL",
-      "REST API"
+      "AWS",
+      "Git"
     ],
     "projects": [
       "Cryptocurrency Price Tracker"
@@ -1902,10 +2046,10 @@
       "Python Developer"
     ],
     "domains": [
-      "Software Development",
-      "Data Science"
+      "Software Development"
     ],
-    "search_text": "Software Development Data Science HTML CSS JavaScript Python SQL REST API"
+    "search_text": "software development, data analytics, python, django, rest apis, graphql, aws, git",
+    "tags": "Software Development, HTML, AWS, Git"
   },
   {
     "user_id": "user_078",
@@ -1916,7 +2060,8 @@
     "email": [],
     "skills": [
       "Java",
-      "SQL"
+      "SQL",
+      "Linux"
     ],
     "projects": [
       "Equities Middle Office applications",
@@ -1932,7 +2077,8 @@
     "domains": [
       "Software Development"
     ],
-    "search_text": "Software Development Java SQL"
+    "search_text": "Andy Koch, CORE JAVA, Equities Middle Office applications, market making and execution technology, pricing and risk components, large scale data management solution",
+    "tags": "Software Development, Java, SQL, Linux"
   },
   {
     "user_id": "user_080",
@@ -1942,7 +2088,8 @@
       "maria@novoresume.com"
     ],
     "skills": [
-      "Java"
+      "Java",
+      "Scrum"
     ],
     "projects": [
       "Client management systems",
@@ -1959,7 +2106,8 @@
     "domains": [
       "Software Development"
     ],
-    "search_text": "Software Development Java"
+    "search_text": "software development life cycle, project management, strategic planning, team leadership, java, enterprise java bean, apache struts",
+    "tags": "Software Development, Java, Scrum"
   },
   {
     "user_id": "user_081",
@@ -1977,6 +2125,7 @@
       "Java",
       "Scala",
       "Data Visualization",
+      "Data Mining",
       "Machine Learning"
     ],
     "projects": [
@@ -1991,9 +2140,11 @@
     ],
     "domains": [
       "Data Science",
-      "Machine Learning"
+      "Machine Learning",
+      "Analytics"
     ],
-    "search_text": "Data Science Machine Learning Python R Java Scala Data Visualization Machine Learning"
+    "search_text": "data scientist, machine learning, data visualization, big data, analytics",
+    "tags": "Data Science, Machine Learning, Analytics, Python, R, Java, Scala, Data Visualization, Data Mining, Machine Learning"
   },
   {
     "user_id": "user_083",
@@ -2006,9 +2157,16 @@
     ],
     "skills": [
       "Python",
+      "SciPy",
+      "NumPy",
+      "Scikit-learn",
+      "Django",
+      "Pandas",
+      "Flask",
       "SQL",
       "Matplotlib",
-      "JavaScript"
+      "JavaScript",
+      "Bootstrap"
     ],
     "projects": [
       "Boot Menu for 2 Line Display",
@@ -2021,9 +2179,12 @@
       "Python Developer"
     ],
     "domains": [
-      "Software Development"
+      "Game Development",
+      "Healthcare",
+      "IT Infrastructure"
     ],
-    "search_text": "Software Development Python SQL Matplotlib JavaScript"
+    "search_text": "Python, Django, Flask, SQL, Matplotlib, JavaScript, Bootstrap, Agile, Scrum, Game Development, Healthcare, IT Services, Enterprise Mobility",
+    "tags": "Game Development, Healthcare, IT Infrastructure, Python, SciPy, NumPy, Scikit-learn, Django, Pandas, Flask, SQL, Matplotlib, JavaScript, Bootstrap"
   },
   {
     "user_id": "user_084",
@@ -2037,8 +2198,7 @@
       "twitter.com/jamaica"
     ],
     "skills": [
-      "Java",
-      "JavaScript"
+      "Java"
     ],
     "projects": [
       "App memory consumption reduction",
@@ -2049,9 +2209,11 @@
       "Junior Java Developer"
     ],
     "domains": [
-      "Software Development"
+      "Software Development",
+      "Web Development"
     ],
-    "search_text": "Software Development Java JavaScript"
+    "search_text": "software development, web applications, java, jsp, app optimization, startup time reduction",
+    "tags": "Software Development, Web Development, Java"
   },
   {
     "user_id": "user_085",
@@ -2065,8 +2227,7 @@
     "skills": [
       "ETL",
       "SQL",
-      "C#",
-      "PyTorch"
+      "Database Design"
     ],
     "projects": [
       "30+ ETL projects"
@@ -2077,7 +2238,8 @@
     "domains": [
       "Database"
     ],
-    "search_text": "Database ETL SQL C# PyTorch"
+    "search_text": "Bob Markkula, Database Development, ETL, SQL, 'NET, SSRS",
+    "tags": "Database, ETL, SQL, Database Design"
   },
   {
     "user_id": "user_086",
@@ -2087,10 +2249,11 @@
     ],
     "email": [],
     "skills": [
+      "Analytics",
       "Machine Learning",
-      "SQL",
+      "NLP",
       "Statistics",
-      "Analytics"
+      "SQL"
     ],
     "projects": [
       "trust-based relationships",
@@ -2104,9 +2267,11 @@
       "Data Scientist, Analytics"
     ],
     "domains": [
+      "Analytics",
       "Data Science"
     ],
-    "search_text": "Data Science Machine Learning SQL Statistics Analytics"
+    "search_text": "data scientist analytics machine learning natural language statistical analysis SQL trust-based relationships tool development business insights predictive modeling",
+    "tags": "Analytics, Data Science, Analytics, Machine Learning, NLP, Statistics, SQL"
   },
   {
     "user_id": "user_089",
@@ -2118,12 +2283,7 @@
       "natashaholloway@gmail.com",
       "@natashahollaway"
     ],
-    "skills": [
-      "Python",
-      "SQL",
-      "Machine Learning",
-      "Data Visualization"
-    ],
+    "skills": [],
     "projects": [
       "Real-time analytics dashboard",
       "Web app for user behavior prediction",
@@ -2137,7 +2297,8 @@
     "domains": [
       "Data Science"
     ],
-    "search_text": "Data Science Python SQL Machine Learning Data Visualization"
+    "search_text": "data science, tableau, d3js, advanced query tool, ibm db2, sas enterprise miner, real-time analytics, churn models",
+    "tags": "Data Science"
   },
   {
     "user_id": "user_090",
@@ -2150,11 +2311,9 @@
     ],
     "skills": [
       "Python",
-      "NLP",
-      "Statistics",
-      "Analytics",
-      "Hadoop",
-      "ETL"
+      "NumPy",
+      "Matplotlib",
+      "Hive"
     ],
     "projects": [
       "Real-time analytics dashboard",
@@ -2165,9 +2324,11 @@
       "Business Development/Data Science Intern"
     ],
     "domains": [
-      "Data Science"
+      "Data Science",
+      "Analytics"
     ],
-    "search_text": "Data Science Python NLP Statistics Analytics Hadoop ETL"
+    "search_text": "data science, analytics, python, pymorphy2, re, numpy, matplotlib, hive, pig, tableau, d3.js, ggplot2, real-time analytics dashboard, massive social networks analysis",
+    "tags": "Data Science, Analytics, Python, NumPy, Matplotlib, Hive"
   },
   {
     "user_id": "user_091",
@@ -2194,9 +2355,10 @@
     ],
     "domains": [
       "Software Development",
-      "Data Science"
+      "Enterprise Systems"
     ],
-    "search_text": "Software Development Data Science Python Java"
+    "search_text": "Python Java Software Engineer Senior Cloud Computing Data Centre Automation Big Data Workflows High Performance Analytical Models",
+    "tags": "Software Development, Enterprise Systems, Python, Java"
   },
   {
     "user_id": "user_092",
@@ -2223,7 +2385,8 @@
       "Graduate Research Assistant"
     ],
     "domains": [],
-    "search_text": ""
+    "search_text": "computer science, renewable energy, scientific data visualization, progressive visualization, immersive well-path planning",
+    "tags": ""
   },
   {
     "user_id": "user_093",
@@ -2238,8 +2401,7 @@
       "Java",
       "HTML",
       "CSS",
-      "REST API",
-      "Python"
+      "REST API"
     ],
     "projects": [
       "serverless computing",
@@ -2253,7 +2415,8 @@
     "domains": [
       "Software Development"
     ],
-    "search_text": "Software Development Java HTML CSS REST API Python"
+    "search_text": "Java, JSP, HTML, CSS, XML, JSON, RESTful, interpersonal skills, leadership, collaboration, critical thinking, serverless computing, billing management system",
+    "tags": "Software Development, Java, HTML, CSS, REST API"
   },
   {
     "user_id": "user_094",
@@ -2264,11 +2427,10 @@
     "email": [],
     "skills": [
       "Machine Learning",
-      "Python",
       "Java",
       "Scala",
       "R",
-      "Hadoop"
+      "Python"
     ],
     "projects": [
       "Large scale cookie and account level analysis"
@@ -2280,9 +2442,11 @@
     ],
     "domains": [
       "Data Science",
+      "Analytics",
       "Machine Learning"
     ],
-    "search_text": "Data Science Machine Learning Machine Learning Python Java Scala R Hadoop"
+    "search_text": "Lina Stark, Data Science, Machine Learning, Artificial Intelligence, Analytics",
+    "tags": "Data Science, Analytics, Machine Learning, Machine Learning, Java, Scala, R, Python"
   },
   {
     "user_id": "user_095",
@@ -2292,7 +2456,9 @@
     ],
     "email": [],
     "skills": [
-      "Python"
+      "Python",
+      "DevOps",
+      "Database Design"
     ],
     "projects": [
       "Asynchronous oriented framework",
@@ -2307,7 +2473,8 @@
       "Software Development",
       "Data Engineering"
     ],
-    "search_text": "Software Development Data Engineering Python"
+    "search_text": "Python, OAuth, DevOps, Big Data, Data Partitioning Models, Micro-services architectures, Software Development, Data Engineering",
+    "tags": "Software Development, Data Engineering, Python, DevOps, Database Design"
   },
   {
     "user_id": "user_096",
@@ -2318,8 +2485,8 @@
     "email": [],
     "skills": [
       "SQL",
-      "Java",
-      "Testing"
+      "Testing",
+      "Java"
     ],
     "projects": [
       "reference data distribution banking application",
@@ -2331,10 +2498,10 @@
       "JUNIOR/REGULAR JAVA DEVELOPER"
     ],
     "domains": [
-      "Software Development",
-      "Web Development"
+      "Software Development"
     ],
-    "search_text": "Software Development Web Development SQL Java Testing"
+    "search_text": "MICHEAL VON, software development, Java, Oracle SQL, T-SQL",
+    "tags": "Software Development, SQL, Testing, Java"
   },
   {
     "user_id": "user_097",
@@ -2345,7 +2512,8 @@
     "email": [],
     "skills": [
       "Java",
-      "SQL"
+      "SQL",
+      "Spring"
     ],
     "projects": [
       "Performance Management",
@@ -2361,7 +2529,8 @@
     "domains": [
       "Software Development"
     ],
-    "search_text": "Software Development Java SQL"
+    "search_text": "java technical lead software development senior java developer performance management code reviews",
+    "tags": "Software Development, Java, SQL, Spring"
   },
   {
     "user_id": "user_098",
@@ -2373,7 +2542,7 @@
       "paulsatchell@gmail.com"
     ],
     "skills": [
-      "Python",
+      "Agile",
       "Django",
       "Pandas",
       "Flask",
@@ -2391,9 +2560,12 @@
       "Scrum master"
     ],
     "domains": [
-      "Game Development"
+      "Game Development",
+      "Healthcare",
+      "IT Infrastructure"
     ],
-    "search_text": "Game Development Python Django Pandas Flask Matplotlib JavaScript Bootstrap"
+    "search_text": "senior python developer, agile programming, data, database engineering, game development, healthcare, it services",
+    "tags": "Game Development, Healthcare, IT Infrastructure, Agile, Django, Pandas, Flask, Matplotlib, JavaScript, Bootstrap"
   },
   {
     "user_id": "user_099",
@@ -2407,7 +2579,10 @@
       "Django",
       "React",
       "Flask",
-      "SQL"
+      "SQL",
+      "Docker",
+      "Kubernetes",
+      "Git"
     ],
     "projects": [
       "web-based financial management platform",
@@ -2420,9 +2595,10 @@
       "Python Developer"
     ],
     "domains": [
-      "Software Development"
+      "Finance"
     ],
-    "search_text": "Software Development Python Django React Flask SQL"
+    "search_text": "Python, Django, React, Flask, SQL, Docker, Kubernetes, Git, Wealth Management, Tech Solutions",
+    "tags": "Finance, Python, Django, React, Flask, SQL, Docker, Kubernetes, Git"
   },
   {
     "user_id": "user_100",
@@ -2446,6 +2622,7 @@
       "Software Development",
       "Database"
     ],
-    "search_text": "Software Development Database Python Machine Learning"
+    "search_text": "Python, Web frameworks, materialised views, stored procedures, in-house packages, microservices, software development, database engineering",
+    "tags": "Software Development, Database, Python, Machine Learning"
   }
 ]
