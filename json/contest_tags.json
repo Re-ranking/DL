@@ -1,0 +1,186 @@
+[
+  {
+    "contest_id": "106656",
+    "title": "2026년 전주MBC K-하이테크 플랫폼 제2회 가상현실 공간 창작 공모전",
+    "domains": [
+      "Web Development",
+      "Game Development",
+      "VR/AR"
+    ],
+    "skills": [
+      "UI/UX Design",
+      "Video Editing"
+    ]
+  },
+  {
+    "contest_id": "106965",
+    "title": "제4회 문화체육관광 인공지능·데이터 활용 공모전",
+    "domains": [
+      "AI",
+      "Data Analysis"
+    ],
+    "skills": [
+      "Machine Learning",
+      "Python"
+    ]
+  },
+  {
+    "contest_id": "106166",
+    "title": "[대한민국시도지사협의회] 지방시대 숏폼 영상 공모전",
+    "domains": [
+      "Web Development",
+      "Marketing"
+    ],
+    "skills": [
+      "Video Editing",
+      "UI/UX Design"
+    ]
+  },
+  {
+    "contest_id": "106693",
+    "title": "2026년 제5기 보험연구원 온라인 서포터즈 모집",
+    "domains": [
+      "Marketing",
+      "Web Development"
+    ],
+    "skills": [
+      "Advertising",
+      "Data Analysis"
+    ]
+  },
+  {
+    "contest_id": "106687",
+    "title": "2026 현대오토에버 배리어프리 앱 개발 콘테스트 공모전",
+    "domains": [
+      "Web Development",
+      "Game Development"
+    ],
+    "skills": [
+      "App Development",
+      "UI/UX Design"
+    ]
+  },
+  {
+    "contest_id": "106194",
+    "title": "[과학기술정보통신부] 2026 글로벌 피우다프로젝트 (SW개발 경진대회)",
+    "domains": [
+      "Web Development",
+      "Game Development",
+      "IT"
+    ],
+    "skills": [
+      "SW Development",
+      "Python",
+      "Machine Learning"
+    ]
+  },
+  {
+    "contest_id": "106899",
+    "title": "제6기 그린리모델링 대학생기자단 모집",
+    "domains": [
+      "Web Development",
+      "Marketing"
+    ],
+    "skills": [
+      "UI/UX Design",
+      "Video Editing"
+    ]
+  },
+  {
+    "contest_id": "107042",
+    "title": "한화생명 드림플러스 인베스터 클럽 2기 모집",
+    "domains": [
+      "Web Development",
+      "Marketing"
+    ],
+    "skills": [
+      "UI/UX Design",
+      "Data Analysis"
+    ]
+  },
+  {
+    "contest_id": "106851",
+    "title": "[문화체육관광부 x 한국콘텐츠진흥원] 2026 K-콘텐츠 수출 마케터 양성 교육 5기 교육생 모집",
+    "domains": [
+      "Marketing",
+      "Web Development"
+    ],
+    "skills": [
+      "Advertising",
+      "Content Creation",
+      "Data Analysis"
+    ]
+  },
+  {
+    "contest_id": "106884",
+    "title": "2026 세종특별자치시 데이터·AI 활용 경진대회",
+    "domains": [
+      "Data Analysis",
+      "AI"
+    ],
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ]
+  },
+  {
+    "contest_id": "106859",
+    "title": "2026 식의약 공공데이터·AI 분석·활용 경진대회",
+    "domains": [
+      "Data Analysis",
+      "AI"
+    ],
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ]
+  },
+  {
+    "contest_id": "106718",
+    "title": "2026 경상남도 빅데이터 활용 공모전",
+    "domains": [
+      "Data Analysis",
+      "Web Development"
+    ],
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ]
+  },
+  {
+    "contest_id": "106531",
+    "title": "2026 RecurDyn Simulation 경진대회",
+    "domains": [
+      "Web Development",
+      "IT"
+    ],
+    "skills": [
+      "Simulation",
+      "RecurDyn"
+    ]
+  },
+  {
+    "contest_id": "106412",
+    "title": "2026년 국토교통 데이터 활용 경진대회",
+    "domains": [
+      "Web Development",
+      "Data Analysis"
+    ],
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ]
+  },
+  {
+    "contest_id": "106229",
+    "title": "2026 아두이노 메이커 공모전",
+    "domains": [
+      "Web Development",
+      "IT"
+    ],
+    "skills": [
+      "Arduino",
+      "Maker"
+    ]
+  }
+]

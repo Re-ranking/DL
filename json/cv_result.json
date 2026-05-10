@@ -1,0 +1,31 @@
+{
+  "name": "Jessica Claire",
+  "phone": [
+    "(555)432-1000"
+  ],
+  "email": [
+    "resumesample@example.com"
+  ],
+  "skills": [
+    "Python",
+    "Machine Learning",
+    "Spark"
+  ],
+  "projects": [
+    "Predictive Analytics",
+    "Data Science",
+    "Machine Learning",
+    "Distributed Computing",
+    "Algorithms and Data Structures"
+  ],
+  "experience": [
+    "Principal, Data Science and Engineering",
+    "Principal Engineer/Product Owner",
+    "Led SDK Architect"
+  ],
+  "domains": [
+    "AI",
+    "Machine Learning",
+    "Data Science"
+  ]
+}
