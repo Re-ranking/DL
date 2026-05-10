@@ -1,31 +1,2905 @@
-{
-  "name": "Jessica Claire",
-  "phone": [
-    "(555)432-1000"
-  ],
-  "email": [
-    "resumesample@example.com"
-  ],
-  "skills": [
-    "Python",
-    "Machine Learning",
-    "Spark"
-  ],
-  "projects": [
-    "Predictive Analytics",
-    "Data Science",
-    "Machine Learning",
-    "Distributed Computing",
-    "Algorithms and Data Structures"
-  ],
-  "experience": [
-    "Principal, Data Science and Engineering",
-    "Principal Engineer/Product Owner",
-    "Led SDK Architect"
-  ],
-  "domains": [
-    "AI",
-    "Machine Learning",
-    "Data Science"
-  ]
-}
+[
+  {
+    "user_id": "user_001",
+    "name": "Jessica Claire",
+    "phone": [
+      "(555)432-1000"
+    ],
+    "email": [
+      "resumesample@example.com"
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "Spark",
+      "Map Reduce",
+      "Predictive Analytics",
+      "Machine Learning",
+      "Distributed Computing",
+      "Algorithms",
+      "Data Structures"
+    ],
+    "projects": [
+      "Personalized Recommendations API",
+      "Rules Engine",
+      "ChatOps",
+      "Feedback Data Collection",
+      "Impressions Analysis",
+      "Operational Monitoring",
+      "SLA Alerting",
+      "Synchronization",
+      "Forecasting",
+      "Recommendations Engine",
+      "Visual State Monitoring",
+      "Profiling",
+      "Orthotix Personalization",
+      "Customization",
+      "Recommendations Engine"
+    ],
+    "experience": [
+      "Principal, Data Science and Engineering",
+      "Principal Engineer/Product Owner",
+      "Led SDK Architect"
+    ],
+    "domains": [
+      "Data Science",
+      "Engineering",
+      "Software Development"
+    ],
+    "search_text": "data science engineer software development leadership predictive analytics machine learning"
+  },
+  {
+    "user_id": "user_003",
+    "name": "JUNE ONDRICKA",
+    "phone": [
+      "+1 (555) 637 6158"
+    ],
+    "email": [],
+    "skills": [
+      "Python",
+      "ArcGIS",
+      "JavaScript",
+      "HTML/HTML5",
+      "CS8/CSS3"
+    ],
+    "projects": [
+      "Spatial data analysis and modelling",
+      "Web-based spatial data analysis and downloads"
+    ],
+    "experience": [
+      "Director of Information Technology",
+      "Information Technology Coordinator",
+      "Intern Information Technology"
+    ],
+    "domains": [
+      "IT",
+      "Software Development",
+      "Data Analysis"
+    ],
+    "search_text": "Python, ArcGIS, JavaScript, HTML/HTML5, CS8/CSS3, Spatial data analysis and modelling, Web-based spatial data analysis and downloads, Director of Information Technology, Information Technology Coordinator, Intern Information Technology"
+  },
+  {
+    "user_id": "user_004",
+    "name": "Deon Nguyen",
+    "phone": [],
+    "email": [],
+    "skills": [
+      "Data migration and conversion",
+      "Data partitioning and sharding strategies",
+      "Data warehousing concepts and implementation",
+      "Data backup and disaster recovery planning",
+      "Database scripting and automation"
+    ],
+    "projects": [],
+    "experience": [
+      "Database Developer"
+    ],
+    "domains": [
+      "Database Development"
+    ],
+    "search_text": "Database Development, Data Migration, Data Partitioning, Database Scripting"
+  },
+  {
+    "user_id": "user_006",
+    "name": "Rachelle Thompson",
+    "phone": [
+      "912-965-3457"
+    ],
+    "email": [
+      "thompson.rach@gmail.com",
+      "m"
+    ],
+    "skills": [
+      "Microsoft Office",
+      "Six Sigma",
+      "Information Technology Delivery methods",
+      "PHP",
+      "Python",
+      "HTML",
+      "CSS",
+      "Minitab",
+      "SPSS"
+    ],
+    "projects": [
+      "Network/Studio programs"
+    ],
+    "experience": [
+      "DATA SCIENTIST"
+    ],
+    "domains": [
+      "Data Science",
+      "Computer Science"
+    ],
+    "search_text": "data scientist, computer science, data analytics, network/studio programs"
+  },
+  {
+    "user_id": "user_007",
+    "name": "Trisha Stamm",
+    "phone": [
+      "401-439-3501"
+    ],
+    "email": [
+      "trishastamm@qmail.com",
+      "linkedin.com/in/trishastamm"
+    ],
+    "skills": [
+      "Microsoft Certified",
+      "Machine Learning",
+      "Data Science"
+    ],
+    "projects": [
+      "Predict stock price with 25% more accuracy",
+      "FootForest",
+      "Pylearn 2"
+    ],
+    "experience": [
+      "Data Scientist",
+      "Junior Data Scientist"
+    ],
+    "domains": [
+      "Data Science",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "search_text": "data science, machine learning, statistics, predictive analytics"
+  },
+  {
+    "user_id": "user_008",
+    "name": "David Clark",
+    "phone": [],
+    "email": [
+      "help@enhancv.com",
+      "linkedin.com"
+    ],
+    "skills": [
+      "SQL",
+      "T-SOL Development",
+      "Auditing",
+      "Information Technology",
+      "Designing",
+      "Developing",
+      "Data Migration",
+      "Audit Coding",
+      "Stakeholder Presentations"
+    ],
+    "projects": [
+      "Complex SQL Development",
+      "Data Migration Expert",
+      "VV T-SQL Procedures Coding"
+    ],
+    "experience": [
+      "Senior SQL Developer",
+      "SQL Developer",
+      "Data Migration Specialist"
+    ],
+    "domains": [
+      "Data Security",
+      "Information Technology"
+    ],
+    "search_text": "SQL, T-SOL, Data Migration, Audit Coding, Stakeholder Presentations, Information Technology"
+  },
+  {
+    "user_id": "user_009",
+    "name": "ROBERT SMITH",
+    "phone": [
+      "(123) 456 78 99"
+    ],
+    "email": [
+      "Infoa@qwikresumescom",
+      "linke.dia@corm/qwikresume"
+    ],
+    "skills": [
+      "Data Entry",
+      "Planning Skills",
+      "Analyzing Skills"
+    ],
+    "projects": [
+      "Sales Forces allocation",
+      "market penetration and calibration",
+      "modeling",
+      "hypotheses and findings"
+    ],
+    "experience": [
+      "Data Scientist"
+    ],
+    "domains": [
+      "Data Science",
+      "Business Technology"
+    ],
+    "search_text": "Data Scientist, Data Entry, Planning, Analyzing, Sales Force allocation, market penetration, modeling"
+  },
+  {
+    "user_id": "user_010",
+    "name": "Jackson Thompson",
+    "phone": [],
+    "email": [
+      "help@enhancv.com",
+      "linkedin.com"
+    ],
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "Pytorch"
+    ],
+    "projects": [
+      "recommender system optimization",
+      "image recognition model development",
+      "Object Detection project"
+    ],
+    "experience": [
+      "Data Scientist",
+      "Data Analyst",
+      "Machine Learning Intern"
+    ],
+    "domains": [
+      "Data Science",
+      "NLP",
+      "Computer Vision"
+    ],
+    "search_text": "Data Scientist, NLP Expert, Computer Vision, Python, TensorFlow, Pytorch, recommender system optimization, image recognition model development, Object Detection project"
+  },
+  {
+    "user_id": "user_011",
+    "name": "JANE KNIGHTLEY",
+    "phone": [
+      "(123) 456-7890"
+    ],
+    "email": [
+      "jane.knightley@email.com"
+    ],
+    "skills": [
+      "SOL",
+      "Network Infrastructure",
+      "Customer Service",
+      "Conflict Resolution",
+      "Network Security",
+      "Software Development Life Cycle",
+      "Python",
+      "Interpersonal Communication"
+    ],
+    "projects": [
+      "resolved complex network issues",
+      "boosted efficiency for customers",
+      "reduced maintenance costs",
+      "resolving inquiries within 8 minutes on average",
+      "developed take-home booklets for students"
+    ],
+    "experience": [
+      "IT Technician Intern",
+      "Support Technician",
+      "Research Study Assistant"
+    ],
+    "domains": [
+      "IT",
+      "Network Infrastructure",
+      "Customer Service"
+    ],
+    "search_text": "IT Technician, Network Infrastructure, SOL, Python, Customer Service"
+  },
+  {
+    "user_id": "user_012",
+    "name": "Robert Smith",
+    "phone": [
+      "(123)-456 78 99"
+    ],
+    "email": [
+      "ofoeew@ikresume.com",
+      "wwe@cilkre@suirne.com"
+    ],
+    "skills": [
+      "Server 2003",
+      "Server 2008 R2",
+      "Windows XP",
+      "Vista",
+      "7",
+      "4",
+      "Microsoft Office 2007",
+      "2013",
+      "Exchange 2003",
+      "2008",
+      "Sharepoint",
+      "Active Directory"
+    ],
+    "projects": [
+      "IT solutions",
+      "data collection systems"
+    ],
+    "experience": [
+      "Information Technology Specialist",
+      "Principal Information Technology Specialist"
+    ],
+    "domains": [
+      "IT",
+      "computer technology"
+    ],
+    "search_text": "IT specialist, computer technology, IT solutions"
+  },
+  {
+    "user_id": "user_014",
+    "name": "CHRISTA TIM",
+    "phone": [],
+    "email": [
+      "info@resumekraft.com"
+    ],
+    "skills": [
+      "Python",
+      "R",
+      "PowerBl",
+      "Spotfire"
+    ],
+    "projects": [
+      "predicting house prices",
+      "identifying factors that predict job performance",
+      "predicting mortality of small cell lung cancer patients"
+    ],
+    "experience": [
+      "Data Scientist",
+      "Data Scientist Consultant"
+    ],
+    "domains": [
+      "Machine Learning",
+      "Statistics",
+      "Healthcare",
+      "Technology"
+    ],
+    "search_text": "CHRISTA TIM, Data Scientist, Python, R, Machine Learning, Statistics, Healthcare, Technology"
+  },
+  {
+    "user_id": "user_015",
+    "name": "JASMINE BELL",
+    "phone": [
+      "(363)"
+    ],
+    "email": [
+      "jasmine.bell@hotmail.com"
+    ],
+    "skills": [
+      "Microsoft SQL",
+      "ETL",
+      "data migration"
+    ],
+    "projects": [
+      "automated reporting system",
+      "cross-functional data migration project"
+    ],
+    "experience": [
+      "SQL Developer"
+    ],
+    "domains": [
+      "data-driven insights",
+      "data integrity"
+    ],
+    "search_text": "sql developer, microsoft sql, etl, data migration, automated reporting, cross-functional data migration"
+  },
+  {
+    "user_id": "user_017",
+    "name": "Avery Davis",
+    "phone": [
+      "+123-456-7890"
+    ],
+    "email": [
+      "hello@reallygreatsite.com"
+    ],
+    "skills": [
+      "Programming",
+      "Project Management",
+      "Software",
+      "IT Skills",
+      "Sale Skills"
+    ],
+    "projects": [
+      "Digital marketing campaigns"
+    ],
+    "experience": [
+      "IT TECH SPECIALIST"
+    ],
+    "domains": [
+      "Marketing",
+      "IT"
+    ],
+    "search_text": "Avery Davis, IT TECH SPECIALIST, Marketing, Digital marketing campaigns, Programming"
+  },
+  {
+    "user_id": "user_018",
+    "name": "Jill Van Beest",
+    "phone": [
+      "505-918-0381"
+    ],
+    "email": [
+      "jillvanbeest@gmail.com",
+      "twitter.comijillvanbeest"
+    ],
+    "skills": [
+      "Oracle",
+      "PL/SQL",
+      "SSIS Development",
+      "Database Architecture"
+    ],
+    "projects": [
+      "database projects",
+      "onsite databases",
+      "restaurant management database",
+      "sales website"
+    ],
+    "experience": [
+      "SQL Developer",
+      "OCA Certified SQL Developer"
+    ],
+    "domains": [
+      "IT and Technology",
+      "Data Management",
+      "Software Development"
+    ],
+    "search_text": "OCA Oracle PL/SQL SQL Developer Database Architecture SSIS Development Data Management"
+  },
+  {
+    "user_id": "user_019",
+    "name": "Philip Nguyen",
+    "phone": [
+      "(12)-5245-9081"
+    ],
+    "email": [
+      "phi123@gmail.com"
+    ],
+    "skills": [
+      "Software debugging",
+      "Hardware repair",
+      "Intranet maintenance",
+      "Upgrade computer system",
+      "Troubleshoot copier and scanner",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Python"
+    ],
+    "projects": [
+      "Debugging",
+      "IT support",
+      "Technical Support"
+    ],
+    "experience": [
+      "IT Support Engineer",
+      "Technical Support Engineer"
+    ],
+    "domains": [
+      "Computer Science",
+      "Software Development",
+      "Hardware Repair"
+    ],
+    "search_text": "Philip Nguyen, Software debugging, Hardware repair, Intranet maintenance, Upgrade computer system, Troubleshoot copier and scanner, IT support, Technical Support, Computer Science"
+  },
+  {
+    "user_id": "user_021",
+    "name": "First Last",
+    "phone": [
+      "(212) 123-4567"
+    ],
+    "email": [
+      "first.m.last@resumeworded.com",
+      "linkedin.com/in/username"
+    ],
+    "skills": [
+      "Microsoft Access",
+      "SQL",
+      "Python",
+      "Agile Project Management",
+      "Excel"
+    ],
+    "projects": [
+      "Customer segmentation algorithm",
+      "Digital marketing campaign",
+      "Data conference",
+      "Prototype to identify essential influencers on social media"
+    ],
+    "experience": [
+      "Senior Data Scientist",
+      "Data Scientist",
+      "Associate Data Scientist"
+    ],
+    "domains": [
+      "data science",
+      "marketing",
+      "business analytics"
+    ],
+    "search_text": "senior data scientist, data science, customer segmentation algorithm, digital marketing campaign, data conference"
+  },
+  {
+    "user_id": "user_022",
+    "name": "John Smith",
+    "phone": [
+      "943132"
+    ],
+    "email": [
+      "johnsmith@email.com"
+    ],
+    "skills": [
+      "Machine Learning",
+      "Python",
+      "R",
+      "Java",
+      "C/C++",
+      "Pattern Recognition",
+      "Database Algorithms",
+      "SQL",
+      "MySQL"
+    ],
+    "projects": [
+      "real-time analytics dashboard",
+      "multiple networks analysis",
+      "empirical data analysis",
+      "machine learning model",
+      "natural language processing chatbot"
+    ],
+    "experience": [
+      "Data Science Intern"
+    ],
+    "domains": [
+      "Data Science",
+      "Machine Learning"
+    ],
+    "search_text": "data science, machine learning, python, r, java, c/c++, pattern recognition, database algorithms, sql, mysql, natural language processing"
+  },
+  {
+    "user_id": "user_023",
+    "name": "CHARLOTTE MAY",
+    "phone": [
+      "4+1-713-645-3682"
+    ],
+    "email": [
+      "latishaham@hey.com"
+    ],
+    "skills": [
+      "Python",
+      "Java",
+      "c",
+      "Scala",
+      "R",
+      "Hadoop",
+      "Rapid Miner",
+      "QlikView",
+      "MonboDB",
+      "HDFS",
+      "HBase",
+      "MapReduce",
+      "flask",
+      "scikit-learn",
+      "SAS programming",
+      "SPSS"
+    ],
+    "projects": [
+      "machine learning system",
+      "customer recommendations model"
+    ],
+    "experience": [
+      "Senior Data Scientist",
+      "Data Scientist"
+    ],
+    "domains": [
+      "Marketing",
+      "Analytics",
+      "Machine Learning"
+    ],
+    "search_text": "senior data scientist, marketing, analytics, machine learning, python, java, c++, scala, r, hadoop, rapid miner, qlikview, monboDB, hdfs, hbase, mapreduce, flask, scikit-learn, sas programming, spss"
+  },
+  {
+    "user_id": "user_024",
+    "name": "STEPHANIE GREGORIO",
+    "phone": [
+      "(123) 456-7890"
+    ],
+    "email": [
+      "steph@email.com"
+    ],
+    "skills": [
+      "Software Development Life Cycle (SDLC)",
+      "Agile/Lean methodologies",
+      "Jira",
+      "APIs, Server, Network Infrastructure",
+      "Python",
+      "Project Management"
+    ],
+    "projects": [
+      "SaaS applications",
+      "business technology processes",
+      "user stores"
+    ],
+    "experience": [
+      "IT Manager",
+      "IT Business Analyst"
+    ],
+    "domains": [
+      "Software Development",
+      "Project Management",
+      "Business Analysis"
+    ],
+    "search_text": "software development lifecycle cycle project management it manager business analysis"
+  },
+  {
+    "user_id": "user_025",
+    "name": "LORY HINTZ",
+    "phone": [
+      "+1 (555) 298 0193"
+    ],
+    "email": [],
+    "skills": [
+      "Decision-making and strategic planning skills",
+      "Knowledge of online learning and medical/nursing simulation technologies",
+      "Logical, analytical thinker with great influencing skill",
+      "Able to learn new computer applications and technologies quickly",
+      "HHS knowledge",
+      "Organizational Change Management knowledge",
+      "Business Process Mapping experience"
+    ],
+    "projects": [
+      "Digital strategy for customer experience",
+      "eCommerce and mobile solutions",
+      "ITSM job submission system configuration, implementation, and support"
+    ],
+    "experience": [
+      "Schultz-Welch IT",
+      "Hickle-Kunze IT"
+    ],
+    "domains": [
+      "Information Technology",
+      "Professional Services"
+    ],
+    "search_text": "LORY HINTZ, Information Technology, Professional Services, Decision-making, Strategic planning, Online learning, Medical simulation, Logical analysis, Influencing, Learning new technologies, HHS knowledge, Organizational Change Management, Business Process Mapping"
+  },
+  {
+    "user_id": "user_026",
+    "name": "Haptic",
+    "phone": [],
+    "email": [],
+    "skills": [
+      "React JS",
+      "CSS3",
+      "Web Forms",
+      "XML"
+    ],
+    "projects": [
+      "Error analysis",
+      "Debugging",
+      "Mock-ups for interface features"
+    ],
+    "experience": [
+      "React Developer",
+      "React JS Developer"
+    ],
+    "domains": [
+      "Web Development"
+    ],
+    "search_text": "React JS, Web Development, Error Analysis, Debugging"
+  },
+  {
+    "user_id": "user_027",
+    "name": "David Johnson",
+    "phone": [
+      "+(123)-456-8910"
+    ],
+    "email": [
+      "davidj@gmail.com"
+    ],
+    "skills": [
+      "CSS",
+      "HTML",
+      "Javascript",
+      "Swift",
+      "Python",
+      "Perl",
+      "XML",
+      "Blockchain",
+      "Hardware Reparation",
+      "Digital Communication",
+      "Copywriting",
+      "Presentation skills",
+      "Diagnostics"
+    ],
+    "projects": [
+      "Cisco Data Center System",
+      "data management system for Social Media team"
+    ],
+    "experience": [
+      "IT Department",
+      "Cloud Developer Intern"
+    ],
+    "domains": [
+      "IT",
+      "Data Management",
+      "Networking"
+    ],
+    "search_text": "IT, Data Management, Networking, Cisco, Blockchain, Cloud"
+  },
+  {
+    "user_id": "user_028",
+    "name": "Kaylee Frye",
+    "phone": [
+      "(555) 555-3809"
+    ],
+    "email": [
+      "kaylee@gmail.com"
+    ],
+    "skills": [
+      "Agile Development",
+      "Lean Startup",
+      "Cloud",
+      "SaaS",
+      "International Team Leadership"
+    ],
+    "projects": [
+      "Global IT Strategy",
+      "Technology Evangelism",
+      "Software & Product Development",
+      "Architecture",
+      "Culture Transformation",
+      "Continuous Improvement",
+      "M&A Integration",
+      "Cost Reduction",
+      "Process Normalization",
+      "User Growth"
+    ],
+    "experience": [
+      "Director",
+      "Product Development Excellence Group"
+    ],
+    "domains": [
+      "Information Technology",
+      "Software Development",
+      "Leadership"
+    ],
+    "search_text": "IT leadership, software development, agile development, lean startup, cloud, SaaS, international team leadership, global IT strategy"
+  },
+  {
+    "user_id": "user_029",
+    "name": "Joella Dargo",
+    "phone": [
+      "(193) 975-1432"
+    ],
+    "email": [
+      "joella.dargo@gmail.com"
+    ],
+    "skills": [
+      "SQL",
+      "Query optimization",
+      "Indexing strategies",
+      "Stored procedures",
+      "Database normalization",
+      "ETL processes",
+      "Microsoft Certified: Azure Database Administrator Associate",
+      "Oracle SQL Developer Certified Professional",
+      "PostgreSQL administration"
+    ],
+    "projects": [
+      "optimized SQL database system",
+      "complex reporting solutions",
+      "database optimization strategy",
+      "legacy databases migration",
+      "ETL process streamlining",
+      "SQL reports and dashboards creation"
+    ],
+    "experience": [
+      "SQL Developer"
+    ],
+    "domains": [
+      "Database Administration",
+      "Software Development",
+      "Data Analysis"
+    ],
+    "search_text": "SQL, Database Administrator, Azure, Oracle, PostgreSQL, Query optimization, Indexing strategies, Stored procedures, ETL processes"
+  },
+  {
+    "user_id": "user_030",
+    "name": "Maria Tanner, Ph.D.",
+    "phone": [],
+    "email": [],
+    "skills": [
+      "Data and Quantitative Analysis",
+      "Big Data Queries and Interpretation",
+      "Decizion Analytics",
+      "Data Mining and Visualization Tools",
+      "Predictive Modeling",
+      "Machine Learning Algorithms",
+      "Data-Driven Personalization",
+      "Business Intelligence (BI)",
+      "EPI Dashboards",
+      "BPI Plans"
+    ],
+    "projects": [
+      "deepen relationships, strengthen longevity and personalize interactions with customers",
+      "Identified, measured and recommended improvement strategies for KPIs across all business areas"
+    ],
+    "experience": [
+      "Data Scientist",
+      "Sr. Analyst",
+      "Research Associate"
+    ],
+    "domains": [
+      "Data Science",
+      "Analytics",
+      "Business Intelligence"
+    ],
+    "search_text": "data scientist, quantitative analyst, predictive modeling, machine learning algorithms, data-driven personalization, business intelligence"
+  },
+  {
+    "user_id": "user_031",
+    "name": "Brent Roberts",
+    "phone": [
+      "+1 (555) 947 7715"
+    ],
+    "email": [],
+    "skills": [
+      "SQL",
+      "Oracle",
+      "Agile methodologies",
+      "SDLC",
+      "ETL processes",
+      "SQL query tuning techniques"
+    ],
+    "projects": [
+      "decision and intelligence systems",
+      "database structures",
+      "Snowflake Data Warehouse"
+    ],
+    "experience": [
+      "Senior SQL Developer",
+      "T-SQL Developer"
+    ],
+    "domains": [
+      "Data Engineering",
+      "Database Administration",
+      "Software Development"
+    ],
+    "search_text": "Brent Roberts, Senior SQL Developer, Data Engineering, Database Administration, Software Development, Agile methodologies, SDLC, ETL processes, Snowflake Data Warehouse"
+  },
+  {
+    "user_id": "user_032",
+    "name": "",
+    "phone": [
+      "+1 (555) 848 3932"
+    ],
+    "email": [],
+    "skills": [
+      "T-SQL",
+      "Stored Procedures",
+      "Triggers",
+      "UDF's",
+      "CLR's",
+      "Microsoft applications",
+      "SQL",
+      "PL/SQL",
+      "Oracle Apex",
+      "Talend ETL",
+      "Java/J2EE"
+    ],
+    "projects": [
+      "ETL processes",
+      "Database design",
+      "Visual Studio",
+      "Source Control",
+      "Bug Tracking"
+    ],
+    "experience": [
+      "Campaigns",
+      "Business intelligence",
+      "Call center data",
+      "Call routing",
+      "IT releases"
+    ],
+    "domains": [
+      "Data Analysis",
+      "Software Development",
+      "Business Intelligence"
+    ],
+    "search_text": "T-SQL, SQL, PL/SQL, Oracle Apex, Talend ETL, Java/J2EE, Database design, Business intelligence, Campaigns, Call center data"
+  },
+  {
+    "user_id": "user_034",
+    "name": "Joshua Nelson",
+    "phone": [],
+    "email": [
+      "help@enhancv.com"
+    ],
+    "skills": [
+      "React.js",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Redux",
+      "Flux",
+      "Webpack",
+      "Enzyme",
+      "Material U Component Library",
+      "Performance Testing",
+      "Project Management",
+      "Troubleshooting",
+      "User Interface Design"
+    ],
+    "projects": [
+      "Reusable ReactJS components",
+      "Optimized system performance",
+      "Translation of Ul/UX design to actual code",
+      "Innovative front-end library",
+      "Front-end coding standards",
+      "Browser-based debugging"
+    ],
+    "experience": [
+      "Senior React Developer",
+      "React Developer",
+      "Front-end Developer"
+    ],
+    "domains": [
+      "Web Development",
+      "Front-end Development"
+    ],
+    "search_text": "Web Development, Front-end Development, React.js, JavaScript, CSS, HTML, Performance Testing, Project Management"
+  },
+  {
+    "user_id": "user_036",
+    "name": "MadhuvaranDussa",
+    "phone": [
+      "+91 9121771397"
+    ],
+    "email": [
+      "vrnsr2884@gmail.com"
+    ],
+    "skills": [
+      "React",
+      "Redux",
+      "TypeScript",
+      "JavaScript",
+      "Angular",
+      "HTML",
+      "CSS",
+      "NodeJS",
+      "Express",
+      "Python"
+    ],
+    "projects": [
+      "CBPAS",
+      "Medical Domain Application"
+    ],
+    "experience": [
+      "Senior React Developer"
+    ],
+    "domains": [
+      "E-commerce",
+      "Travel",
+      "Banking",
+      "Medical"
+    ],
+    "search_text": "React, Redux, TypeScript, JavaScript, Angular, HTML, CSS, NodeJS, Express, Python, CBPAS, Medical Domain Application, Senior React Developer"
+  },
+  {
+    "user_id": "user_037",
+    "name": "Anne Lounsberry",
+    "phone": [
+      "523-299-0012"
+    ],
+    "email": [
+      "anne.c.lounsberry@gmail.com",
+      "linkedin.com/in/annelounsberyi2"
+    ],
+    "skills": [
+      "Machine Leaming",
+      "Data Visualization",
+      "Big Data",
+      "Python",
+      "R",
+      "Java",
+      "Scala",
+      "PERL"
+    ],
+    "projects": [
+      "Procurement process analysis",
+      "Customer Relationship Management database",
+      "Matching clients with tailored investment opportunities"
+    ],
+    "experience": [
+      "Senior Data Scientist",
+      "Data Analyst"
+    ],
+    "domains": [
+      "Machine Learning",
+      "Data Science",
+      "Statistics",
+      "Big Data"
+    ],
+    "search_text": "Data Scientist, Machine Leaming, Data Visualization, Big Data, Python, R, Java, Scala"
+  },
+  {
+    "user_id": "user_038",
+    "name": "Trisha Stamm",
+    "phone": [
+      "401-439-3501"
+    ],
+    "email": [
+      "trishastamm@gmail.com"
+    ],
+    "skills": [
+      "R Studio",
+      "Python",
+      "PERL",
+      "NoSQL",
+      "Hadoop",
+      "VB",
+      "Cloudera",
+      "Machine Learning",
+      "Data Visualization",
+      "Modeling",
+      "Statistics"
+    ],
+    "projects": [
+      "NCAAMaster",
+      "FootForest"
+    ],
+    "experience": [
+      "Data Scientist",
+      "Junior Data Scientist"
+    ],
+    "domains": [
+      "Data Science"
+    ],
+    "search_text": "Microsoft Certified, Data Scientist, Predictive Modeling, Stock Price Prediction, Investment Returns"
+  },
+  {
+    "user_id": "user_039",
+    "name": "Chace Legge",
+    "phone": [
+      "929-241-5448"
+    ],
+    "email": [
+      "anna.foley@example.com"
+    ],
+    "skills": [
+      "SSRS",
+      "SQL DDL",
+      "T-SQL",
+      "ETL",
+      "4GL",
+      "DB administration",
+      "Table design",
+      "C#"
+    ],
+    "projects": [
+      "optimized C#",
+      "32 processes using SQL Server and SSIS packages"
+    ],
+    "experience": [
+      "SQL Developer",
+      "Junior SQL Developer"
+    ],
+    "domains": [
+      "Software Development"
+    ],
+    "search_text": "Chace Legge, SQL Developer, Software Development, Data Administration"
+  },
+  {
+    "user_id": "user_040",
+    "name": "Louetta Brewton",
+    "phone": [
+      "(381) 796-8679"
+    ],
+    "email": [
+      "lovetta.brewton@gmail.com"
+    ],
+    "skills": [
+      "TensorFlow",
+      "Hadoop",
+      "Tableau",
+      "Spark"
+    ],
+    "projects": [
+      "predictive analytics system for YouTube",
+      "real-time recommendation engine"
+    ],
+    "experience": [
+      "Senior Data Scientist at Google",
+      "Junior Data Scientist at"
+    ],
+    "domains": [
+      "Data Science"
+    ],
+    "search_text": "data scientist, machine learning, predictive analytics, real-time recommendations"
+  },
+  {
+    "user_id": "user_042",
+    "name": "Lila Patel",
+    "phone": [
+      "+91 12345xxxx"
+    ],
+    "email": [
+      "lila.patel@example.com"
+    ],
+    "skills": [
+      "React Native",
+      "React Native performance optimization"
+    ],
+    "projects": [
+      "e-commerce solutions",
+      "cross-platform applications"
+    ],
+    "experience": [
+      "React Native Developer",
+      "Senior Mobile App Developer",
+      "Mobile App Developer"
+    ],
+    "domains": [
+      "E-commerce",
+      "Mobile app development"
+    ],
+    "search_text": "Lila Patel, React Native, E-commerce, Mobile app development, cross-platform applications"
+  },
+  {
+    "user_id": "user_043",
+    "name": "CHRISTOPHER KANE",
+    "phone": [
+      "+717 749 305"
+    ],
+    "email": [
+      "christopher. kané@qmail.com"
+    ],
+    "skills": [
+      "PYTHON",
+      "VB",
+      "CLOUDERA",
+      "STATISTICS",
+      "CREATIVITY"
+    ],
+    "projects": [
+      "regression models",
+      "SVM",
+      "decision trees"
+    ],
+    "experience": [
+      "ENTRY-LEVEL DATA SCIENTIST",
+      "FREELANCE DATA SCIENTIST"
+    ],
+    "domains": [
+      "DATA SCIENCE",
+      "ANALYTICS",
+      "VISUALIZATION"
+    ],
+    "search_text": "data science, analytics, visualization, python, vb, cloudera"
+  },
+  {
+    "user_id": "user_044",
+    "name": "Maudie Leffler",
+    "phone": [
+      "+1 (555) 373 3338"
+    ],
+    "email": [],
+    "skills": [
+      "predictive models",
+      "machine learning",
+      "data mining",
+      "statistical modeling",
+      "SQL",
+      "Unit Test code"
+    ],
+    "projects": [
+      "building and productionizing predictive models",
+      "maximizing the impact and efficiency of the team"
+    ],
+    "experience": [
+      "DATA SCIENTIST"
+    ],
+    "domains": [
+      "Data Science",
+      "Analytics",
+      "ITIL"
+    ],
+    "search_text": "data scientist, predictive models, machine learning, data mining, SQL, Unit Test code, analytics, ITIL"
+  },
+  {
+    "user_id": "user_045",
+    "name": "Mia Williams",
+    "phone": [],
+    "email": [],
+    "skills": [
+      "SQL",
+      "Oracle",
+      "MySQL",
+      "Machine Learning",
+      "Python"
+    ],
+    "projects": [
+      "Data Visualization"
+    ],
+    "experience": [
+      "Data Scientist",
+      "Data Engineer",
+      "Data Analyst"
+    ],
+    "domains": [
+      "Data Science",
+      "Analytics"
+    ],
+    "search_text": "data science, data analytics, machine learning, data visualization"
+  },
+  {
+    "user_id": "user_046",
+    "name": "DAN BOWEN",
+    "phone": [
+      "+1-562-545-5945",
+      "+1-917-577-8394"
+    ],
+    "email": [
+      "dan.bowen@gmail.com",
+      "stephanie.d@stanford.edu"
+    ],
+    "skills": [
+      "Python",
+      "Java",
+      "C",
+      "GIT",
+      "Eclipse",
+      "Rapid Miner",
+      "Apache Mahout",
+      "Hive",
+      "MapReduce",
+      "MongoDB",
+      "Excel",
+      "SAS",
+      "Statistical Analysis Tools"
+    ],
+    "projects": [
+      "digitized filing system",
+      "internal analytics and data science services",
+      "sourcing data for the UN",
+      "forecasted sales for Volkswagen",
+      "fundraising"
+    ],
+    "experience": [
+      "Junior Data Scientist",
+      "Data Scientist Internship",
+      "Data Analyst"
+    ],
+    "domains": [
+      "Data Science",
+      "Market Research",
+      "Statistics",
+      "Analytics",
+      "Road Safety"
+    ],
+    "search_text": "Data Scientist, Analytics, Statistical Analysis Tools, Market Research, Road Safety"
+  },
+  {
+    "user_id": "user_047",
+    "name": "Christa Nathan",
+    "phone": [],
+    "email": [
+      "fim linkedin"
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Redux Toolkit",
+      "HTML",
+      "Tailwind CSS",
+      "Python"
+    ],
+    "projects": [
+      "IMS Version-3",
+      "Tatasteel Aashiyana"
+    ],
+    "experience": [
+      "React Developer",
+      "Web Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Frontend Development"
+    ],
+    "search_text": "react developer, software development, frontend development, JavaScript, React, Redux Toolkit"
+  },
+  {
+    "user_id": "user_048",
+    "name": "Abigail Biwer",
+    "phone": [
+      "X. (196) 296-2525"
+    ],
+    "email": [
+      "abigail.biwer@gmail.com"
+    ],
+    "skills": [
+      "T-SQL",
+      "SSIS",
+      "SSRS",
+      "SSAS",
+      "PowerBl",
+      "Azure SQL",
+      "Database Optimization"
+    ],
+    "projects": [
+      "Custom database applications",
+      "Data processing efficiency",
+      "SQL Server performance tuning",
+      "Legacy data migration",
+      "Report generation time improvement",
+      "Donor matching algorithm",
+      "Comprehensive data warehouse solution"
+    ],
+    "experience": [
+      "SQL Server Developer",
+      "Junior SQL Server Developer"
+    ],
+    "domains": [
+      "Database Administration",
+      "Data Management",
+      "System Integration"
+    ],
+    "search_text": "Abigail Biwer, T-SQL, SSIS, SSRS, SSAS, PowerBl, Azure SQL, Database Optimization, Custom database applications, Data processing efficiency, SQL Server performance tuning, Legacy data migration, Report generation time improvement, Donor matching algorithm, Comprehensive data warehouse solution"
+  },
+  {
+    "user_id": "user_049",
+    "name": "Chloe Martinez",
+    "phone": [],
+    "email": [
+      "help@enhancv.com"
+    ],
+    "skills": [
+      "React Native",
+      "Java",
+      "C#",
+      "Redux",
+      "WebAPI",
+      "Spring Boot",
+      "JavaScript",
+      "Cloud Architecture",
+      "Server-side API"
+    ],
+    "projects": [
+      "Revamped user interface",
+      "Bug tracking system",
+      "Repository management system",
+      "Optimized server side API code",
+      "Detailed documentation",
+      "New architecture for company-wide system",
+      "Managed and scaled AWS services"
+    ],
+    "experience": [
+      "Software Developer",
+      "Software Engineer",
+      "Senior Software Engineer"
+    ],
+    "domains": [
+      "Software Development"
+    ],
+    "search_text": "React Native, Java, C#, software development, senior software engineer"
+  },
+  {
+    "user_id": "user_050",
+    "name": "Caroline M. Kohn",
+    "phone": [],
+    "email": [
+      "carol@kohn.com"
+    ],
+    "skills": [
+      "Migration to SQL Server",
+      "SSRS Reporting",
+      "Automation",
+      "Spanish"
+    ],
+    "projects": [
+      "27 SSRS reports",
+      "100+ SQL scripts and automations"
+    ],
+    "experience": [
+      "SQL Developer"
+    ],
+    "domains": [
+      "Data Management",
+      "Business Intelligence",
+      "Database Administration"
+    ],
+    "search_text": "Caroline M. Kohn, SQL Developer, Migration to SQL Server, SSRS Reporting, Automation, Spanish, Data Management, Business Intelligence, Database Administration"
+  },
+  {
+    "user_id": "user_051",
+    "name": "Brandon Smith",
+    "phone": [
+      "+1 2408452860"
+    ],
+    "email": [
+      "brandon@hiration.com"
+    ],
+    "skills": [
+      "Application Designing",
+      "Front-end Architecture",
+      "Manual Testing",
+      "Ul Designing",
+      "Performance Improvement",
+      "Debugging",
+      "Webpage Designing",
+      "Coding",
+      "Webpage Optimization",
+      "Client Servicing"
+    ],
+    "projects": [
+      "10+ web applications",
+      "7+ web applications",
+      "5+ applications"
+    ],
+    "experience": [
+      "Frontend Developer"
+    ],
+    "domains": [
+      "Web Development",
+      "Software Development"
+    ],
+    "search_text": "Brandon Smith, Frontend Developer, React, Web Application Development, Debugging, Client Servicing"
+  },
+  {
+    "user_id": "user_052",
+    "name": "Lilah Harryman",
+    "phone": [
+      "939-745-4405"
+    ],
+    "email": [
+      "lilah.harryman@gmail.com"
+    ],
+    "skills": [
+      "Query optimization",
+      "Performance tuning",
+      "Database triggers",
+      "Stored procedures",
+      "PL/SQL packages",
+      "Exception handling",
+      "Dynamic SOL"
+    ],
+    "projects": [
+      "PL SQL-based billing system",
+      "legacy system migration to Oracle database",
+      "scheduling module design and implementation"
+    ],
+    "experience": [
+      "PL SQL Developer",
+      "Associate PL SQL Developer"
+    ],
+    "domains": [
+      "Database Development",
+      "Software Development",
+      "Information Technology"
+    ],
+    "search_text": "PL/SQL, Database Development, Software Development, Information Technology"
+  },
+  {
+    "user_id": "user_053",
+    "name": "Letitia Taman",
+    "phone": [
+      "(671) 856-4434"
+    ],
+    "email": [
+      "letitia.taman@agmail.com"
+    ],
+    "skills": [
+      "PL/SQL",
+      "SQL', Loader",
+      "Oracle APEX",
+      "Data Modeling",
+      "Performance Tuning",
+      "Oracle Forms",
+      "Database Triggers"
+    ],
+    "projects": [
+      "reporting system",
+      "inventory management system"
+    ],
+    "experience": [
+      "Oracle PL SQL Developer",
+      "Junior Oracle PL SQL Developer"
+    ],
+    "domains": [
+      "Oracle",
+      "PL/SQL",
+      "Database Administration",
+      "Data Warehousing"
+    ],
+    "search_text": "Letitia Taman, Oracle PL/SQL Developer, PL/SQL, SQL, Oracle APEX, Data Modeling, Performance Tuning, reporting system, inventory management system"
+  },
+  {
+    "user_id": "user_054",
+    "name": "Mary O’ Brien",
+    "phone": [
+      "(555) 555-5555"
+    ],
+    "email": [
+      "resumepowersample@gmail.com"
+    ],
+    "skills": [
+      "Oracle 11g",
+      "Microsoft Access",
+      "PL/SOL",
+      "SOL",
+      "C",
+      "Java",
+      "UML",
+      "XML",
+      "HTML"
+    ],
+    "projects": [
+      "database administration",
+      "backup and recovery",
+      "performance tuning",
+      "business solutions"
+    ],
+    "experience": [
+      "ENTRY-LEVEL ORACLE DATABASE ADMINISTRATOR",
+      "ASSISTANT RETAIL MANAGER",
+      "WAREHOUSE ASSISTANT",
+      "CUSTOMER SERVICE REP"
+    ],
+    "domains": [
+      "IT",
+      "Database Administration"
+    ],
+    "search_text": "Oracle Database, IT, Entry-Level Oracle Database Administrator, Database Administration"
+  },
+  {
+    "user_id": "user_055",
+    "name": "Diana Dawa",
+    "phone": [
+      "044 412 2020"
+    ],
+    "email": [
+      "diana@novoresume.com",
+      "diana-dawa.com",
+      "linkedin.com/in/diana.dawa"
+    ],
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "OpenCV",
+      "D3.js",
+      "H20.ai",
+      "Spark",
+      "Hadoop",
+      "R Programming",
+      "Django",
+      "Angular.js",
+      "HTML",
+      "SQL",
+      "JavaScript",
+      "PHP"
+    ],
+    "projects": [
+      "predictive models using machine learning tools",
+      "natural language processing and deep learning models for predictive maintenance",
+      "algorithms to track and detect anomalies in multiple sensors data"
+    ],
+    "experience": [
+      "Data Scientist",
+      "Data Analyst",
+      "Business Analyst / Statistician"
+    ],
+    "domains": [
+      "Renewable Energy",
+      "Artificial Intelligence"
+    ],
+    "search_text": "Data Scientist, predictive models, machine learning, natural language processing, deep learning, data analytics, renewable energy, artificial intelligence"
+  },
+  {
+    "user_id": "user_056",
+    "name": "Kennedy Klekamp",
+    "phone": [
+      "(254) 103-9272"
+    ],
+    "email": [
+      "kennedy.klekampi@igmail.com"
+    ],
+    "skills": [
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      "Open-source projects",
+      "Automated testing framework"
+    ],
+    "experience": [
+      "Senior Python Developer",
+      "Junior Python Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Data Analysis",
+      "Agile Environments"
+    ],
+    "search_text": "Python, Django, Flask, Data Analysis, Open-source, Agile"
+  },
+  {
+    "user_id": "user_058",
+    "name": "Bennet Campos",
+    "phone": [
+      "740-739-5953"
+    ],
+    "email": [
+      "bennetzcampos@gmail.com"
+    ],
+    "skills": [
+      "Java",
+      "JSP",
+      "HTML",
+      "XML",
+      "JSON",
+      "RESTful",
+      "interpersonal skills",
+      "leadership",
+      "collaboration",
+      "critical thinking"
+    ],
+    "projects": [
+      "serverless computing",
+      "billing management system",
+      "Hacker News reader for Android",
+      "Android extensible media player"
+    ],
+    "experience": [
+      "Java Developer",
+      "Junior Java Developer",
+      "Freelance Java Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Technology",
+      "Leadership"
+    ],
+    "search_text": "software development, java, jsp, leadership, serverless computing"
+  },
+  {
+    "user_id": "user_059",
+    "name": "Charlotte May",
+    "phone": [
+      "602.765.9016"
+    ],
+    "email": [
+      "@simplistic-backyard.net",
+      "@charlotte.may87@yahoo.com"
+    ],
+    "skills": [
+      "Python",
+      "Java",
+      "AWS Lambda",
+      "REST APIs",
+      "JSON",
+      "Spring",
+      "Spring Boot",
+      "Git/GitHub",
+      "Maven",
+      "Linux",
+      "Bash scripting",
+      "DevOps"
+    ],
+    "projects": [
+      "API solutions",
+      "AP! Management system"
+    ],
+    "experience": [
+      "Python Developer",
+      "Java Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Cloud Computing",
+      "Integration"
+    ],
+    "search_text": "python developer, java, aws lambda, rest api, software development, cloud computing"
+  },
+  {
+    "user_id": "user_060",
+    "name": "Elisa Rasgado",
+    "phone": [
+      "724 484 964"
+    ],
+    "email": [
+      "elisarasgado@gmail.com"
+    ],
+    "skills": [
+      "Microsoft SQL Server",
+      "Postgres database",
+      "ACE database",
+      "Tivoli Storage Manager",
+      "Ninox",
+      "SpeedBase Professional",
+      "ManageEngine Applications Manager",
+      "Microsoft Office"
+    ],
+    "projects": [
+      "Database Administration",
+      "Report Generation",
+      "Security Checks"
+    ],
+    "experience": [
+      "Database Administrator"
+    ],
+    "domains": [
+      "IT",
+      "Database Management"
+    ],
+    "search_text": "Database Administrator, IT, Database Management, SQL Server, Postgres database"
+  },
+  {
+    "user_id": "user_061",
+    "name": "HARRY MITCHELL",
+    "phone": [
+      "123 456 7890",
+      "+123 456 7890"
+    ],
+    "email": [
+      "hello@reallygreatsite.com"
+    ],
+    "skills": [
+      "JSP / Servlets",
+      "Struts / Spring",
+      "Java, CH, C",
+      "Test Automation & DevOps",
+      "HTML/CSS",
+      "Problem Solving",
+      "Computer Hardware",
+      "Computer Software"
+    ],
+    "projects": [
+      "API development",
+      "Dashboards with visualizations",
+      "Networked irrigation controller system with UDOO"
+    ],
+    "experience": [
+      "Junior Java Developer",
+      "Java Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "IT Services",
+      "Consulting"
+    ],
+    "search_text": "Java, JSP, Servlets, Struts, Spring, API development, Dashboards with visualizations, Networked irrigation controller system, UDOO"
+  },
+  {
+    "user_id": "user_062",
+    "name": "Paul De smond",
+    "phone": [
+      "796-294-2948"
+    ],
+    "email": [
+      "pa.desmond038@gmail.com"
+    ],
+    "skills": [
+      "R Studio",
+      "Python",
+      "Cloudera",
+      "Data Visualization",
+      "Modeling",
+      "Machine Learning",
+      "Statistics"
+    ],
+    "projects": [
+      "Predict stock prices and investment returns",
+      "Developed a vision, framework, approached and planned for each of your projects"
+    ],
+    "experience": [
+      "Principal Data Scientist",
+      "Technical Data Scientist"
+    ],
+    "domains": [
+      "Data Science",
+      "Machine Learning",
+      "Analytics"
+    ],
+    "search_text": "Data Scientist Machine Learning Analytics Principal Technical Predictions Investment Returns R Studio Python Cloudera"
+  },
+  {
+    "user_id": "user_063",
+    "name": "Hashira Nara",
+    "phone": [
+      "555-555-5555"
+    ],
+    "email": [
+      "hello@kickresume.com"
+    ],
+    "skills": [
+      "Oracle Database",
+      "Microsoft Office",
+      "SQL Server",
+      "QuintaDB",
+      "SQLite",
+      "MariaDB",
+      "WinSQL"
+    ],
+    "projects": [
+      "data protection processes and procedures",
+      "large databases",
+      "professional presentations and summary reports"
+    ],
+    "experience": [
+      "Database Assistant"
+    ],
+    "domains": [
+      "Data Management",
+      "Computer Science"
+    ],
+    "search_text": "Data Management, Computer Science, Database Assistant, Oracle Database, Microsoft Office, SQL Server"
+  },
+  {
+    "user_id": "user_064",
+    "name": "JOHN DOE",
+    "phone": [
+      "+91 3658965231"
+    ],
+    "email": [
+      "data scientist@example.com"
+    ],
+    "skills": [
+      "Data Verification and Maintenance",
+      "Predictive Modeling",
+      "Excellent Communication Skills",
+      "Leadership Skills"
+    ],
+    "projects": [
+      "Analyzing complex data sets",
+      "Building predictive models",
+      "Tracking performance"
+    ],
+    "experience": [
+      "Data Scientist"
+    ],
+    "domains": [
+      "Data Science"
+    ],
+    "search_text": "data scientist, predictive modeling, data verification and maintenance, excellent communication skills"
+  },
+  {
+    "user_id": "user_065",
+    "name": "Trisha Stamm",
+    "phone": [],
+    "email": [
+      "trishastamm@gmail.com"
+    ],
+    "skills": [
+      "R Studio",
+      "Python",
+      "PERL",
+      "NoSQL",
+      "Hadoop",
+      "VB",
+      "Cloudera",
+      "Machine Learning",
+      "Data Visualization",
+      "Statistics"
+    ],
+    "projects": [
+      "NCAAMaster",
+      "FootForest",
+      "Pylearn 2"
+    ],
+    "experience": [
+      "Data Scientist",
+      "Junior Data Scientist"
+    ],
+    "domains": [
+      "Data Science",
+      "Machine Learning"
+    ],
+    "search_text": "data scientist, machine learning, data visualization, statistics"
+  },
+  {
+    "user_id": "user_066",
+    "name": "Kimi Stamm",
+    "phone": [
+      "+1 (555) 392 1107"
+    ],
+    "email": [],
+    "skills": [
+      "SQL Scripting",
+      "PowerShell & DOS Scripting",
+      "Database Troubleshooting",
+      "Microsoft Office 0365",
+      "Microsoft SQL Server Management Studio (SSMS)"
+    ],
+    "projects": [
+      "Azure migration",
+      "Hosted to Azure migration",
+      "Disaster and Recovery processes and execution"
+    ],
+    "experience": [
+      "SQL Database Administrator"
+    ],
+    "domains": [
+      "Database Administration",
+      "Cloud Migration",
+      "ITIL practices"
+    ],
+    "search_text": "SQL Database Administrator, Azure migration, Hosted to Azure migration, Disaster and Recovery processes and execution, ITIL practices"
+  },
+  {
+    "user_id": "user_067",
+    "name": "ANDREW NICOLAS",
+    "phone": [
+      "+1 (555) 134 5489"
+    ],
+    "email": [],
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Agile tools",
+      "Database architecture",
+      "Data modeling",
+      "Data warehousing",
+      "Test automation",
+      "Performance testing",
+      "Load testing",
+      "Functional testing"
+    ],
+    "projects": [
+      "Web services",
+      "Software engineering projects",
+      "Project delivery",
+      "CI/CD support"
+    ],
+    "experience": [
+      "Senior Python Developer",
+      "Python Developer"
+    ],
+    "domains": [
+      "Software development",
+      "DevOps",
+      "Data analytics"
+    ],
+    "search_text": "ANDREW NICOLAS, Python, Java, JavaScript, HTML, CSS, Agile tools, Database architecture, Data modeling, Data warehousing, Test automation, Performance testing, Load testing, Functional testing, Web services, Software engineering projects, Project delivery, CI/CD support, DevOps, Data analytics"
+  },
+  {
+    "user_id": "user_068",
+    "name": "Malik Rabb",
+    "phone": [
+      "(123) 456-7891"
+    ],
+    "email": [
+      "mrabb@email.com"
+    ],
+    "skills": [
+      "Python",
+      "predictive modeling",
+      "data processing",
+      "data mining",
+      "deep reinforcement learning"
+    ],
+    "projects": [
+      "fuzzy matching algorithm",
+      "real-time recommendation engine",
+      "personalization algorithms",
+      "sentiment analysis model",
+      "botnets detection tools"
+    ],
+    "experience": [
+      "Data Scientist"
+    ],
+    "domains": [
+      "Machine Learning",
+      "Data Science"
+    ],
+    "search_text": "Malik Rabb, Data Scientist, Python, Machine Learning, Data Science"
+  },
+  {
+    "user_id": "user_069",
+    "name": "Kevin Brandon",
+    "phone": [
+      "202-555-0120"
+    ],
+    "email": [
+      "info@resumekraft.com"
+    ],
+    "skills": [
+      "R",
+      "SQL",
+      "Python",
+      "C++"
+    ],
+    "projects": [
+      "Mass Shootings Model"
+    ],
+    "experience": [
+      "Research Assistant",
+      "Lead Data Analyst, Web Developer, and Communications Liaison",
+      "Data Analyst and Business Intern"
+    ],
+    "domains": [
+      "Data Science"
+    ],
+    "search_text": "Data Scientist, R, SQL, Python, C++, Mass Shootings Model"
+  },
+  {
+    "user_id": "user_070",
+    "name": "Helen Mackay",
+    "phone": [
+      "41-271-199-9643"
+    ],
+    "email": [
+      "helen.mackay@gmail.com"
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "JavaScript",
+      "MongoDB",
+      "MySQL",
+      "AWS",
+      "NumPy",
+      "MatPlotlib",
+      "ML Algorithms",
+      "Scikit learn"
+    ],
+    "projects": [
+      "Convolutional Neural Network Based Emotions Recognition System"
+    ],
+    "experience": [
+      "Junior Python Developer",
+      "Python Database Developer Intern"
+    ],
+    "domains": [
+      "Cloud Computing",
+      "Data Science",
+      "Machine Learning",
+      "IT Services"
+    ],
+    "search_text": "Python, Junior, Cloud Computing, Data Science, Machine Learning, IT Services"
+  },
+  {
+    "user_id": "user_071",
+    "name": "Eric Nathan",
+    "phone": [
+      "202-555-0120"
+    ],
+    "email": [
+      "info@resumekraft.com"
+    ],
+    "skills": [
+      "DotNet",
+      "Data Science",
+      "Programming Langmace"
+    ],
+    "projects": [
+      "Data Analysis",
+      "Teamwork",
+      "Coding"
+    ],
+    "experience": [
+      "Student"
+    ],
+    "domains": [
+      "Computer Science"
+    ],
+    "search_text": "Eric Nathan, Data Science, DotNet, Programming Langmace, Data Analysis, Teamwork, Coding"
+  },
+  {
+    "user_id": "user_073",
+    "name": "Alex Greenwood",
+    "phone": [
+      "+1-890-908-8077"
+    ],
+    "email": [
+      "name@gmail.com"
+    ],
+    "skills": [
+      "Java",
+      "EJB2",
+      "Spring",
+      "Hibernate",
+      "Swing",
+      "J2EE",
+      "StringBuilder",
+      "Reusability",
+      "Application servers",
+      "Spring Boot"
+    ],
+    "projects": [
+      "PMS",
+      "Bodog Live Dealer",
+      "Ecommerce platform of Nokia"
+    ],
+    "experience": [
+      "Java Developer"
+    ],
+    "domains": [
+      "Financial and Retailing",
+      "IT Solutions",
+      "Customs Business Processes Management",
+      "Load Testing"
+    ],
+    "search_text": "Java, EJB2, Spring, Hibernate, Swing, J2EE, StringBuilder, Reusability, Application servers, Spring Boot, PMS, Bodog Live Dealer, Ecommerce platform of Nokia, Financial and Retailing, IT Solutions, Customs Business Processes Management, Load Testing"
+  },
+  {
+    "user_id": "user_074",
+    "name": "Trish Mathers",
+    "phone": [
+      "(123) 456-7890"
+    ],
+    "email": [
+      "tmathers@email.com"
+    ],
+    "skills": [
+      "SAS (base SAS and Macros)",
+      "SQL",
+      "Supervised Learning: linear and logistic regressions, decision trees, support vector machines (SVM)",
+      "Unsupervised Learning: k-means clustering, principal component analysis (PCA)",
+      "Data Visualization: Excel, Google Sheets"
+    ],
+    "projects": [
+      "Fantasy Football Models",
+      "Entertainment Engine"
+    ],
+    "experience": [
+      "Data Scientist Intern",
+      "Statistics and Mathematics Tutor"
+    ],
+    "domains": [
+      "Data Science",
+      "Machine Learning"
+    ],
+    "search_text": "data science, machine learning, data visualization, SAS, SQL, linear regression, logistic regression, decision trees, support vector machines, k-means clustering, principal component analysis"
+  },
+  {
+    "user_id": "user_075",
+    "name": "Ann Simpson",
+    "phone": [
+      "718-555-5555",
+      "917-555-5555"
+    ],
+    "email": [
+      "annsimpson@somedomain.com"
+    ],
+    "skills": [
+      "Oracle 9i/10g",
+      "DB2",
+      "Access",
+      "Sybase",
+      "MS SQL Server",
+      "JDBC",
+      "Visio",
+      "Apache Web Server",
+      "Java",
+      "C++",
+      "XML",
+      "Windows",
+      "Linux"
+    ],
+    "projects": [
+      "Web-enabled, group-scheduling system",
+      "Employee data-intake system",
+      "Storage strategies and disaster-recovery plan",
+      "Custom financial and auditing reports"
+    ],
+    "experience": [
+      "Database Administrator",
+      "IT Internship"
+    ],
+    "domains": [
+      "Technology",
+      "Information Technology",
+      "Computer Science"
+    ],
+    "search_text": "Ann Simpson, Oracle 9i/10g, Database Administration, IT"
+  },
+  {
+    "user_id": "user_076",
+    "name": "Evalyn Simonis",
+    "phone": [
+      "+1 (555) 998 0340"
+    ],
+    "email": [],
+    "skills": [
+      "PYTHON",
+      "Tornado",
+      "Robot test framework",
+      "Continuous Integration environment (Jenkins)",
+      "SDN",
+      "network switches/routers",
+      "DevOps"
+    ],
+    "projects": [
+      "Python frameworks and tools for adaption by other teams",
+      "Comprehensive test tools and automation frameworks",
+      "Software development life cycle with an agile approach to delivery software",
+      "NSA TYPE I security product using NSA IAD security practices"
+    ],
+    "experience": [
+      "SENIOR PYTHON DEVELOPER",
+      "PYTHON DEVELOPER",
+      "JUNIOR P¥THON DEVELOPER"
+    ],
+    "domains": [
+      "Network Security",
+      "Software Development"
+    ],
+    "search_text": "Python, Tornado, Robot test framework, Jenkins, SDN, network switches/routers, DevOps, software development life cycle, agile approach"
+  },
+  {
+    "user_id": "user_077",
+    "name": "JOHN GONALEZ",
+    "phone": [
+      "(123) 456-7890"
+    ],
+    "email": [
+      "johni652@gmail.com"
+    ],
+    "skills": [
+      "HTML/CSS",
+      "SQL (PostgreSQL, Oracle)",
+      "JavaScript (Angular)",
+      "Python (Django)",
+      "REST APIs (GraphQL)",
+      "AWS (Redshift)",
+      "Git"
+    ],
+    "projects": [
+      "Cryptocurrency Price Tracker"
+    ],
+    "experience": [
+      "Python Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Data Analytics"
+    ],
+    "search_text": "software development, data analytics, python, django, rest apis, graphql, aws, git"
+  },
+  {
+    "user_id": "user_078",
+    "name": "Andy Koch",
+    "phone": [
+      "+1 (555) 273 6215"
+    ],
+    "email": [],
+    "skills": [
+      "CORE JAVA",
+      "SQL",
+      "Sybase",
+      "UNIX/Linux Operating system",
+      "shell scripting"
+    ],
+    "projects": [
+      "Equities Middle Office applications",
+      "market making and execution technology",
+      "pricing and risk components",
+      "large scale data management solution"
+    ],
+    "experience": [
+      "INTERMEDIATE CORE JAVA DEVELOPER",
+      "SENIOR CORE JAVA DEVELOPER",
+      "CORE JAVA DEVELOPER"
+    ],
+    "domains": [
+      "Software Development",
+      "Financial Industry"
+    ],
+    "search_text": "Andy Koch, CORE JAVA, Equities Middle Office applications, market making and execution technology, pricing and risk components, large scale data management solution"
+  },
+  {
+    "user_id": "user_080",
+    "name": "Maria Hibisson",
+    "phone": [],
+    "email": [
+      "maria@novoresume.com"
+    ],
+    "skills": [
+      "Java",
+      "Enterprise Java Bean",
+      "Java EE",
+      "Apache Struts",
+      "Scrum & Agile Methodologies",
+      "System Architecture & Engineering",
+      "Application Design & Development",
+      "Continuous Process Improvement"
+    ],
+    "projects": [
+      "Client management systems",
+      "Web reporting system",
+      "Vendor application system",
+      "Phone devices",
+      "Commerce API migration"
+    ],
+    "experience": [
+      "Java Developer",
+      "Back-End Java Developer",
+      "Assistant Systems Engineer"
+    ],
+    "domains": [
+      "Software Development Life Cycle",
+      "Project Management",
+      "Strategic Planning & Execution",
+      "Team Leadership & Development"
+    ],
+    "search_text": "software development life cycle, project management, strategic planning, team leadership, java, enterprise java bean, apache struts"
+  },
+  {
+    "user_id": "user_081",
+    "name": "Anne Lounsberry",
+    "phone": [
+      "2019"
+    ],
+    "email": [
+      "anne.c.lounsberry@gmail.com",
+      "linkedin.com/in/annelounsbery12"
+    ],
+    "skills": [
+      "Python",
+      "R",
+      "Java",
+      "Scala",
+      "Data Visualization",
+      "Big Data",
+      "Data Mining",
+      "Machine Learning"
+    ],
+    "projects": [
+      "Data Scientist",
+      "Customer Relationship Management database",
+      "Matching clients with tailored investment opportunities"
+    ],
+    "experience": [
+      "Senior Data Scientist",
+      "Machine Learning Specialist",
+      "Junior Data Analyst"
+    ],
+    "domains": [
+      "Data Science",
+      "Machine Learning",
+      "Analytics"
+    ],
+    "search_text": "data scientist, machine learning, data visualization, big data, analytics"
+  },
+  {
+    "user_id": "user_083",
+    "name": "Paul Satchell",
+    "phone": [
+      "#1-656-271-6980"
+    ],
+    "email": [
+      "paul.satchell@gmail.com"
+    ],
+    "skills": [
+      "Python",
+      "SciPy",
+      "NumPy",
+      "Scikit-learn",
+      "Django",
+      "Pandas",
+      "Flask",
+      "SQL",
+      "Matplotlib",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "projects": [
+      "Boot Menu for 2 Line Display",
+      "customized data solutions",
+      "end-to-end solutions",
+      "in-house pip packages"
+    ],
+    "experience": [
+      "Senior Python Developer",
+      "Python Developer"
+    ],
+    "domains": [
+      "Game Development",
+      "Healthcare",
+      "IT Services",
+      "Enterprise Mobility"
+    ],
+    "search_text": "Python, Django, Flask, SQL, Matplotlib, JavaScript, Bootstrap, Agile, Scrum, Game Development, Healthcare, IT Services, Enterprise Mobility"
+  },
+  {
+    "user_id": "user_084",
+    "name": "Jared Arthur Maica",
+    "phone": [
+      "+1-799-456-8777"
+    ],
+    "email": [
+      "j.a.maica@gmail.com",
+      "linkedin.com/in/jamaica",
+      "twitter.com/jamaica"
+    ],
+    "skills": [
+      "Java",
+      "JSP"
+    ],
+    "projects": [
+      "App memory consumption reduction",
+      "Startup time optimization"
+    ],
+    "experience": [
+      "Java Developer",
+      "Junior Java Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Web Applications"
+    ],
+    "search_text": "software development, web applications, java, jsp, app optimization, startup time reduction"
+  },
+  {
+    "user_id": "user_085",
+    "name": "Bob Markkula",
+    "phone": [
+      "214-927-0369"
+    ],
+    "email": [
+      "bob.g.markkula@gmail.com"
+    ],
+    "skills": [
+      "ETL",
+      "SQL",
+      "'NET",
+      "Designing database structures",
+      "SSRS",
+      "Teamwork",
+      "Interpersonal skills",
+      "Communication",
+      "Efficiency"
+    ],
+    "projects": [
+      "30+ ETL projects"
+    ],
+    "experience": [
+      "Database Developer"
+    ],
+    "domains": [
+      "Database Development"
+    ],
+    "search_text": "Bob Markkula, Database Development, ETL, SQL, 'NET, SSRS"
+  },
+  {
+    "user_id": "user_086",
+    "name": "Karina Blick",
+    "phone": [
+      "+1 (555) 334 2620"
+    ],
+    "email": [],
+    "skills": [
+      "advance analytics",
+      "data science",
+      "machine learning",
+      "natural language",
+      "statistical analysis",
+      "SQL"
+    ],
+    "projects": [
+      "trust-based relationships",
+      "tool development",
+      "business insights",
+      "predictive modeling"
+    ],
+    "experience": [
+      "Data Scientist, Analytics Office",
+      "Data Scientist, Analytics",
+      "Data Scientist, Analytics"
+    ],
+    "domains": [
+      "analytics",
+      "data science"
+    ],
+    "search_text": "data scientist analytics machine learning natural language statistical analysis SQL trust-based relationships tool development business insights predictive modeling"
+  },
+  {
+    "user_id": "user_089",
+    "name": "NATASHA HOLLOWAY",
+    "phone": [
+      "+1-988-701-2005"
+    ],
+    "email": [
+      "natashaholloway@gmail.com",
+      "@natashahollaway"
+    ],
+    "skills": [
+      "Tableau",
+      "D3js",
+      "Advanced Query Tool",
+      "IBM DB2",
+      "SAS Enterprise Miner"
+    ],
+    "projects": [
+      "Real-time analytics dashboard",
+      "Web app for user behavior prediction",
+      "Transaction Categorisation",
+      "Churn models for car & home insurances",
+      "Enterprise data analytics vision and strategy"
+    ],
+    "experience": [
+      "Data Science Intern"
+    ],
+    "domains": [
+      "Data Science"
+    ],
+    "search_text": "data science, tableau, d3js, advanced query tool, ibm db2, sas enterprise miner, real-time analytics, churn models"
+  },
+  {
+    "user_id": "user_090",
+    "name": "Dwight Tate",
+    "phone": [
+      "+1-156-540-5817"
+    ],
+    "email": [
+      "dwighttate@gmail.com"
+    ],
+    "skills": [
+      "Python",
+      "pymorphy2",
+      "re",
+      "numpy",
+      "matplotlib",
+      "Hive",
+      "Pig",
+      "Tableau",
+      "D3.js",
+      "ggplot2"
+    ],
+    "projects": [
+      "Real-time analytics dashboard",
+      "Massive social networks analysis"
+    ],
+    "experience": [
+      "Data Science Intern",
+      "Business Development/Data Science Intern"
+    ],
+    "domains": [
+      "Data Science",
+      "Analytics"
+    ],
+    "search_text": "data science, analytics, python, pymorphy2, re, numpy, matplotlib, hive, pig, tableau, d3.js, ggplot2, real-time analytics dashboard, massive social networks analysis"
+  },
+  {
+    "user_id": "user_091",
+    "name": "Jaleel Hermiston",
+    "phone": [
+      "+1 (555) 534 0743"
+    ],
+    "email": [],
+    "skills": [
+      "Python",
+      "Java"
+    ],
+    "projects": [
+      "cloud computing",
+      "data centre automation",
+      "big data workflows",
+      "high performance analytical models",
+      "software releases"
+    ],
+    "experience": [
+      "SENIOR PYTHON SOFTWARE ENGINEER",
+      "JAVA / PYTHON SOFTWARE ENGINEER, ASSOCIATE",
+      "PYTHON SOFTWARE ENGINEER"
+    ],
+    "domains": [
+      "Software Development",
+      "Enterprise Systems Engineering",
+      "Data Analytics"
+    ],
+    "search_text": "Python Java Software Engineer Senior Cloud Computing Data Centre Automation Big Data Workflows High Performance Analytical Models"
+  },
+  {
+    "user_id": "user_092",
+    "name": "Kenny Gruchalla",
+    "phone": [
+      "303-275-3713",
+      "720-394-9347"
+    ],
+    "email": [
+      "gruchalla@gmail.com"
+    ],
+    "skills": [],
+    "projects": [
+      "Progressive Visualization-Driven Multivariate Feature Definition and Analysis",
+      "Immersive Well-Path Planning",
+      "commercial graphically-based decision support software system",
+      "pilot study to investigate the added value of using immersive visualization as a molecular research tool",
+      "interactive 3D immersive application"
+    ],
+    "experience": [
+      "Senior Scientist",
+      "Assistant Professor Adjunct",
+      "Professional Research Assistant",
+      "Graduate Research Assistant"
+    ],
+    "domains": [
+      "Computer Science",
+      "Renewable Energy",
+      "Scientific Data Visualization"
+    ],
+    "search_text": "computer science, renewable energy, scientific data visualization, progressive visualization, immersive well-path planning"
+  },
+  {
+    "user_id": "user_093",
+    "name": "Bennet Campos",
+    "phone": [
+      "740-739-5953"
+    ],
+    "email": [
+      "bennetzcampos@gmail.com"
+    ],
+    "skills": [
+      "Java",
+      "JSP",
+      "HTML",
+      "css",
+      "XML",
+      "JSON",
+      "RESTful",
+      "interpersonal skills",
+      "leadership",
+      "collaboration",
+      "critical thinking"
+    ],
+    "projects": [
+      "serverless computing",
+      "billing management system"
+    ],
+    "experience": [
+      "Java Developer",
+      "Junior Java Developer",
+      "Freelance Java Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Technology",
+      "Leadership"
+    ],
+    "search_text": "Java, JSP, HTML, CSS, XML, JSON, RESTful, interpersonal skills, leadership, collaboration, critical thinking, serverless computing, billing management system"
+  },
+  {
+    "user_id": "user_094",
+    "name": "Lina Stark",
+    "phone": [
+      "+1 (555) 795 5486"
+    ],
+    "email": [],
+    "skills": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Java",
+      "Scala",
+      "R",
+      "Python",
+      "Big Data technologies— HADOOP, HIVE, PIG, Spark-MLlib",
+      "MPP databases like Teradata/Greenplum"
+    ],
+    "projects": [
+      "Large scale cookie and account level analysis"
+    ],
+    "experience": [
+      "DIRECTOR OF DATA SCIENCE",
+      "DATA SCIENCE",
+      "INTERN, DATA SCIENCE"
+    ],
+    "domains": [
+      "Data Science",
+      "Analytics",
+      "Machine Learning"
+    ],
+    "search_text": "Lina Stark, Data Science, Machine Learning, Artificial Intelligence, Analytics"
+  },
+  {
+    "user_id": "user_095",
+    "name": "Lindsay Beer",
+    "phone": [
+      "+1 (555) 753 8128"
+    ],
+    "email": [],
+    "skills": [
+      "Python 3",
+      "OAuth",
+      "Micro-services architectures",
+      "DevOps services",
+      "Big Data",
+      "Data partitioning models"
+    ],
+    "projects": [
+      "Asynchronous oriented framework",
+      "Modern authentication protocols",
+      "Silo data partitioning vs pool data partitioning models"
+    ],
+    "experience": [
+      "Senior Python Developer",
+      "Python Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Data Engineering"
+    ],
+    "search_text": "Python, OAuth, DevOps, Big Data, Data Partitioning Models, Micro-services architectures, Software Development, Data Engineering"
+  },
+  {
+    "user_id": "user_096",
+    "name": "MICHEAL VON",
+    "phone": [
+      "+1(555) 381 6812"
+    ],
+    "email": [],
+    "skills": [
+      "Oracle SQL",
+      "T-SQL",
+      "OOP",
+      "testing",
+      "mocking",
+      "unit testing",
+      "TDD",
+      "Java"
+    ],
+    "projects": [
+      "reference data distribution banking application",
+      "JIRA-based apps"
+    ],
+    "experience": [
+      "SENIOR/REGULAR JAVA DEVELOPER",
+      "REGULAR JAVA DEVELOPER",
+      "JUNIOR/REGULAR JAVA DEVELOPER"
+    ],
+    "domains": [
+      "software development",
+      "web projects"
+    ],
+    "search_text": "MICHEAL VON, software development, Java, Oracle SQL, T-SQL"
+  },
+  {
+    "user_id": "user_097",
+    "name": "Tad Bode",
+    "phone": [
+      "+1 (555) 578 2125"
+    ],
+    "email": [],
+    "skills": [
+      "Java",
+      "JMS",
+      "JEE",
+      "Isp",
+      "Servlets",
+      "Struts",
+      "SQL/PLSQL",
+      "Gemfire",
+      "Business Works",
+      "Yourkit",
+      "Spring"
+    ],
+    "projects": [
+      "Performance Management",
+      "Code reviews",
+      "Automates testing processes",
+      "Fitnesse framework for acceptance testing"
+    ],
+    "experience": [
+      "Technical Lead/Senior Java Developer",
+      "Regular/Senior Java Developer",
+      "Senior Java Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Java Development",
+      "Technical Leadership"
+    ],
+    "search_text": "java technical lead software development senior java developer performance management code reviews"
+  },
+  {
+    "user_id": "user_098",
+    "name": "Paul Satchell",
+    "phone": [
+      "+1-656-271-6980"
+    ],
+    "email": [
+      "paulsatchell@gmail.com"
+    ],
+    "skills": [
+      "PCPP2",
+      "Cloudera",
+      "Agile Programming",
+      "Python frameworks",
+      "data",
+      "database engineering",
+      "Django",
+      "Pandas",
+      "Flask",
+      "Matplotlib",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "projects": [
+      "Boot Menu for 2 Line Display",
+      "Customized data solutions for pharmacy in Cloudera"
+    ],
+    "experience": [
+      "Senior Python Developer",
+      "Python Developer",
+      "Scrum master"
+    ],
+    "domains": [
+      "Game development",
+      "Healthcare",
+      "IT Services"
+    ],
+    "search_text": "senior python developer, agile programming, data, database engineering, game development, healthcare, it services"
+  },
+  {
+    "user_id": "user_099",
+    "name": "Isabelle Todd",
+    "phone": [],
+    "email": [
+      "@john.smith@email.com"
+    ],
+    "skills": [
+      "Python",
+      "Django",
+      "React",
+      "Flask",
+      "SQL",
+      "Docker",
+      "Kubernetes",
+      "Git"
+    ],
+    "projects": [
+      "web-based financial management platform",
+      "automated testing process",
+      "machine learning algorithms",
+      "real-time data analysis dashboard",
+      "payment processing service"
+    ],
+    "experience": [
+      "Python Developer"
+    ],
+    "domains": [
+      "Wealth Management",
+      "Tech Solutions"
+    ],
+    "search_text": "Python, Django, React, Flask, SQL, Docker, Kubernetes, Git, Wealth Management, Tech Solutions"
+  },
+  {
+    "user_id": "user_100",
+    "name": "Philip Higginbottiom",
+    "phone": [],
+    "email": [],
+    "skills": [
+      "Python",
+      "Web frameworks",
+      "Code versioning tools",
+      "Event-driven programming",
+      "Object relational mappers",
+      "Machine learning and AI",
+      "Multi-process architecture",
+      "Data structures",
+      "OOPs concepts",
+      "Exception handling"
+    ],
+    "projects": [
+      "materialised views",
+      "stored procedures",
+      "in-house packages",
+      "microservices"
+    ],
+    "experience": [
+      "Python Developer"
+    ],
+    "domains": [
+      "Software Development",
+      "Database Engineering",
+      "Cloud Solutions"
+    ],
+    "search_text": "Python, Web frameworks, materialised views, stored procedures, in-house packages, microservices, software development, database engineering"
+  }
+]

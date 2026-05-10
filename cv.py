@@ -4,6 +4,7 @@ import requests
 import fitz  # PyMuPDF
 from PIL import Image
 import pytesseract
+import os
 
 
 # Tesseract 설치 경로
@@ -79,8 +80,8 @@ def run_llm(prompt):
 # =========================
 # 4. LLM으로 CV 구조화
 # =========================
-def structure_cv_with_llm(text):
-    prompt = """
+def structure_cv_with_llm(text, user_id):
+    prompt = f"""
 You are a CV parsing assistant.
 
 Extract ONLY the essential information from the following resume text.
@@ -97,53 +98,43 @@ Do NOT include markdown.
 
 Use exactly this format:
 
-{
+{{
+  "user_id": "",
   "name": "",
   "phone": [],
   "email": [],
   "skills": [],
   "projects": [],
   "experience": [],
-  "domains": []
-}
+  "domains": [],
+  "search_text": ""
+}}
 
 Extraction rules:
+- user_id: keep exactly as provided
 - name: full name
 - phone: phone numbers
 - email: email addresses
-- skills: technical skills (e.g., Python, Machine Learning, Spark)
+- skills: technical skills
 - projects: key project keywords or short phrases
-- experience: job titles ONLY (no company, no dates)
-- domains: infer the user's main professional/academic domains from skills, projects, and experience
-
-Domain inference examples:
-- Python, ML, PyTorch, TensorFlow, data analysis → AI, Machine Learning, Data Science
-- SQL, database, ETL, dashboard, analytics → Data Analysis, Database
-- React, Spring Boot, API, frontend, backend → Web Development, Backend, Frontend
-- healthcare, medical, patient, diagnosis → Healthcare AI
-- finance, stock, trading, risk → FinTech
-- image, CNN, object detection, OCR → Computer Vision
-- NLP, chatbot, text classification, LLM → Natural Language Processing
+- experience: job titles ONLY
+- domains: infer broad professional domains
+- search_text: combine domains, skills, projects, and experience into one concise search text
 
 Important:
-- skills, projects, and domains must NOT be empty
-- if missing, infer from context
+- skills, projects, domains must NOT be empty
+- search_text must NOT be empty
 - keep responses concise
-- domains should be broad categories, not sentences
 - domains should contain 1 to 5 items
 
-Output rules:
-- Return ONLY valid JSON
-- Do NOT include any explanation or text outside JSON
-- Do NOT include markdown
-- The JSON must be complete and syntactically correct
-- The response must end with a closing curly brace }
+User ID:
+{user_id}
 
 CV_TEXT:
-""" + text
+{text}
+"""
 
     return run_llm(prompt)
-
 
 # =========================
 # 5. JSON 파싱 보정
@@ -166,28 +157,51 @@ def extract_json_from_response(response):
 # 6. 전체 실행
 # =========================
 def main():
-    pdf_path = "0.pdf"
 
-    raw_text = extract_text_from_pdf(pdf_path)
-    cleaned_text = clean_ocr_text(raw_text)
+    import os
 
-    print("\n\n===== 전처리된 텍스트 =====")
-    print(cleaned_text)
+    os.makedirs("json", exist_ok=True)
 
-    llm_response = structure_cv_with_llm(cleaned_text)
+    cv_folder = "cv_dataset"
 
-    print("\n\n===== LLM 원본 응답 =====")
-    print(llm_response)
+    pdf_files = [
+        f for f in os.listdir(cv_folder)
+        if f.endswith(".pdf")
+    ]
 
-    structured_json = extract_json_from_response(llm_response)
+    results = []
 
-    print("\n\n===== 최종 구조화 JSON =====")
-    print(json.dumps(structured_json, indent=2, ensure_ascii=False))
+    for idx, pdf_file in enumerate(pdf_files):
 
-    with open("cv_result.json", "w", encoding="utf-8") as f:
-        json.dump(structured_json, f, indent=2, ensure_ascii=False)
+        pdf_path = os.path.join(cv_folder, pdf_file)
 
-    print("\n저장 완료: cv_result.json")
+        print(f"\n===== 처리 중: {pdf_file} =====")
+
+        try:
+            raw_text = extract_text_from_pdf(pdf_path)
+            cleaned_text = clean_ocr_text(raw_text)
+
+            user_id = f"user_{idx+1:03d}"
+
+            llm_response = structure_cv_with_llm(
+                cleaned_text,
+                user_id
+            )
+
+            structured_json = extract_json_from_response(llm_response)
+
+            results.append(structured_json)
+
+            print(f"[DONE] {pdf_file}")
+
+        except Exception as e:
+            print(f"[ERROR] {pdf_file}")
+            print(e)
+
+    with open("json/cv_result.json", "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+
+    print("\n저장 완료: json/cv_result.json")
 
 
 if __name__ == "__main__":
