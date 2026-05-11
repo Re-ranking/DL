@@ -2,11 +2,12 @@ import json
 import re
 import requests
 
+
 # =============================
 # 설정
 # =============================
 INPUT_PATH = "json/contests_result_ex.json"
-OUTPUT_PATH = "json/contest_result_cleaned.json"
+OUTPUT_PATH = "json/contest_normalized.json"
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3"
@@ -16,97 +17,40 @@ EXCLUDE_KEYWORDS = [
     "광고/마케팅"
 ]
 
-ALLOWED_DOMAINS = [
-    "AI",
-    "Machine Learning",
-    "Data Science",
-    "Data Analysis",
-
-    "Software Development",
-    "Web Development",
-    "Mobile Development",
-
-    "Cloud Computing",
-    "Cybersecurity",
-
-    "Game Development",
-    "Blockchain",
-    "IoT",
-
-    "Business Intelligence",
-    "Analytics",
-
-    "Enterprise Systems",
-
-    "Healthcare",
-    "Marketing",
-    "Travel",
-    "Finance",
-    "E-commerce",
-    "Startup",
-    "Investment",
-    "Business",
-    "Entrepreneurship",
-    "Service Planning",
-    "Product Management",
-    "Design",
-    "Media",
-    "Content Creation",
-    "Education",
-    "Environment",
-    "Social Impact",
-    "Research",
-    "Logistics",
-    "Entertainment"
-]
-
-ALLOWED_SKILLS = [
-    "Python", "Java", "JavaScript", "TypeScript", "C", "C++", "C#", "Scala", "R",
-    "PHP", "Swift", "SQL",
-
-    "Machine Learning", "Deep Learning", "Predictive Modeling", "Data Mining",
-    "Data Visualization", "NLP", "Computer Vision", "Statistics", "Analytics",
-
-    "PyTorch", "TensorFlow", "Scikit-learn", "OpenCV", "NumPy", "Pandas",
-    "Matplotlib", "SciPy",
-
-    "Hadoop", "Spark", "MapReduce", "Hive", "ETL", "Data Warehousing",
-
-    "MySQL", "PostgreSQL", "MongoDB", "SQLite", "Oracle", "SQL Server",
-    "Database Design", "Database Administration", "Query Optimization",
-
-    "React", "React Native", "Redux", "Angular", "HTML", "CSS", "Bootstrap",
-    "Tailwind CSS",
-
-    "Spring", "Spring Boot", "Django", "Flask", "Node.js", "Express.js",
-    "REST API", "GraphQL",
-
-    "AWS", "Docker", "Kubernetes", "DevOps", "Jenkins", "CI/CD",
-
-    "Agile", "Scrum", "Testing", "Performance Testing",
-
-    "Git", "Linux", "Blockchain", "ArcGIS", "Unity", "Unreal Engine"
-]
-
 
 # =============================
 # 유틸 함수
 # =============================
 def extract_json(text):
-    match = re.search(r"\{.*\}", text, re.DOTALL)
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+
+    match = re.search(r"\{[\s\S]*\}", text)
     if not match:
-        raise ValueError("JSON 형식을 찾지 못했습니다.")
+        raise ValueError(f"JSON 형식을 찾지 못했습니다. LLM 응답: {text}")
+
     return json.loads(match.group())
 
 
-def filter_allowed(values, allowed_list):
+def clean_tag_list(values):
     if not isinstance(values, list):
         return []
 
     result = []
+
     for v in values:
-        if v in allowed_list and v not in result:
-            result.append(v)
+        if not isinstance(v, str):
+            continue
+
+        tag = v.strip()
+
+        if not tag:
+            continue
+
+        if tag not in result:
+            result.append(tag)
 
     return result
 
@@ -128,39 +72,51 @@ def should_exclude_contest(contest):
     return False
 
 
+def make_search_text(item):
+    parts = [
+        item.get("title", ""),
+        " ".join(item.get("domains", [])),
+        " ".join(item.get("skills", [])),
+        item.get("original_field", ""),
+        item.get("organizer", ""),
+    ]
+
+    return " ".join(str(p) for p in parts if p).strip()
+
+
 def call_llm(contest):
     title = contest.get("name", "")
     field = contest.get("분야", "")
     target = contest.get("응모대상", "")
     organizer = contest.get("주최/주관", "")
+    description = contest.get("description", contest.get("상세내용", ""))
 
     prompt = f"""
 You are extracting structured tags for a contest recommendation system.
 
-You must select domains and skills ONLY from the allowed lists.
-
-Allowed domains:
-{ALLOWED_DOMAINS}
-
-Allowed skills:
-{ALLOWED_SKILLS}
+Extract domains and skills from the contest information.
 
 Contest information:
 Title: {title}
 Category: {field}
 Target: {target}
 Organizer: {organizer}
+Description: {description}
+
+Definitions:
+- domains: broad contest areas or fields. Examples: AI, Data Science, Cybersecurity, FinTech, Media, Game Development, Web Development, Mobile Development, Healthcare, Education, Public Data, Smart City.
+- skills: detailed technologies, tools, methods, or competencies that may be useful for participating. Examples: Python, Machine Learning, Data Analysis, LLM, Prompt Engineering, Web Development, App Development, UI/UX, Data Visualization.
 
 Rules:
-1. domains must contain only values from Allowed domains.
-2. skills must contain only values from Allowed skills.
-3. Do not infer technical skills unless they are explicitly mentioned or strongly required.
-4. If no clear skill is required, return an empty skills list.
-5. Do not force Web Development just because the contest is from an IT category.
-6. Domains must reflect the actual contest content, not only the source website category.
-7. Do not invent new labels.
-8. Return JSON only.
-9. Do not include explanation.
+1. Extract tags naturally from the contest title, category, organizer, and description.
+2. domains should be broad and concise.
+3. skills should be more specific than domains.
+4. Do not force Web Development just because the category contains 웹/모바일/IT.
+5. If there is not enough information, return fewer tags.
+6. Do not invent overly specific technologies that are not implied.
+7. Return JSON only.
+8. Do not include explanation.
+9. skills and domains must be in english.
 
 Output format:
 {{
@@ -172,7 +128,11 @@ Output format:
     payload = {
         "model": MODEL_NAME,
         "prompt": prompt,
-        "stream": False
+        "stream": False,
+        "format": "json",
+        "options": {
+            "temperature": 0
+        }
     }
 
     response = requests.post(OLLAMA_URL, json=payload, timeout=120)
@@ -181,8 +141,8 @@ Output format:
     raw_text = response.json()["response"]
     parsed = extract_json(raw_text)
 
-    domains = filter_allowed(parsed.get("domains", []), ALLOWED_DOMAINS)
-    skills = filter_allowed(parsed.get("skills", []), ALLOWED_SKILLS)
+    domains = clean_tag_list(parsed.get("domains", []))
+    skills = clean_tag_list(parsed.get("skills", []))
 
     return domains, skills
 
@@ -196,6 +156,7 @@ def main():
 
     result = []
     skipped_count = 0
+    error_count = 0
 
     for idx, contest in enumerate(contests, start=1):
 
@@ -221,6 +182,8 @@ def main():
                 "first_prize": contest.get("1등 상금", "")
             }
 
+            item["search_text"] = make_search_text(item)
+
             result.append(item)
 
             print(f"[DONE] {idx}/{len(contests)} - {item['title']}")
@@ -228,6 +191,7 @@ def main():
             print(f"       skills : {skills}")
 
         except Exception as e:
+            error_count += 1
             print(f"[ERROR] {idx}/{len(contests)} - {contest.get('name', '')}")
             print(e)
 
@@ -237,6 +201,7 @@ def main():
     print(f"\n저장 완료: {OUTPUT_PATH}")
     print(f"원본 개수: {len(contests)}")
     print(f"제거된 개수: {skipped_count}")
+    print(f"에러 개수: {error_count}")
     print(f"저장된 개수: {len(result)}")
 
 

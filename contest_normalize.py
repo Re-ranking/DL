@@ -3,29 +3,23 @@ import json
 # =============================
 # 파일 경로
 # =============================
-INPUT_PATH = "json/cv_result.json"
-OUTPUT_PATH = "json/cv_search_text.json"
+INPUT_PATH = "json/contest_normalized.json"
+OUTPUT_PATH = "json/contest_search_text.json"
 
 
 # =============================
 # search_text 생성
 # =============================
-def make_search_text(user):
+def make_search_text(contest):
 
     texts = []
 
     # domains
-    texts.extend(user.get("domains", []))
+    texts.extend(contest.get("domains", []))
 
     # skills
-    texts.extend(user.get("skills", []))
-
-    # projects
-    texts.extend(user.get("projects", []))
-
-    # experience
-    texts.extend(user.get("experience", []))
-
+    texts.extend(contest.get("skills", []))
+    
     # 중복 제거
     cleaned = []
 
@@ -51,20 +45,20 @@ def make_search_text(user):
 def main():
 
     with open(INPUT_PATH, "r", encoding="utf-8") as f:
-        users = json.load(f)
+        contests = json.load(f)
 
     results = []
 
-    for idx, user in enumerate(users, start=1):
+    for idx, contest in enumerate(contests, start=1):
 
         item = {
-            "user_id": user.get("user_id", ""),
-            "search_text": make_search_text(user)
+            "contest_id": contest.get("contest_id", ""),
+            "search_text": make_search_text(contest)
         }
 
         results.append(item)
 
-        print(f"[DONE] {idx}/{len(users)} - {item['user_id']}")
+        print(f"[DONE] {idx}/{len(contests)} - {item['contest_id']}")
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)

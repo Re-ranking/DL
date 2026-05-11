@@ -15,7 +15,21 @@ HEADERS = {
     "Referer": BASE,
 }
 
-FIELDS = ["분야", "응모대상", "주최/주관", "접수기간","총 상금", "1등 상금", "홈페이지"]
+FIELDS = [
+    "분야",
+    "응모대상",
+    "주최/주관",
+    "접수기간",
+    "총 상금",
+    "1등 상금",
+    "홈페이지"
+]
+
+# 제외할 분야 키워드
+SKIP_FIELDS = [
+    "광고",
+    "마케팅"
+]
 
 
 def get_soup(url):
@@ -25,7 +39,7 @@ def get_soup(url):
 
 
 def clean(text):
-    return re.sub(r"\s+", " ", text).strip()
+    return re.sub(r"\s+", " ", str(text)).strip()
 
 
 def get_list_url(page):
@@ -48,7 +62,6 @@ def crawl_list_page(page):
         if not name:
             continue
 
-        # 상세 페이지 링크만 가져오기
         if "gbn=view" not in href and "gbn=viewok" not in href:
             continue
 
@@ -62,7 +75,52 @@ def crawl_list_page(page):
     return contests
 
 
+def extract_image_url(soup):
+
+    skip_keywords = [
+        "banner",
+        "logo",
+        "icon",
+        "btn",
+        "button",
+        "sns",
+        "facebook",
+        "twitter",
+        "kakao",
+        "naver"
+    ]
+
+    for img in soup.select("img[src]"):
+
+        src = img.get("src", "").strip()
+
+        if not src:
+            continue
+
+        image_url = urljoin(BASE, src)
+        lower_url = image_url.lower()
+
+        if any(keyword in lower_url for keyword in skip_keywords):
+            continue
+
+        return image_url
+
+    return ""
+
+
+def should_skip_contest(field_text):
+
+    field_text = clean(field_text)
+
+    for keyword in SKIP_FIELDS:
+        if keyword in field_text:
+            return True
+
+    return False
+
+
 def parse_detail_page(source_url):
+
     soup = get_soup(source_url)
 
     full_text = clean(soup.get_text(" ", strip=True))
@@ -74,47 +132,63 @@ def parse_detail_page(source_url):
         "접수기간": "",
         "총 상금": "",
         "1등 상금": "",
-        "홈페이지": ""
+        "홈페이지": "",
+        "image_url": "",
+        "description": ""
     }
 
-    # 상세 정보는 보통 li 태그에 있음
+    # 상세 정보 추출
     for li in soup.select("li"):
+
         text = clean(li.get_text(" ", strip=True))
 
         for field in FIELDS:
+
             if text.startswith(field):
+
                 value = text.replace(field, "", 1).strip()
                 data[field] = value
 
-    # 홈페이지 URL은 a 태그 href에서 따로 보정
+    # 홈페이지 URL 추출
     for a in soup.select("a[href]"):
+
         href = a.get("href", "").strip()
         link_text = clean(a.get_text(" ", strip=True))
 
         if href.startswith("http") and "wevity.com" not in href:
+
             if data["홈페이지"] == "" or link_text in data["홈페이지"]:
                 data["홈페이지"] = href
                 break
 
-    # 공모요강 아래 본문 추출
+    # 이미지 URL
+    data["image_url"] = extract_image_url(soup)
+
+    # 상세 내용
     marker = "공모전 공모요강"
+
     if marker in full_text:
-        data["description"] = full_text.split(marker, 1)[1].strip()
+        description = full_text.split(marker, 1)[1].strip()
     else:
-        data["description"] = full_text
+        description = full_text
+
+    data["description"] = description
 
     return data
 
 
-def crawl_wevity_web_mobile_it(max_pages=5):
+def crawl_wevity_web_mobile_it(max_pages=1):
+
     results = []
     seen_urls = set()
 
     for page in range(1, max_pages + 1):
+
         print(f"[목록] {page}페이지 수집 중")
 
         try:
             items = crawl_list_page(page)
+
         except Exception as e:
             print(f"목록 페이지 오류: {e}")
             continue
@@ -122,6 +196,7 @@ def crawl_wevity_web_mobile_it(max_pages=5):
         print(f"상세 링크 {len(items)}개 발견")
 
         for item in items:
+
             if item["source_url"] in seen_urls:
                 continue
 
@@ -129,8 +204,14 @@ def crawl_wevity_web_mobile_it(max_pages=5):
 
             try:
                 detail = parse_detail_page(item["source_url"])
+
             except Exception as e:
                 print(f"상세 페이지 오류: {item['source_url']} / {e}")
+                continue
+
+            # 광고/마케팅 분야 제외
+            if should_skip_contest(detail["분야"]):
+                print("건너뜀(광고/마케팅):", item["name"])
                 continue
 
             row = {
@@ -142,10 +223,13 @@ def crawl_wevity_web_mobile_it(max_pages=5):
                 "접수기간": detail["접수기간"],
                 "총 상금": detail["총 상금"],
                 "1등 상금": detail["1등 상금"],
-                "홈페이지": detail["홈페이지"]
+                "홈페이지": detail["홈페이지"],
+                "image_url": detail["image_url"],
+                "description": detail["description"]
             }
 
             results.append(row)
+
             print("저장:", row["name"])
 
             time.sleep(0.3)
@@ -154,7 +238,8 @@ def crawl_wevity_web_mobile_it(max_pages=5):
 
 
 def main():
-    contests = crawl_wevity_web_mobile_it(max_pages=5)
+
+    contests = crawl_wevity_web_mobile_it(max_pages=1)
 
     df = pd.DataFrame(contests)
 
@@ -167,15 +252,19 @@ def main():
         "접수기간",
         "총 상금",
         "1등 상금",
-        "홈페이지"
+        "홈페이지",
+        "image_url",
+        "description"
     ]
 
     df = df[columns]
-    df.to_json("contests_result.json",
-               orient="records",
-               force_ascii=False,
-               indent=2
-               )
+
+    df.to_json(
+        "contests_result.json",
+        orient="records",
+        force_ascii=False,
+        indent=2
+    )
 
     print()
     print(f"저장 완료: {len(df)}개")
