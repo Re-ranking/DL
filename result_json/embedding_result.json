@@ -1,0 +1,202 @@
+[
+  {
+    "user_id": "user_001",
+    "top_5_contests": [
+      {
+        "rank": 1,
+        "contest_id": 7,
+        "contest_name": "",
+        "similarity_score": 0.6315,
+        "source_url": ""
+      },
+      {
+        "rank": 2,
+        "contest_id": 8,
+        "contest_name": "",
+        "similarity_score": 0.6287,
+        "source_url": ""
+      },
+      {
+        "rank": 3,
+        "contest_id": 9,
+        "contest_name": "",
+        "similarity_score": 0.6214,
+        "source_url": ""
+      },
+      {
+        "rank": 4,
+        "contest_id": 1,
+        "contest_name": "",
+        "similarity_score": 0.6154,
+        "source_url": ""
+      },
+      {
+        "rank": 5,
+        "contest_id": 3,
+        "contest_name": "",
+        "similarity_score": 0.5971,
+        "source_url": ""
+      }
+    ]
+  },
+  {
+    "user_id": "user_002",
+    "top_5_contests": [
+      {
+        "rank": 1,
+        "contest_id": 3,
+        "contest_name": "",
+        "similarity_score": 0.4853,
+        "source_url": ""
+      },
+      {
+        "rank": 2,
+        "contest_id": 7,
+        "contest_name": "",
+        "similarity_score": 0.4839,
+        "source_url": ""
+      },
+      {
+        "rank": 3,
+        "contest_id": 11,
+        "contest_name": "",
+        "similarity_score": 0.4628,
+        "source_url": ""
+      },
+      {
+        "rank": 4,
+        "contest_id": 8,
+        "contest_name": "",
+        "similarity_score": 0.4623,
+        "source_url": ""
+      },
+      {
+        "rank": 5,
+        "contest_id": 1,
+        "contest_name": "",
+        "similarity_score": 0.447,
+        "source_url": ""
+      }
+    ]
+  },
+  {
+    "user_id": "user_003",
+    "top_5_contests": [
+      {
+        "rank": 1,
+        "contest_id": 1,
+        "contest_name": "",
+        "similarity_score": 0.6463,
+        "source_url": ""
+      },
+      {
+        "rank": 2,
+        "contest_id": 8,
+        "contest_name": "",
+        "similarity_score": 0.6408,
+        "source_url": ""
+      },
+      {
+        "rank": 3,
+        "contest_id": 7,
+        "contest_name": "",
+        "similarity_score": 0.5923,
+        "source_url": ""
+      },
+      {
+        "rank": 4,
+        "contest_id": 9,
+        "contest_name": "",
+        "similarity_score": 0.5708,
+        "source_url": ""
+      },
+      {
+        "rank": 5,
+        "contest_id": 5,
+        "contest_name": "",
+        "similarity_score": 0.5549,
+        "source_url": ""
+      }
+    ]
+  },
+  {
+    "user_id": "user_004",
+    "top_5_contests": [
+      {
+        "rank": 1,
+        "contest_id": 3,
+        "contest_name": "",
+        "similarity_score": 0.5553,
+        "source_url": ""
+      },
+      {
+        "rank": 2,
+        "contest_id": 1,
+        "contest_name": "",
+        "similarity_score": 0.5505,
+        "source_url": ""
+      },
+      {
+        "rank": 3,
+        "contest_id": 7,
+        "contest_name": "",
+        "similarity_score": 0.5358,
+        "source_url": ""
+      },
+      {
+        "rank": 4,
+        "contest_id": 8,
+        "contest_name": "",
+        "similarity_score": 0.5334,
+        "source_url": ""
+      },
+      {
+        "rank": 5,
+        "contest_id": 9,
+        "contest_name": "",
+        "similarity_score": 0.5232,
+        "source_url": ""
+      }
+    ]
+  },
+  {
+    "user_id": "user_005",
+    "top_5_contests": [
+      {
+        "rank": 1,
+        "contest_id": 3,
+        "contest_name": "",
+        "similarity_score": 0.6201,
+        "source_url": ""
+      },
+      {
+        "rank": 2,
+        "contest_id": 1,
+        "contest_name": "",
+        "similarity_score": 0.6014,
+        "source_url": ""
+      },
+      {
+        "rank": 3,
+        "contest_id": 7,
+        "contest_name": "",
+        "similarity_score": 0.5929,
+        "source_url": ""
+      },
+      {
+        "rank": 4,
+        "contest_id": 9,
+        "contest_name": "",
+        "similarity_score": 0.5865,
+        "source_url": ""
+      },
+      {
+        "rank": 5,
+        "contest_id": 8,
+        "contest_name": "",
+        "similarity_score": 0.5726,
+        "source_url": ""
+      }
+    ]
+  }
+]
