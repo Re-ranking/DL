@@ -1,0 +1,68 @@
+[
+  {
+    "contest_id": 1,
+    "title": "AI Data Utilization Contest",
+    "field": "Web Mobile IT, Game Software, Science Engineering",
+    "description": "Cultural Ecosystem AI Data Utilization"
+  },
+  {
+    "contest_id": 2,
+    "title": "Barrier-Free App Development Contest",
+    "field": "Web/Mobile/IT, Game/Software",
+    "description": "Mobility Assistance, Life Convenience"
+  },
+  {
+    "contest_id": 3,
+    "title": "Global PiuDa Project SW Development Competition",
+    "field": "Web/Mobile/IT, Game/Software, Science/Engineering",
+    "description": "SW development, Global, Innovation"
+  },
+  {
+    "contest_id": 4,
+    "title": "Virtual Reality Space Creation Contest",
+    "field": "Web/Mobile/IT, Game/Software",
+    "description": "Future VR Space, Jeollabukdo History Culture Nature"
+  },
+  {
+    "contest_id": 5,
+    "title": "Tourism Data Utilization Contest",
+    "field": "Web/Mobile/IT",
+    "description": "Korea Tourism OpenAPI, generative AI"
+  },
+  {
+    "contest_id": 6,
+    "title": "Family Heart AI Challenge",
+    "field": "Web/Mobile/IT",
+    "description": "AI, Family, Web, Mobile"
+  },
+  {
+    "contest_id": 7,
+    "title": "Sejong Data AI Competition",
+    "field": "Web Mobile IT",
+    "description": "Public Data AI Entrepreneurship Product Service Development Data Analysis"
+  },
+  {
+    "contest_id": 8,
+    "title": "Public Data AI Analysis Competition",
+    "field": "Web/Mobile/IT",
+    "description": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development"
+  },
+  {
+    "contest_id": 9,
+    "title": "Gyeongsangnamdo Big Data Utilization Contest",
+    "field": "Web/Mobile/IT",
+    "description": "Data Analysis, Public Service Idea, Entrepreneurship"
+  },
+  {
+    "contest_id": 10,
+    "title": "RecurDyn Simulation Contest",
+    "field": "Web, Mobile, IT",
+    "description": "Simulation, RecurDyn"
+  },
+  {
+    "contest_id": 11,
+    "title": "National Land Transportation Data Utilization Contest",
+    "field": "Web/Mobile/IT",
+    "description": "Land Transportation Data, Web Development"
+  }
+]

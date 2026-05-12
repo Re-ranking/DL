@@ -97,6 +97,31 @@ def cut_unnecessary_description(description):
     return description
 
 
+def extract_image_url(soup):
+    """
+    상세 페이지에서 대표 이미지 URL 추출
+    """
+    for img in soup.select("img"):
+        src = img.get("src", "").strip()
+
+        if not src:
+            continue
+
+        src_lower = src.lower()
+
+        # 아이콘, 로고, 버튼류 제외
+        if any(x in src_lower for x in ["icon", "logo", "btn", "banner"]):
+            continue
+
+        image_url = urljoin(BASE, src)
+
+        # 이미지 확장자가 있는 것 우선
+        if any(ext in image_url.lower() for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]):
+            return image_url
+
+    return ""
+
+
 def parse_detail_page(source_url):
     soup = get_soup(source_url)
 
@@ -110,6 +135,7 @@ def parse_detail_page(source_url):
         "총 상금": "",
         "1등 상금": "",
         "홈페이지": "",
+        "image_url": "",
         "description": ""
     }
 
@@ -130,6 +156,8 @@ def parse_detail_page(source_url):
                 data["홈페이지"] = href
                 break
 
+    data["image_url"] = extract_image_url(soup)
+
     marker = "공모전 공모요강"
 
     if marker in full_text:
@@ -138,7 +166,6 @@ def parse_detail_page(source_url):
         description = full_text
 
     description = cut_unnecessary_description(description)
-
     description = description[:2000]
 
     data["description"] = description
@@ -196,6 +223,7 @@ def crawl_wevity_web_mobile_it(max_pages=1):
                 "총 상금": detail["총 상금"],
                 "1등 상금": detail["1등 상금"],
                 "홈페이지": detail["홈페이지"],
+                "image_url": detail["image_url"],
                 "description": detail["description"]
             }
 
@@ -222,6 +250,7 @@ def main():
         "총 상금",
         "1등 상금",
         "홈페이지",
+        "image_url",
         "description"
     ]
 

@@ -1,0 +1,254 @@
+FILE: 0.pdf
+
+===== PAGE 1 =====
+
+Jessica Claire
+© Montgomery Street, San Francisco, CA 94105 2 (555) 432-1000 4 resumesample@example.com
+OBJECTIVE © Data Science and Engineering Leader looking for a senior leadership position with the responsibilities to drive
+organizational KPIs through advance data analytics and use of artificial intelligence to guide development of
+modern software products and platforms
+EXECUTIVE SUMMARY © Asa Principal/Director of Data Science and Engineering, with 16+ years of professional experience and 7+ in
+management, | am proficient in Leading Strategic Product Thinking effort, Data Driven Decisioning, SDLC,
+Planning, Cross Functional and Cross Team Coordination, Team Development, Tactical Reorganization,
+Consensus Building and Operations Management
+AREAS OF EXPERTISE © « Technology Leadership and Innovation * Predictive Analytics
+* Product Planning and OKR Definition * Data Science and Engineering
+* Leading MVP Definition and Development * Machine Learning and Distributed Computing
+* Strategic Annual and Quarterly Planning * High Performance Computing
+* Fostering Strategic Partnerships © Optimization and Simulation
+* Project and Resource Planning * Algorithms and Data Structures
+* Managing Multiple Scrum Teams * Java, Python, Spark, Map Reduce
+* Product Architecture and Design
+PRODUCTPORTFOLIO (© « Data Science - Data Quality Inspector, Recommendations Simulator, Al ChatOps Bot
+* Retail - Personalized Recommendations API, Rules Engine, ChatOps, Feedback Data Collection,
+Impressions Analysis, Operational Monitoring and SLA Alerting
+* Supply Chain - Synchronization, Forecasting, Recommendations Engine and Visual State Monitoring
+and Profiling
+* Healthcare - Orthotix Personalization, Customization and Recommendations Engine
+* Storage Area Network - Operational Control, Metrics Reporting and Analytics, Recommendations
+Engine, Visualization and SLA Monitoring
+EXPERIENCE © PRINCIPAL, DATA SCIENCE AND ENGINEERING 07/2014 to CURRENT
+Target | City, STATE
+Managing and Leading Data Science and Engineering projects, teams and roadmap, Driving KPIs and
+Delivering against OKRs
+PRCNCIPAL ENGINEER/PRODUCT OWNER 02/2011 to 06/2014
+Hitachi Data Systems | City, STATE
+Managing and Leading teams on Converged Infrastructure and SAN Analytics, Reporting, Monitoring, SLA
+Management and Visualization
+LEQD SDK ARCHITECT 04/2010 to 01/2011
+Playfirst Inc.
+| City, STATE
+Social Games SDK Design for Flagship Social Games Chocolatier and DinerDash
+EDUCATION AND © Master of Science | Electrical and Computer Engieering 2015
+TRAINING Carnegie Mellon University, Pittsburgh, PA
+Bzohelor of Science | Computer Science and Engineering 2001
+Amravati University, Shegaon, Maharashtra
+
+====================================================================================================
+
+FILE: 0b8431fc6fb166a7.pdf
+
+===== PAGE 1 =====
+
+David Clark fan ®
+Experienced SQL Developer | Advanced Data Migration Specialist teed
+@ help@enhancv.com @ linkedin.com c ,
+9 Columbus, Ohio 4 bh @.
+Bearing 10+ years of experience as an SQL Developer, I've fostered jo Complex SQL Development
+innovative solutions and optimally executed numerous data migrations.
+Excelled in solving various business problems
+Key skills include SQL, T-SQL Development, and auditing.
+My greatest through complex SQL development over 6 years
+achievement has been saving $500,000 by implementing SQL
+optimizations.
+.
+.
+5 Data Migration Expert
+Proven capability of effectively designing and
+developing large-scale data migration programs
+EXPERIENCE iorarvaais
+Senior SQL Developer YY T-SQL Procedures Coding
+JP Morgan Chase Robust experience in coding reliable and
+@8 2017-Ongoing @ Columbus, OH optimized T-SQL procedures for over 5 years
+Directed teams in designing and implementing complex SQL solutions
+¢ Directed the development and execution of complex SQL solutions, leading to a
+15% increase in operational efficiency
+« Led the conversion of over 2 million lines of legacy codes to T-SQL, enhancing Ss KI LLS
+system performance by 25%
+« Managed the migration of over 500GB of data across multiple databases, 7 .
+iniprovinig clataaccuracy by 98% SOL T-SOL Information Technology
+Designing Developing Data Migration
+SQL Developer OO
+IBM Audit Coding T-SQL
+68 2013-2017 9 Columbus, OH
+Encouraged innovative database solutions ensuring optimized performance Stakeholder Presentations
+* Spearheaded a team to develop and maintain complex SQL databases, reducing
+system downtime by 20%
+* Collaborated in data migration audit, leading to a decrease in data discrepancies
+ti Co CERTIFICATION
+« Implemented several database optimization techniques, improving system Pero dell biel tee
+performance by 18% 5 -
+Microsoft Certified: SOL Server 2016
+Development
+Data Migration Specialist Successfully completed the certification from Microsoft
+Accenture
+@3 2009-2013 @ Columbus, OH Advanced T-SOL Querying, Programming and
+Ensured structured data handling in migration processes Tuning for SOL Server
+¢ Effectively participated in the design and development of data migration Cleared the certification course from edX
+programs
+¢ Coordinated and performed audit, reconciliation and exception reports for data
+migration, resulting in 99% data accuracy
+« Developed robust coding systems for T-SQL procedures, boosting system
+efficiency by 20% PASSIONS
+2 Data Security
+Passionate about securing data and ensuring
+E D U CATI O N privacy
+Bachelor's Degree in Information Technology F Music
+The Ohio State University Enjoy immersing in different music genres
+€8 2003-2007 Columbus, OH
+
+====================================================================================================
+
+FILE: 0c97c196c49475ff.pdf
+
+===== PAGE 1 =====
+
+Data Scientist | NLP Expert | Document Analysis
+@ help@enhancv.com @ linkedin.com 9 Austin, Texas
+Passionate Data Scientist with over 4 years of professional experience focused on NLP and computer vision.
+Skilled in Python,
+experimented in using TensorFlow and Pytorch for building and training models, and proficient in document analysis and
+recognition.
+Significant contribution in a project which extracted complex data from urban planning documents using machine
+learning.
+Data Scientist
+Google
+8 2020-Ongoing 9 Austin, Texas
+Worked on various projects involving data analysis, model development and optimization
+« Managed a project which successfully optimized a recommender system, increasing accuracy by 15% and user engagement by 20%
+« Developed a new image recognition model, improving accuracy by 18% compared to the previous model
+« Leda team ina project revolving around Object Detection resulting in a decrease of error rate by 12%
+Data Analyst
+IBM
+68 2018-2020 9 Austin, Texas
+Responsible for analyzing large datasets, developing visualizations and creating reports
+* Carried out in-depth analysis of business data resulting in a revenue increase of 10% over a year
+« Developed and managed 3 new dashboards for real-time monitoring of KPIs impacting decision making across various departments
+* Spearheaded efforts in data cleaning exercise leading to a 30% increase in data accuracy
+Machine Learning Intern
+Facebook
+€8 2017-2018 — Austin, Texas
+Assisted in developing machine learning models for various applications
+¢ Participated in a project to enhance user personalization, improving user experience significantly
+¢ Assisted in creating an Al model which reduced fake news detection time by 25%
+* Contributed in advancing an image classification system which boosted output accuracy by 20%
+@ Project Management 2 Problem Solving
+Managed multiple complex data science projects successfully Skilled in identifying problems and implementing effective
+resulting in significant improvements like a 30% increase in data solutions, like optimizing a recommender system increasing user
+accuracy.
+engagement by 20%.
+@ Teamwork
+Strong reputation for building and leading cohesive, productive
+teams focusing on project completion, and goal achievement.
+M.S.
+in Data Science
+University of Texas at Austin
+€8 2016-2018 Austin, Texas
+
+====================================================================================================
+
+FILE: 0e779b5ff58e844d.pdf
+
+===== PAGE 1 =====
+
+IT Technician
+jane.knightley@email.com (123) 456-7890 Seattle, WA
+inkedIn
+IT Technician Intern Flexible and attentive entry-level IT
+technician with valuable
+Yelp experience in SQL and network
+2020 - current Seattle, WA infrastructure.
+Looking to join
+¢ Collaborated with 3 interns to answer 30+ phone calls, Centerline Logistics Corporation as
+emails, and chat messages per day an IT helpdesk technician to assist
+* Communicated with clients to schedule appointments to with internal technical projects and
+resolve complex network issues help develop an IT management
+¢ Maintained thorough knowledge of IT manual, increasing progeny
+diagnose/repair time by 21%
+« Inspected office equipment and suggested repairs or
+replacements, reducing maintenance costs by 7% EDUCATION
+¢ Collaborated with tech team to create SQL queries and Bachel Sci
+scripts, boosting efficiency for customers by 13% achelor of Science
+Computer Science
+Support Technician Washington State University
+Washington State University Help Desk ae = 2020
+2019 - 2020 Pullman, WA uliman, WA
+« Evaluated, diagnosed, and resolved technical issues with
+laptops and phones for 15+ students per day KI LL
+* Operated online chat system to address immediate Ss Ss
+concerns, resolving inquiries within 8 minutes on average * SQL
+.
+Maintained fax machines, printers, and copiers by SoNSiwaoNCAntrestraetarS
+performing minor repairs, saving $1.2K a year Customer Service
+« Developed take-home booklets for students, reducing fli uti
+average number of unresolved tickets by 59% * Conflict Resolution
+¢ Network Security
+.
+¢ Software Development Life Cycle
+Research Study Assistant (sDLC)
+Washington State University Social Sciences Dept.
+* Python
+2016 - 2019 Pullman, WA ¢ Interpersonal Communication
+* Screened study candidates and provided study
+information, including safety rules and university policies
+* Recorded, organized, and cleaned study data, resulting in
+>2% of errors on finished datasheets
+« Analyzed individual project budgets to identify
+discrepancies, reducing extraneous spending by 7%
+« Answered 8 phone calls a day to answer inquiries about
+research information and participant eligibility
+
+====================================================================================================
+
+FILE: 1c4087ec3cc40f83.pdf
+
+===== PAGE 1 =====
+
+a
+¥
+Philip Nguyen
+Debugging expert having resolved 500+ hardware and software problems
+IT desk technician knowledgeable in information technology, software and hardware systems.
+Familiar with
+HTML, CSS, Javascript, and Python.
+Exceptional at critical thinking and analytical problem-solving.
+(12)-5245-9081 Ho Chi Minh, Vietnam phi123@gmail.com
+Work Experience
+IT Support Engineer
+Cultivar Asia PTE.
+LTD.
++ 09/2009 - 06/2014
+¢ Remotely supported customers with IT issues.
+¢ Troubleshot hardware.
+¢ Identified problems of desktop, notebook, printer, and tablet.
+Technical Support Engineer
+Assa Abloy +» 09/2014 - 10/2016
+¢ Held product usage training for staff.
+¢ Drafted guidelines to common technical problems.
+¢ Developed product mock-up and display.
+Skills
+¥ Hard Skills ¥ Soft Skills
+° Software debugging * Communication skills
+¢ Hardware repair e Patience
+¢ Intranet maintenance ° Effective problem-solving procedure
+e Upgrade computer system ¢ Provide helpful customer service
+¢ Troubleshoot copier and scanner ¢ Attentive attitude
+Education Certification
+bags | if 2012
+_enmnion CompTIA A+ Certification
+“University of California San Diego
+Computer Science major
+GPA 3.6
+
+====================================================================================================
+

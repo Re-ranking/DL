@@ -1,77 +1,157 @@
+# pip install rank_bm25
+
 import json
 import re
 from rank_bm25 import BM25Okapi
 
 
-# =============================
-# 파일 경로
-# =============================
-CV_PATH = "json/cv_search_text.json"
-CONTEST_PATH = "json/contest_search_text.json"
+CV_PATH = "json/cv_result.json"
+CONTEST_PATH = "json/contest_normalize.json"
 OUTPUT_PATH = "result_json/bm25_result.json"
 
+TOP_K = 5
 
-# =============================
-# 간단 토크나이저
-# =============================
+
+def clean_text(text):
+    text = str(text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip().lower()
+
+
+def remove_id_fields(obj):
+    """
+    JSON 내부의 id 관련 필드 제거
+    """
+
+    if isinstance(obj, dict):
+
+        filtered = {}
+
+        for k, v in obj.items():
+
+            if k.lower() == "id":
+                continue
+
+            if k.lower().endswith("_id"):
+                continue
+
+            filtered[k] = remove_id_fields(v)
+
+        return filtered
+
+    elif isinstance(obj, list):
+
+        return [
+            remove_id_fields(item)
+            for item in obj
+        ]
+
+    return obj
+
+
+def json_to_text(obj):
+    """
+    JSON 전체를 문자열로 변환
+    id 계열 필드는 제외
+    """
+
+    cleaned_obj = remove_id_fields(obj)
+
+    return clean_text(
+        json.dumps(cleaned_obj, ensure_ascii=False)
+    )
+
+
 def tokenize(text):
-    text = str(text).lower()
-    tokens = re.findall(r"[a-zA-Z0-9가-힣+#.]+", text)
-    return tokens
+    """
+    영어/숫자/한글 단어 기준 토큰화
+    """
+
+    return re.findall(r"[a-zA-Z0-9가-힣]+", text.lower())
 
 
-# =============================
-# 메인 실행
-# =============================
+def load_json(path):
+
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def main():
-    with open(CV_PATH, "r", encoding="utf-8") as f:
-        users = json.load(f)
 
-    with open(CONTEST_PATH, "r", encoding="utf-8") as f:
-        contests = json.load(f)
+    cv_data = load_json(CV_PATH)
+    contest_data = load_json(CONTEST_PATH)
 
-    contest_texts = [contest["search_text"] for contest in contests]
-    tokenized_contests = [tokenize(text) for text in contest_texts]
+    if isinstance(cv_data, dict):
+        cv_data = [cv_data]
+
+    if isinstance(contest_data, dict):
+        contest_data = [contest_data]
+
+    contest_texts = [
+        json_to_text(contest)
+        for contest in contest_data
+    ]
+
+    tokenized_contests = [
+        tokenize(text)
+        for text in contest_texts
+    ]
 
     bm25 = BM25Okapi(tokenized_contests)
 
-    results = []
+    all_results = []
 
-    for user in users:
-        user_id = user["user_id"]
-        query = user["search_text"]
-        tokenized_query = tokenize(query)
+    for user_idx, user in enumerate(cv_data):
 
-        scores = bm25.get_scores(tokenized_query)
+        user_text = json_to_text(user)
+        user_tokens = tokenize(user_text)
+
+        scores = bm25.get_scores(user_tokens)
 
         ranked = sorted(
-            zip(contests, scores),
+            zip(contest_data, scores),
             key=lambda x: x[1],
             reverse=True
-        )
+        )[:TOP_K]
 
-        top_results = []
+        user_result = {
+            "user_index": user_idx,
+            "user_name": user.get("name", f"user_{user_idx}"),
+            "recommendations": []
+        }
 
-        for rank, (contest, score) in enumerate(ranked[:10], start=1):
-            top_results.append({
+        for rank, (contest, score) in enumerate(ranked, start=1):
+
+            contest_tokens = tokenize(
+                json_to_text(contest)
+            )
+
+            matched_tokens = list(
+                set(user_tokens) & set(contest_tokens)
+            )
+
+            user_result["recommendations"].append({
                 "rank": rank,
-                "contest_id": contest["contest_id"],
-                "bm25_score": float(score),
-                "contest_search_text": contest["search_text"]
+                "contest_id": contest.get("contest_id"),
+                "title": contest.get("title"),
+                "bm25_score": round(float(score), 4),
+                "matched_tokens": matched_tokens
             })
 
-        results.append({
-            "user_id": user_id,
-            "user_search_text": query,
-            "recommendations": top_results
-        })
+        all_results.append(user_result)
 
-        print(f"[DONE] {user_id}")
+        print(f"[DONE] user {user_idx} TOP {TOP_K} BM25 ranking complete")
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"\n저장 완료: {OUTPUT_PATH}")
+        json.dump(
+            all_results,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
+
+    print(f"\nSaved: {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

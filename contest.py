@@ -47,6 +47,9 @@ def should_exclude_contest(contest):
 # =============================
 # LLM 호출
 # =============================
+# =============================
+# LLM 호출
+# =============================
 def call_llm(contest):
 
     title = contest.get("name", "")
@@ -59,7 +62,7 @@ You are preprocessing contest data for a contest recommendation system.
 Your task:
 1. Translate the contest title into concise English.
 2. Translate the contest field/category into concise English.
-3. Summarize ONLY the important contest content in English.
+3. Extract important contest keywords and short noun phrases in English.
 
 Remove unnecessary information such as:
 - eligibility
@@ -74,20 +77,26 @@ Remove unnecessary information such as:
 - legal notices
 
 Focus only on:
-- what participants need to build, design, analyze, or propose
-- the main contest topic
+- required output
+- main topic
 - technical themes
-- service or product ideas
+- service idea
+- product idea
 - AI, data, software, web, mobile, or IT-related goals
 - problem-solving direction
 
-Rules:
-1. Do not include Korean.
-2. Do not include prize, date, target participant, or award information.
-3. Keep the description concise.
-4. Do not invent details that are not implied.
-5. Return JSON only.
-6. Do not include explanation.
+Description rules:
+1. Use keywords or short noun phrases only.
+2. Do not write full sentences.
+3. Do not use conjunctions such as:
+   and, or, with, for, to
+4. Do not use filler words.
+5. Separate items with commas.
+6. Do not include Korean.
+7. Do not include prize, date, target participant, or award information.
+8. Do not invent details that are not implied.
+9. Return JSON only.
+10. Do not include explanation.
 
 Contest information:
 Title: {title}
