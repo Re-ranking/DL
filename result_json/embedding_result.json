@@ -5,37 +5,292 @@
       {
         "rank": 1,
         "contest_id": 7,
-        "contest_name": "",
+        "contest_name": "Sejong Data AI Competition",
         "similarity_score": 0.6315,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.5035
+          },
+          {
+            "cv_term": "Machine Learning",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.462
+          },
+          {
+            "cv_term": "Rules Engine",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.3829
+          },
+          {
+            "cv_term": "PRINCIPAL, DATA SCIENCE AND ENGINEERING",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.3798
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.3788
+          },
+          {
+            "cv_term": "Feedback Data Collection.",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.3625
+          },
+          {
+            "cv_term": "Predictive Analytics",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.3582
+          },
+          {
+            "cv_term": "Java",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.3528
+          },
+          {
+            "cv_term": "Distributed Computing",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.3433
+          },
+          {
+            "cv_term": "Java",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.3348
+          }
+        ]
       },
       {
         "rank": 2,
         "contest_id": 8,
-        "contest_name": "",
+        "contest_name": "Public Data AI Analysis Competition",
         "similarity_score": 0.6287,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.4978
+          },
+          {
+            "cv_term": "PRINCIPAL, DATA SCIENCE AND ENGINEERING",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.4123
+          },
+          {
+            "cv_term": "Predictive Analytics",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.4118
+          },
+          {
+            "cv_term": "Machine Learning",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.4075
+          },
+          {
+            "cv_term": "Feedback Data Collection.",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.3056
+          },
+          {
+            "cv_term": "Rules Engine",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.2928
+          },
+          {
+            "cv_term": "Java",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2892
+          },
+          {
+            "cv_term": "Software Development",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2741
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.2734
+          },
+          {
+            "cv_term": "Software Development",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.266
+          }
+        ]
       },
       {
         "rank": 3,
         "contest_id": 9,
-        "contest_name": "",
+        "contest_name": "Gyeongsangnamdo Big Data Utilization Contest",
         "similarity_score": 0.6214,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.4068
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.3849
+          },
+          {
+            "cv_term": "PRINCIPAL, DATA SCIENCE AND ENGINEERING",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.3629
+          },
+          {
+            "cv_term": "Predictive Analytics",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.3087
+          },
+          {
+            "cv_term": "Predictive Analytics",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.3021
+          },
+          {
+            "cv_term": "Java",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.2908
+          },
+          {
+            "cv_term": "Java",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2892
+          },
+          {
+            "cv_term": "Distributed Computing",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.2883
+          },
+          {
+            "cv_term": "Software Development",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2741
+          },
+          {
+            "cv_term": "Machine Learning",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.2642
+          }
+        ]
       },
       {
         "rank": 4,
         "contest_id": 1,
-        "contest_name": "",
+        "contest_name": "AI Data Utilization Contest",
         "similarity_score": 0.6154,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Data Science",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.492
+          },
+          {
+            "cv_term": "Engineering",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.4885
+          },
+          {
+            "cv_term": "Software Development",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.454
+          },
+          {
+            "cv_term": "Predictive Analytics",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.4324
+          },
+          {
+            "cv_term": "Machine Learning",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.4275
+          },
+          {
+            "cv_term": "PRINCIPAL, DATA SCIENCE AND ENGINEERING",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.4267
+          },
+          {
+            "cv_term": "Java",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.4146
+          },
+          {
+            "cv_term": "Feedback Data Collection.",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.3704
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.3697
+          },
+          {
+            "cv_term": "PRINCIPAL, DATA SCIENCE AND ENGINEERING",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.341
+          }
+        ]
       },
       {
         "rank": 5,
         "contest_id": 3,
-        "contest_name": "",
+        "contest_name": "Global PiuDa Project SW Development Competition",
         "similarity_score": 0.5971,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Engineering",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.4797
+          },
+          {
+            "cv_term": "Software Development",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.4638
+          },
+          {
+            "cv_term": "Software Development",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.4594
+          },
+          {
+            "cv_term": "PRINCIPAL, DATA SCIENCE AND ENGINEERING",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.4364
+          },
+          {
+            "cv_term": "Software Development",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.3963
+          },
+          {
+            "cv_term": "Engineering",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.3893
+          },
+          {
+            "cv_term": "Java",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.3837
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.3779
+          },
+          {
+            "cv_term": "PRINCIPAL ENGINEER/PRODUCT OWNER",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.2911
+          },
+          {
+            "cv_term": "Engineering",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.2784
+          }
+        ]
       }
     ]
   },
@@ -45,37 +300,292 @@
       {
         "rank": 1,
         "contest_id": 3,
-        "contest_name": "",
+        "contest_name": "Global PiuDa Project SW Development Competition",
         "similarity_score": 0.4853,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Developing",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.5234
+          },
+          {
+            "cv_term": "Developing",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.4245
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.3827
+          },
+          {
+            "cv_term": "Designing",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.3622
+          },
+          {
+            "cv_term": "Designing",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.3413
+          },
+          {
+            "cv_term": "SQL Development",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.3394
+          },
+          {
+            "cv_term": "Developing",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.3257
+          },
+          {
+            "cv_term": "Coding",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.3106
+          },
+          {
+            "cv_term": "SQL Development",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.3044
+          },
+          {
+            "cv_term": "Stakeholder Presentations",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.3013
+          }
+        ]
       },
       {
         "rank": 2,
         "contest_id": 7,
-        "contest_name": "",
+        "contest_name": "Sejong Data AI Competition",
         "similarity_score": 0.4839,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.4713
+          },
+          {
+            "cv_term": "Coding",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.3702
+          },
+          {
+            "cv_term": "Developing",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.3323
+          },
+          {
+            "cv_term": "Coding",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.3287
+          },
+          {
+            "cv_term": "Data Migration Specialist",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.321
+          },
+          {
+            "cv_term": "data migrations",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.3159
+          },
+          {
+            "cv_term": "Designing",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.3123
+          },
+          {
+            "cv_term": "Data Migration",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.2955
+          },
+          {
+            "cv_term": "Data Migration Specialist",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.2927
+          },
+          {
+            "cv_term": "complex SQL solutions",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.2915
+          }
+        ]
       },
       {
         "rank": 3,
         "contest_id": 11,
-        "contest_name": "",
+        "contest_name": "National Land Transportation Data Utilization Contest",
         "similarity_score": 0.4628,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.4278
+          },
+          {
+            "cv_term": "Data Migration Specialist",
+            "contest_term": "Land Transportation Data, Web Development",
+            "term_similarity": 0.4041
+          },
+          {
+            "cv_term": "data migrations",
+            "contest_term": "Land Transportation Data, Web Development",
+            "term_similarity": 0.4034
+          },
+          {
+            "cv_term": "Data Migration",
+            "contest_term": "Land Transportation Data, Web Development",
+            "term_similarity": 0.3881
+          },
+          {
+            "cv_term": "Data Migration Specialist",
+            "contest_term": "National Land Transportation Data Utilization Contest",
+            "term_similarity": 0.3298
+          },
+          {
+            "cv_term": "data migrations",
+            "contest_term": "National Land Transportation Data Utilization Contest",
+            "term_similarity": 0.3168
+          },
+          {
+            "cv_term": "Developing",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.3154
+          },
+          {
+            "cv_term": "Data Migration",
+            "contest_term": "National Land Transportation Data Utilization Contest",
+            "term_similarity": 0.3123
+          },
+          {
+            "cv_term": "Coding",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.3055
+          },
+          {
+            "cv_term": "Designing",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.293
+          }
+        ]
       },
       {
         "rank": 4,
         "contest_id": 8,
-        "contest_name": "",
+        "contest_name": "Public Data AI Analysis Competition",
         "similarity_score": 0.4623,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.4278
+          },
+          {
+            "cv_term": "Developing",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.3154
+          },
+          {
+            "cv_term": "Stakeholder Presentations",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.3067
+          },
+          {
+            "cv_term": "Coding",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.3055
+          },
+          {
+            "cv_term": "Data Migration Specialist",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.2942
+          },
+          {
+            "cv_term": "Designing",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.293
+          },
+          {
+            "cv_term": "data migrations",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.2881
+          },
+          {
+            "cv_term": "Designing",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.2805
+          },
+          {
+            "cv_term": "Data Migration",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.2802
+          },
+          {
+            "cv_term": "Developing",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.2792
+          }
+        ]
       },
       {
         "rank": 5,
         "contest_id": 1,
-        "contest_name": "",
+        "contest_name": "AI Data Utilization Contest",
         "similarity_score": 0.447,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.413
+          },
+          {
+            "cv_term": "Designing",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.3358
+          },
+          {
+            "cv_term": "Data Migration Specialist",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.3322
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.326
+          },
+          {
+            "cv_term": "Developing",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.3256
+          },
+          {
+            "cv_term": "data migrations",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.3249
+          },
+          {
+            "cv_term": "Data Migration",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.3164
+          },
+          {
+            "cv_term": "SQL",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.3059
+          },
+          {
+            "cv_term": "Coding",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.3006
+          },
+          {
+            "cv_term": "Coding",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.2903
+          }
+        ]
       }
     ]
   },
@@ -85,37 +595,292 @@
       {
         "rank": 1,
         "contest_id": 1,
-        "contest_name": "",
+        "contest_name": "AI Data Utilization Contest",
         "similarity_score": 0.6463,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "AI",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.595
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.492
+          },
+          {
+            "cv_term": "Data Analyst",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.4703
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.461
+          },
+          {
+            "cv_term": "Machine Learning Intern",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.4574
+          },
+          {
+            "cv_term": "AI",
+            "contest_term": "Cultural Ecosystem AI Data Utilization",
+            "term_similarity": 0.4538
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.4071
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.3697
+          },
+          {
+            "cv_term": "TensorFlow",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.3323
+          },
+          {
+            "cv_term": "Machine Learning Intern",
+            "contest_term": "Cultural Ecosystem AI Data Utilization",
+            "term_similarity": 0.3095
+          }
+        ]
       },
       {
         "rank": 2,
         "contest_id": 8,
-        "contest_name": "",
+        "contest_name": "Public Data AI Analysis Competition",
         "similarity_score": 0.6408,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "AI",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.5155
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.4978
+          },
+          {
+            "cv_term": "Data Analyst",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.4779
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.4668
+          },
+          {
+            "cv_term": "Machine Learning Intern",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.4026
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.2771
+          },
+          {
+            "cv_term": "Document Analysis",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.2751
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.2734
+          },
+          {
+            "cv_term": "Data Analyst",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.259
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2369
+          }
+        ]
       },
       {
         "rank": 3,
         "contest_id": 7,
-        "contest_name": "",
+        "contest_name": "Sejong Data AI Competition",
         "similarity_score": 0.5923,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "AI",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.5676
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.5035
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.4607
+          },
+          {
+            "cv_term": "Machine Learning Intern",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.4504
+          },
+          {
+            "cv_term": "Data Analyst",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.4292
+          },
+          {
+            "cv_term": "AI",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.3796
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.3788
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.3652
+          },
+          {
+            "cv_term": "Data Analyst",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.3561
+          },
+          {
+            "cv_term": "Machine Learning Intern",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.3024
+          }
+        ]
       },
       {
         "rank": 4,
         "contest_id": 9,
-        "contest_name": "",
+        "contest_name": "Gyeongsangnamdo Big Data Utilization Contest",
         "similarity_score": 0.5708,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.4068
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.398
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.3849
+          },
+          {
+            "cv_term": "Data Analyst",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.379
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.3715
+          },
+          {
+            "cv_term": "Data Analyst",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.3153
+          },
+          {
+            "cv_term": "Document Analysis",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.2499
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2369
+          },
+          {
+            "cv_term": "Machine Learning Intern",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.233
+          },
+          {
+            "cv_term": "Python",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.23
+          }
+        ]
       },
       {
         "rank": 5,
         "contest_id": 5,
-        "contest_name": "",
+        "contest_name": "Tourism Data Utilization Contest",
         "similarity_score": 0.5549,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "AI",
+            "contest_term": "Korea Tourism OpenAPI, generative AI",
+            "term_similarity": 0.4154
+          },
+          {
+            "cv_term": "Machine Learning Intern",
+            "contest_term": "Korea Tourism OpenAPI, generative AI",
+            "term_similarity": 0.365
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Tourism Data Utilization Contest",
+            "term_similarity": 0.3507
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Tourism Data Utilization Contest",
+            "term_similarity": 0.2993
+          },
+          {
+            "cv_term": "Data Analyst",
+            "contest_term": "Tourism Data Utilization Contest",
+            "term_similarity": 0.2651
+          },
+          {
+            "cv_term": "Data Scientist",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2369
+          },
+          {
+            "cv_term": "Python",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.23
+          },
+          {
+            "cv_term": "Image Classification",
+            "contest_term": "Korea Tourism OpenAPI, generative AI",
+            "term_similarity": 0.2277
+          },
+          {
+            "cv_term": "Data Science",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2267
+          },
+          {
+            "cv_term": "Recommender System",
+            "contest_term": "Tourism Data Utilization Contest",
+            "term_similarity": 0.223
+          }
+        ]
       }
     ]
   },
@@ -125,37 +890,292 @@
       {
         "rank": 1,
         "contest_id": 3,
-        "contest_name": "",
+        "contest_name": "Global PiuDa Project SW Development Competition",
         "similarity_score": 0.5553,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Software Development Life Cycle",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.376
+          },
+          {
+            "cv_term": "Software Development Life Cycle",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.3639
+          },
+          {
+            "cv_term": "Software Development Life Cycle",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.3517
+          },
+          {
+            "cv_term": "IT Technician Intern",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.314
+          },
+          {
+            "cv_term": "Python",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.2346
+          },
+          {
+            "cv_term": "Network Infrastructure",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.2254
+          },
+          {
+            "cv_term": "Network Infrastructure",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.2209
+          },
+          {
+            "cv_term": "Conflict Resolution",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.2074
+          },
+          {
+            "cv_term": "Network Infrastructure",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.1883
+          },
+          {
+            "cv_term": "Support Technician",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.1861
+          }
+        ]
       },
       {
         "rank": 2,
         "contest_id": 1,
-        "contest_name": "",
+        "contest_name": "AI Data Utilization Contest",
         "similarity_score": 0.5505,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "IT Technician Intern",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.3506
+          },
+          {
+            "cv_term": "Software Development Life Cycle",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.3124
+          },
+          {
+            "cv_term": "Network Infrastructure",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.2594
+          },
+          {
+            "cv_term": "Python",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.2515
+          },
+          {
+            "cv_term": "Support Technician",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.2265
+          },
+          {
+            "cv_term": "SQL queries and scripts",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.212
+          },
+          {
+            "cv_term": "Python",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.2039
+          },
+          {
+            "cv_term": "Network Infrastructure",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.2006
+          },
+          {
+            "cv_term": "Software Development Life Cycle",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.1973
+          },
+          {
+            "cv_term": "Software Development Life Cycle",
+            "contest_term": "Cultural Ecosystem AI Data Utilization",
+            "term_similarity": 0.187
+          }
+        ]
       },
       {
         "rank": 3,
         "contest_id": 7,
-        "contest_name": "",
+        "contest_name": "Sejong Data AI Competition",
         "similarity_score": 0.5358,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "IT",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.3483
+          },
+          {
+            "cv_term": "Customer Service",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.3203
+          },
+          {
+            "cv_term": "IT Technician Intern",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.2789
+          },
+          {
+            "cv_term": "Software Development Life Cycle",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.2746
+          },
+          {
+            "cv_term": "Network Infrastructure",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.2723
+          },
+          {
+            "cv_term": "Python",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.2704
+          },
+          {
+            "cv_term": "Support Technician",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.254
+          },
+          {
+            "cv_term": "Python",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.2458
+          },
+          {
+            "cv_term": "Conflict Resolution",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.2346
+          },
+          {
+            "cv_term": "Network Security",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.224
+          }
+        ]
       },
       {
         "rank": 4,
         "contest_id": 8,
-        "contest_name": "",
+        "contest_name": "Public Data AI Analysis Competition",
         "similarity_score": 0.5334,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "IT Technician Intern",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.3021
+          },
+          {
+            "cv_term": "Customer Service",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2771
+          },
+          {
+            "cv_term": "Customer Service",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.2466
+          },
+          {
+            "cv_term": "IT",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2335
+          },
+          {
+            "cv_term": "Network Infrastructure",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2321
+          },
+          {
+            "cv_term": "Python",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.23
+          },
+          {
+            "cv_term": "Support Technician",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2254
+          },
+          {
+            "cv_term": "Help Desk",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2132
+          },
+          {
+            "cv_term": "Interpersonal Communication",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2018
+          },
+          {
+            "cv_term": "Software Development Life Cycle",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.1882
+          }
+        ]
       },
       {
         "rank": 5,
         "contest_id": 9,
-        "contest_name": "",
+        "contest_name": "Gyeongsangnamdo Big Data Utilization Contest",
         "similarity_score": 0.5232,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "IT Technician Intern",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.3021
+          },
+          {
+            "cv_term": "Customer Service",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2771
+          },
+          {
+            "cv_term": "Customer Service",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.2407
+          },
+          {
+            "cv_term": "IT",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2335
+          },
+          {
+            "cv_term": "Network Infrastructure",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2321
+          },
+          {
+            "cv_term": "Python",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.23
+          },
+          {
+            "cv_term": "Support Technician",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2254
+          },
+          {
+            "cv_term": "Help Desk",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2132
+          },
+          {
+            "cv_term": "Software Development Life Cycle",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.2068
+          },
+          {
+            "cv_term": "Interpersonal Communication",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2018
+          }
+        ]
       }
     ]
   },
@@ -165,37 +1185,292 @@
       {
         "rank": 1,
         "contest_id": 3,
-        "contest_name": "",
+        "contest_name": "Global PiuDa Project SW Development Competition",
         "similarity_score": 0.6201,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.529
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.3827
+          },
+          {
+            "cv_term": "IT Support Engineer",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.367
+          },
+          {
+            "cv_term": "Technical Support Engineer",
+            "contest_term": "Web/Mobile/IT, Game/Software, Science/Engineering",
+            "term_similarity": 0.3257
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.2962
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.2647
+          },
+          {
+            "cv_term": "Technical Support Engineer",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.2439
+          },
+          {
+            "cv_term": "IT Support Engineer",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.2351
+          },
+          {
+            "cv_term": "IT Support Engineer",
+            "contest_term": "SW development, Global, Innovation",
+            "term_similarity": 0.2256
+          },
+          {
+            "cv_term": "Technical Support Engineer",
+            "contest_term": "Global PiuDa Project SW Development Competition",
+            "term_similarity": 0.2108
+          }
+        ]
       },
       {
         "rank": 2,
         "contest_id": 1,
-        "contest_name": "",
+        "contest_name": "AI Data Utilization Contest",
         "similarity_score": 0.6014,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.5341
+          },
+          {
+            "cv_term": "IT Support Engineer",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.4746
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.413
+          },
+          {
+            "cv_term": "Technical Support Engineer",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.3826
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.326
+          },
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.3178
+          },
+          {
+            "cv_term": "Software debugging",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.2207
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Cultural Ecosystem AI Data Utilization",
+            "term_similarity": 0.2147
+          },
+          {
+            "cv_term": "IT Support Engineer",
+            "contest_term": "AI Data Utilization Contest",
+            "term_similarity": 0.1922
+          },
+          {
+            "cv_term": "Hardware repair",
+            "contest_term": "Web Mobile IT, Game Software, Science Engineering",
+            "term_similarity": 0.1809
+          }
+        ]
       },
       {
         "rank": 3,
         "contest_id": 7,
-        "contest_name": "",
+        "contest_name": "Sejong Data AI Competition",
         "similarity_score": 0.5929,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.4713
+          },
+          {
+            "cv_term": "IT Support Engineer",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.3875
+          },
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.3406
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Sejong Data AI Competition",
+            "term_similarity": 0.2886
+          },
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.2856
+          },
+          {
+            "cv_term": "Technical Support Engineer",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.254
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.2185
+          },
+          {
+            "cv_term": "Intranet maintenance",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.2091
+          },
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Public Data AI Entrepreneurship Product Service Development Data Analysis",
+            "term_similarity": 0.1713
+          },
+          {
+            "cv_term": "Software debugging",
+            "contest_term": "Web Mobile IT",
+            "term_similarity": 0.1665
+          }
+        ]
       },
       {
         "rank": 4,
         "contest_id": 9,
-        "contest_name": "",
+        "contest_name": "Gyeongsangnamdo Big Data Utilization Contest",
         "similarity_score": 0.5865,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.4278
+          },
+          {
+            "cv_term": "IT Support Engineer",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.3419
+          },
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2969
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.2386
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.2294
+          },
+          {
+            "cv_term": "Technical Support Engineer",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.229
+          },
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Data Analysis, Public Service Idea, Entrepreneurship",
+            "term_similarity": 0.2197
+          },
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Gyeongsangnamdo Big Data Utilization Contest",
+            "term_similarity": 0.2195
+          },
+          {
+            "cv_term": "Intranet maintenance",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.197
+          },
+          {
+            "cv_term": "Hardware repair",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.149
+          }
+        ]
       },
       {
         "rank": 5,
         "contest_id": 8,
-        "contest_name": "",
+        "contest_name": "Public Data AI Analysis Competition",
         "similarity_score": 0.5726,
-        "source_url": ""
+        "term_similarity_analysis": [
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.4278
+          },
+          {
+            "cv_term": "IT Support Engineer",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.3419
+          },
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.2969
+          },
+          {
+            "cv_term": "Computer Science",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.2673
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Public Data AI Analysis Competition",
+            "term_similarity": 0.2512
+          },
+          {
+            "cv_term": "Technical Support Engineer",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.229
+          },
+          {
+            "cv_term": "Information Technology",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.2258
+          },
+          {
+            "cv_term": "Intranet maintenance",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.197
+          },
+          {
+            "cv_term": "Hardware repair",
+            "contest_term": "Web/Mobile/IT",
+            "term_similarity": 0.149
+          },
+          {
+            "cv_term": "Technical Support Engineer",
+            "contest_term": "Food Medicine Idea Planning, Public Data Analysis Utilization, Product Service Development",
+            "term_similarity": 0.1451
+          }
+        ]
       }
     ]
   }
