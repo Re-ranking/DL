@@ -2,6 +2,7 @@
 
 import json
 import re
+import os
 from rank_bm25 import BM25Okapi
 
 
@@ -18,31 +19,37 @@ def clean_text(text):
     return text.strip().lower()
 
 
-def remove_id_fields(obj):
+def remove_unwanted_fields(obj):
     """
-    JSON 내부의 id 관련 필드 제거
+    BM25 비교에서 제외할 필드 제거:
+    - id
+    - *_id
+    - skills
+    - domains
     """
 
     if isinstance(obj, dict):
-
         filtered = {}
 
         for k, v in obj.items():
+            key = k.lower()
 
-            if k.lower() == "id":
+            if key == "id":
                 continue
 
-            if k.lower().endswith("_id"):
+            if key.endswith("_id"):
                 continue
 
-            filtered[k] = remove_id_fields(v)
+            if key in ["skills", "domains"]:
+                continue
+
+            filtered[k] = remove_unwanted_fields(v)
 
         return filtered
 
     elif isinstance(obj, list):
-
         return [
-            remove_id_fields(item)
+            remove_unwanted_fields(item)
             for item in obj
         ]
 
@@ -51,11 +58,11 @@ def remove_id_fields(obj):
 
 def json_to_text(obj):
     """
-    JSON 전체를 문자열로 변환
-    id 계열 필드는 제외
+    JSON 전체를 문자열로 변환하되,
+    id / skills / domains 계열 필드는 제외
     """
 
-    cleaned_obj = remove_id_fields(obj)
+    cleaned_obj = remove_unwanted_fields(obj)
 
     return clean_text(
         json.dumps(cleaned_obj, ensure_ascii=False)
@@ -71,12 +78,13 @@ def tokenize(text):
 
 
 def load_json(path):
-
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def main():
+
+    os.makedirs("result_json", exist_ok=True)
 
     cv_data = load_json(CV_PATH)
     contest_data = load_json(CONTEST_PATH)
@@ -116,6 +124,7 @@ def main():
 
         user_result = {
             "user_index": user_idx,
+            "user_id": user.get("user_id"),
             "user_name": user.get("name", f"user_{user_idx}"),
             "recommendations": []
         }
@@ -126,8 +135,8 @@ def main():
                 json_to_text(contest)
             )
 
-            matched_tokens = list(
-                set(user_tokens) & set(contest_tokens)
+            matched_tokens = sorted(
+                list(set(user_tokens) & set(contest_tokens))
             )
 
             user_result["recommendations"].append({
@@ -140,10 +149,11 @@ def main():
 
         all_results.append(user_result)
 
-        print(f"[DONE] user {user_idx} TOP {TOP_K} BM25 ranking complete")
+        print(
+            f"[DONE] {user.get('user_id', user_idx)} TOP {TOP_K} BM25 ranking complete"
+        )
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-
         json.dump(
             all_results,
             f,

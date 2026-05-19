@@ -3,9 +3,6 @@ import re
 import requests
 
 
-# =============================
-# 설정
-# =============================
 INPUT_PATH = "json/contests_result.json"
 OUTPUT_PATH = "json/contest_normalize.json"
 
@@ -13,9 +10,38 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3"
 
 
-# =============================
-# 유틸 함수
-# =============================
+ALLOWED_DOMAINS = [
+    "AI", 
+    "Data", 
+    "Software", 
+    "Infrastructure", 
+    "Emerging Tech",
+    "Business", 
+    "Financial", 
+    "Healthcare", 
+    "Commerce", 
+    "Design",
+    "Media", 
+    "Other"
+]
+
+ALLOWED_SKILLS = [
+
+    "Programming Languages",
+    "AI",
+    "Data Analysis",
+    "AI Libraries",
+    "Big Data",
+    "Database",
+    "Frontend",
+    "Backend",
+    "DevOps",
+    "Engineering",
+    "Other"
+]
+
+
+
 def extract_json(text):
 
     try:
@@ -32,24 +58,39 @@ def extract_json(text):
     return json.loads(match.group())
 
 
+def clean_list(values, allowed_values):
+
+    if not isinstance(values, list):
+        return []
+
+    result = []
+
+    for value in values:
+
+        value = str(value).strip()
+
+        if value in allowed_values and value not in result:
+            result.append(value)
+
+    return result
+
+
 def should_exclude_contest(contest):
 
-    field = str(contest.get("분야", "")).lower()
+    text = " ".join([
+        str(contest.get("name", "")),
+        str(contest.get("분야", "")),
+        str(contest.get("description", ""))
+    ])
 
     skip_keywords = [
         "광고",
         "마케팅"
     ]
 
-    return any(keyword in field for keyword in skip_keywords)
+    return any(keyword in text for keyword in skip_keywords)
 
 
-# =============================
-# LLM 호출
-# =============================
-# =============================
-# LLM 호출
-# =============================
 def call_llm(contest):
 
     title = contest.get("name", "")
@@ -61,42 +102,24 @@ You are preprocessing contest data for a contest recommendation system.
 
 Your task:
 1. Translate the contest title into concise English.
-2. Translate the contest field/category into concise English.
-3. Extract important contest keywords and short noun phrases in English.
+2. Extract domains only from ALLOWED_DOMAINS.
+3. Extract skills only from ALLOWED_SKILLS.
 
-Remove unnecessary information such as:
-- eligibility
-- application period
-- prize information
-- award details
-- organizer introduction
-- contact information
-- submission method
-- schedule details
-- promotional phrases
-- legal notices
+Important rules:
+- domains must be selected only from ALLOWED_DOMAINS.
+- skills must be selected only from ALLOWED_SKILLS.
+- Do not create new domain names.
+- Do not create new skill names.
+- If there is no suitable domain or skill, return an empty list.
+- Do not include Korean.
+- Return JSON only.
+- Do not include explanation.
 
-Focus only on:
-- required output
-- main topic
-- technical themes
-- service idea
-- product idea
-- AI, data, software, web, mobile, or IT-related goals
-- problem-solving direction
+ALLOWED_DOMAINS:
+{json.dumps(ALLOWED_DOMAINS, ensure_ascii=False)}
 
-Description rules:
-1. Use keywords or short noun phrases only.
-2. Do not write full sentences.
-3. Do not use conjunctions such as:
-   and, or, with, for, to
-4. Do not use filler words.
-5. Separate items with commas.
-6. Do not include Korean.
-7. Do not include prize, date, target participant, or award information.
-8. Do not invent details that are not implied.
-9. Return JSON only.
-10. Do not include explanation.
+ALLOWED_SKILLS:
+{json.dumps(ALLOWED_SKILLS, ensure_ascii=False)}
 
 Contest information:
 Title: {title}
@@ -108,8 +131,8 @@ Description:
 Output format:
 {{
   "title": "",
-  "field": "",
-  "description": ""
+  "domains": [],
+  "skills": []
 }}
 """
 
@@ -136,19 +159,24 @@ Output format:
     parsed = extract_json(raw_text)
 
     english_title = str(parsed.get("title", "")).strip()
-    english_field = str(parsed.get("field", "")).strip()
-    english_description = str(parsed.get("description", "")).strip()
 
-    return (
-        english_title,
-        english_field,
-        english_description
+    domains = clean_list(
+        parsed.get("domains", []),
+        ALLOWED_DOMAINS
     )
 
+    skills = clean_list(
+        parsed.get("skills", []),
+        ALLOWED_SKILLS
+    )
 
-# =============================
-# 메인 실행
-# =============================
+    return {
+        "title": english_title,
+        "domains": domains,
+        "skills": skills
+    }
+
+
 def main():
 
     with open(INPUT_PATH, "r", encoding="utf-8") as f:
@@ -171,21 +199,18 @@ def main():
 
         try:
 
-            title, field, description = call_llm(contest)
+            normalized = call_llm(contest)
 
             item = {
                 "contest_id": len(result) + 1,
-
-                "title": title,
-
-                "field": field,
-
-                "description": description
+                "title": normalized["title"],
+                "domains": normalized["domains"],
+                "skills": normalized["skills"]
             }
 
             result.append(item)
 
-            print(f"[DONE] {idx}/{len(contests)} - {title}")
+            print(f"[DONE] {idx}/{len(contests)} - {normalized['title']}")
 
         except Exception as e:
 

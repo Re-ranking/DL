@@ -2,17 +2,17 @@
   {
     "user_id": "user_001",
     "name": "Jessica Claire",
-    "skills": [
-      "Python",
-      "Java",
-      "Machine Learning",
-      "Data Visualization"
-    ],
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
+    ],
+    "skills": [
+      "Python",
+      "Java",
+      "Machine Learning",
+      "Data Visualization"
     ],
     "projects": [
       "Data Quality Inspector",
@@ -25,70 +25,82 @@
       "Impressions Analysis",
       "Operational Monitoring and SLA Alerting"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Al ChatOps Bot ChatOps Computer Vision Data Data Analysis Skills Data Quality Inspector Data Science Data Visualization Feedback Data Collection Impressions Analysis Java Machine Learning Natural Language Processing Operational Monitoring and SLA Alerting Personalized Recommendations API Programming Languages Python Recommendations Simulator Rules Engine"
   },
   {
     "user_id": "user_002",
     "name": "Alina Rudimenko",
+    "domains": [],
     "skills": [
       "Python",
       "AWS"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AWS DevOps Skills Programming Languages Python"
   },
   {
     "user_id": "user_003",
     "name": "June Ondricka",
+    "domains": [
+      "Computer Vision"
+    ],
     "skills": [
       "Python",
       "ArcGIS"
     ],
-    "domains": [
-      "Computer Vision"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI ArcGIS Computer Vision Other Skills Programming Languages Python"
   },
   {
     "user_id": "user_004",
     "name": "",
-    "skills": [],
     "domains": [
       "Database"
     ],
+    "skills": [],
     "projects": [],
     "experience": [
       "Database Developer"
-    ]
+    ],
+    "search_text": "Database Database Developer Infrastructure"
   },
   {
     "user_id": "user_005",
     "name": "Dennis Scherrer",
+    "domains": [],
     "skills": [
       "Python"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Programming Languages Python"
   },
   {
     "user_id": "user_006",
     "name": "Rachelle Thompson",
+    "domains": [
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "PHP"
     ],
-    "domains": [
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Data Data Science PHP Programming Languages Python"
   },
   {
     "user_id": "user_007",
     "name": "Trisha Stamm",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Machine Learning",
       "Deep Learning",
@@ -96,69 +108,73 @@
       "Data Visualization",
       "Python"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [
       "NCAAMaster",
       "FootForest",
       "Pylearn 2"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Deep Learning FootForest Machine Learning NCAAMaster NLP Natural Language Processing Programming Languages Pylearn 2 Python"
   },
   {
     "user_id": "user_008",
     "name": "David Clark",
-    "skills": [
-      "SQL"
-    ],
     "domains": [
       "Data Science"
     ],
+    "skills": [
+      "SQL"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Data Data Science Programming Languages SQL"
   },
   {
     "user_id": "user_009",
     "name": "Data Scientist | NLP Expert | Document Analysis",
-    "skills": [
-      "Python"
-    ],
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
+    "skills": [
+      "Python"
+    ],
     "projects": [
       "Extracted complex data from urban planning documents using machine learning"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Computer Vision Data Data Science Extracted complex data from urban planning documents using machine learning Natural Language Processing Programming Languages Python"
   },
   {
     "user_id": "user_010",
     "name": "Jane Knightley",
+    "domains": [],
     "skills": [
       "SQL"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Programming Languages SQL"
   },
   {
     "user_id": "user_011",
     "name": "Robert Smith",
-    "skills": [],
     "domains": [],
+    "skills": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": ""
   },
   {
     "user_id": "user_012",
     "name": "Alina Rudimenko",
+    "domains": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "Java",
@@ -166,17 +182,19 @@
       "TypeScript",
       "SQL"
     ],
-    "domains": [
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Computer Vision Data Data Science Java JavaScript Natural Language Processing Programming Languages Python SQL TypeScript"
   },
   {
     "user_id": "user_013",
     "name": "Christa Tim",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "R",
@@ -184,34 +202,36 @@
       "Statistics",
       "Data Visualization"
     ],
+    "projects": [
+      "Predicting house prices using time series analysis and neural networks",
+      "Identifying factors that predict which employees will have the best performance and which will benefit from a change in their job position using machine learning (XGBoost)",
+      "Predicting mortality of small cell lung cancer patients and identification of important prognostic factors"
+    ],
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Identifying factors that predict which employees will have the best performance and which will benefit from a change in their job position using machine learning (XGBoost) Machine Learning Natural Language Processing Predicting house prices using time series analysis and neural networks Predicting mortality of small cell lung cancer patients and identification of important prognostic factors Programming Languages Python R Statistics"
+  },
+  {
+    "user_id": "user_014",
+    "name": "Jasmine Bell",
+    "domains": [
+      "Database"
+    ],
+    "skills": [
+      "SQL"
+    ],
+    "projects": [],
+    "experience": [],
+    "search_text": "Database Infrastructure Programming Languages SQL"
+  },
+  {
+    "user_id": "user_015",
+    "name": "Khalid Rosenbaum",
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
-    "projects": [
-      "Predicting house prices using time series analysis and neural networks",
-      "Identifying factors that predict which employees will have the best performance and which will benefit from a change in their job position using machine learning (XGBoost)",
-      "Predicting mortality of small cell lung cancer patients and identification of important prognostic factors"
-    ],
-    "experience": []
-  },
-  {
-    "user_id": "user_014",
-    "name": "Jasmine Bell",
-    "skills": [
-      "SQL"
-    ],
-    "domains": [
-      "Database"
-    ],
-    "projects": [],
-    "experience": []
-  },
-  {
-    "user_id": "user_015",
-    "name": "Khalid Rosenbaum",
     "skills": [
       "Python",
       "Java",
@@ -232,69 +252,71 @@
       "Statistics",
       "Data Visualization"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills C C# C++ Computer Vision Data Data Analysis Skills Data Science Data Visualization Deep Learning Java JavaScript Machine Learning NLP Natural Language Processing PHP Programming Languages Python R SQL Scala Statistics Swift TypeScript"
   },
   {
     "user_id": "user_016",
     "name": "Unknown",
-    "skills": [],
     "domains": [
       "Marketing"
     ],
+    "skills": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Business Marketing"
   },
   {
     "user_id": "user_017",
     "name": "Jill Van Beest",
-    "skills": [
-      "Oracle"
-    ],
     "domains": [
       "Data Science",
       "Database"
     ],
+    "skills": [
+      "Oracle"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Data Data Science Database Database Skills Infrastructure Oracle"
   },
   {
     "user_id": "user_018",
     "name": "Philip Nguyen",
+    "domains": [],
     "skills": [
       "Python",
       "HTML",
       "CSS",
       "JavaScript"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "CSS Frontend Skills HTML JavaScript Programming Languages Python"
   },
   {
     "user_id": "user_019",
     "name": "William",
+    "domains": [
+      "Web Development",
+      "Backend Development"
+    ],
     "skills": [
       "React",
       "JavaScript",
       "CSS"
     ],
-    "domains": [
-      "Web Development",
-      "Backend Development"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Backend Development CSS Frontend Skills JavaScript Programming Languages React Software Web Development"
   },
   {
     "user_id": "user_020",
     "name": "First Last",
+    "domains": [
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "R",
@@ -302,15 +324,16 @@
       "Machine Learning",
       "Data Visualization"
     ],
-    "domains": [
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Skills Data Data Analysis Skills Data Science Data Visualization Machine Learning Programming Languages Python R SQL"
   },
   {
     "user_id": "user_021",
     "name": "John Smith",
+    "domains": [
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "R",
@@ -319,9 +342,6 @@
       "SQL",
       "MySQL"
     ],
-    "domains": [
-      "Data Science"
-    ],
     "projects": [
       "Real-time analytics dashboard using Tableau and D3.js",
       "Analyzing multiple networks using Hive, Python, and Pig",
@@ -329,11 +349,18 @@
       "Machine learning model which increased performance by 62%",
       "Natural language processing chatbot to automate low-level customer service interactions"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Skills Analyzing multiple networks using Hive, Python, and Pig Data Data Science Database Skills Empirical data analysis using Python - numpy, matplotlib, and pomorphy2 Java Machine Learning Machine learning model which increased performance by 62% MySQL Natural language processing chatbot to automate low-level customer service interactions Programming Languages Python R Real-time analytics dashboard using Tableau and D3.js SQL"
   },
   {
     "user_id": "user_022",
     "name": "Latisha Hamilton",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "Java",
@@ -355,87 +382,87 @@
       "Matplotlib",
       "SciPy"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Libraries AI Skills C++ Computer Vision Data Data Analysis Skills Data Science Data Visualization Deep Learning Java Machine Learning Matplotlib NLP Natural Language Processing NumPy OpenCV Pandas Programming Languages PyTorch Python R Scala SciPy Scikit-learn Statistics TensorFlow"
   },
   {
     "user_id": "user_023",
     "name": "Steph Alcaatins",
+    "domains": [],
     "skills": [
       "Python"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Programming Languages Python"
   },
   {
     "user_id": "user_024",
     "name": "HNTZ Schultz-Welch",
+    "domains": [],
     "skills": [
       "Python"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Programming Languages Python"
   },
   {
     "user_id": "user_025",
     "name": "React JS Developer i",
-    "skills": [
-      "JavaScript"
-    ],
     "domains": [
       "Web Development"
     ],
+    "skills": [
+      "JavaScript"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "JavaScript Programming Languages Software Web Development"
   },
   {
     "user_id": "user_026",
     "name": "David Johnson",
+    "domains": [
+      "Computer Vision",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "JavaScript",
       "Swift"
     ],
-    "domains": [
-      "Computer Vision",
-      "Data Science"
-    ],
     "projects": [
       "Cisco Data Center System",
       "Self-made data management system"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Cisco Data Center System Computer Vision Data Data Science JavaScript Programming Languages Python Self-made data management system Swift"
   },
   {
     "user_id": "user_027",
     "name": "Kaylee Frye",
+    "domains": [],
     "skills": [
       "Python",
       "Java",
       "JavaScript"
     ],
-    "domains": [],
     "projects": [
       "Unified Content Strategy",
       "Collaboration Platform"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "Collaboration Platform Java JavaScript Programming Languages Python Unified Content Strategy"
   },
   {
     "user_id": "user_028",
     "name": "Joclla Dargo",
+    "domains": [],
     "skills": [
       "SQL"
     ],
-    "domains": [],
     "projects": [
       "Optimized SQL database system",
       "Complex reporting solutions",
@@ -445,11 +472,15 @@
     "experience": [
       "SQL Developer at Microsoft Corporation, GA",
       "Junior SQL Developer at Oracle Corporation, GA"
-    ]
+    ],
+    "search_text": "Complex reporting solutions Database optimization strategy Junior SQL Developer at Oracle Corporation, GA Legacy databases migration to cloud-based infrastructure Optimized SQL database system Programming Languages SQL SQL Developer at Microsoft Corporation, GA"
   },
   {
     "user_id": "user_029",
     "name": "Maria Tanner",
+    "domains": [
+      "Business"
+    ],
     "skills": [
       "Python",
       "R",
@@ -457,34 +488,33 @@
       "Machine Learning",
       "Data Visualization"
     ],
-    "domains": [
-      "Business"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Skills Business Data Analysis Skills Data Visualization Machine Learning Programming Languages Python R SQL"
   },
   {
     "user_id": "user_030",
     "name": "Senior SQL Developer",
-    "skills": [
-      "SQL"
-    ],
     "domains": [
       "Data Science"
     ],
+    "skills": [
+      "SQL"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Data Data Science Programming Languages SQL"
   },
   {
     "user_id": "user_031",
     "name": "Jarrod Tunnel",
-    "skills": [
-      "SQL",
-      "Java"
-    ],
     "domains": [
       "Database",
       "Cloud Computing"
+    ],
+    "skills": [
+      "SQL",
+      "Java"
     ],
     "projects": [],
     "experience": [
@@ -493,58 +523,65 @@
       "Complex Stored Procedures, Triggers, UDF's and CLR's",
       "Database design, modelling, projects and deployment processes",
       "Source Control and Bug Tracking"
-    ]
+    ],
+    "search_text": "Call center data and call routing Cloud Computing Complex Stored Procedures, Triggers, UDF's and CLR's Database Database design, modelling, projects and deployment processes ETL processes for business intelligence Infrastructure Java Programming Languages SQL Source Control and Bug Tracking"
   },
   {
     "user_id": "user_032",
     "name": "Paul Desmond",
-    "skills": [
-      "Python",
-      "Data Visualization",
-      "Machine Learning",
-      "Statistics"
-    ],
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
+    "skills": [
+      "Python",
+      "Data Visualization",
+      "Machine Learning",
+      "Statistics"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Machine Learning Natural Language Processing Programming Languages Python Statistics"
   },
   {
     "user_id": "user_033",
     "name": "Proficient React Developer | Front-end Specialist",
+    "domains": [
+      "Web Development"
+    ],
     "skills": [
       "JavaScript",
       "CSS",
       "HTML",
       "Redux"
     ],
-    "domains": [
-      "Web Development"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "CSS Frontend Skills HTML JavaScript Programming Languages Redux Software Web Development"
   },
   {
     "user_id": "user_034",
     "name": "Marko Bogdanovski",
-    "skills": [
-      "React"
-    ],
     "domains": [
       "Web Development",
       "Backend Development",
       "Mobile Development"
     ],
+    "skills": [
+      "React"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Backend Development Frontend Skills Mobile Development React Software Web Development"
   },
   {
     "user_id": "user_035",
     "name": "Madhuvaran Dussa",
+    "domains": [
+      "E-commerce"
+    ],
     "skills": [
       "React",
       "Redux",
@@ -556,17 +593,21 @@
       "Node.js",
       "Express.js"
     ],
-    "domains": [
-      "E-commerce"
-    ],
     "projects": [
       "CBPAS"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "Angular Backend Skills CBPAS CSS Commerce E-commerce Express.js Frontend Skills HTML JavaScript Node.js Programming Languages React Redux TypeScript"
   },
   {
     "user_id": "user_036",
     "name": "Anne Caroll Lounsberry",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "R",
@@ -575,18 +616,19 @@
       "Machine Learning",
       "Data Visualization"
     ],
+    "projects": [],
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Java Machine Learning Natural Language Processing Programming Languages Python R Scala"
+  },
+  {
+    "user_id": "user_037",
+    "name": "Trisha Stamm",
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
-    "projects": [],
-    "experience": []
-  },
-  {
-    "user_id": "user_037",
-    "name": "Trisha Stamm",
     "skills": [
       "Python",
       "R",
@@ -594,33 +636,32 @@
       "Data Visualization",
       "Statistics"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [
       "NCAAMaster",
       "FootForest"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization FootForest Machine Learning NCAAMaster Natural Language Processing Programming Languages Python R Statistics"
   },
   {
     "user_id": "user_038",
     "name": "Anna Ffoley",
+    "domains": [],
     "skills": [
       "SQL",
       "C#",
       "ETL"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Big Data Skills C# ETL Programming Languages SQL"
   },
   {
     "user_id": "user_039",
     "name": "Louetta Brewton",
+    "domains": [
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "R",
@@ -629,15 +670,16 @@
       "Hadoop",
       "Spark"
     ],
-    "domains": [
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Libraries Big Data Skills Data Data Science Hadoop Programming Languages Python R SQL Spark TensorFlow"
   },
   {
     "user_id": "user_040",
     "name": "E. Hernandez",
+    "domains": [
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "R",
@@ -646,72 +688,80 @@
       "Machine Learning",
       "Data Visualization"
     ],
-    "domains": [
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Skills C++ Data Data Analysis Skills Data Science Data Visualization Java Machine Learning Programming Languages Python R"
   },
   {
     "user_id": "user_041",
     "name": "Lila Patel",
-    "skills": [
-      "React Native"
-    ],
     "domains": [
       "E-commerce"
     ],
+    "skills": [
+      "React Native"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Commerce E-commerce Frontend Skills React Native"
   },
   {
     "user_id": "user_042",
     "name": "CHRISTOPHER KANE",
-    "skills": [
-      "Python"
-    ],
     "domains": [
       "Data Science"
     ],
+    "skills": [
+      "Python"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Data Data Science Programming Languages Python"
   },
   {
     "user_id": "user_043",
     "name": "Maudie Leffler",
-    "skills": [
-      "Machine Learning",
-      "Data Visualization",
-      "SQL",
-      "Python"
-    ],
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
+    "skills": [
+      "Machine Learning",
+      "Data Visualization",
+      "SQL",
+      "Python"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Machine Learning Natural Language Processing Programming Languages Python SQL"
   },
   {
     "user_id": "user_044",
     "name": "Results-driven data scientist with a strong background in data analytics and machine learning.",
+    "domains": [
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "SQL",
       "Oracle",
       "MySQL"
     ],
-    "domains": [
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Data Data Science Database Skills MySQL Oracle Programming Languages Python SQL"
   },
   {
     "user_id": "user_045",
     "name": "DAN BOWEN",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "Java",
@@ -721,43 +771,39 @@
       "Statistics",
       "Data Visualization"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Big Data Skills C Computer Vision Data Data Analysis Skills Data Science Data Visualization Hive Java Natural Language Processing Programming Languages Python R Statistics"
   },
   {
     "user_id": "user_046",
     "name": "Christa Nathan",
+    "domains": [
+      "Web Development"
+    ],
     "skills": [
       "React",
       "JavaScript",
       "Redux",
       "HTML"
     ],
-    "domains": [
-      "Web Development"
-    ],
     "projects": [
       "IMS Version-3"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "Frontend Skills HTML IMS Version-3 JavaScript Programming Languages React Redux Software Web Development"
   },
   {
     "user_id": "user_047",
     "name": "Abigail Biwer",
-    "skills": [
-      "Database Administration",
-      "Python"
-    ],
     "domains": [
       "Data Science",
       "Backend Development",
       "Database"
+    ],
+    "skills": [
+      "Database Administration",
+      "Python"
     ],
     "projects": [
       "Robust database system for JAMF Software, MN",
@@ -765,11 +811,13 @@
       "Centralized SQL Server database",
       "Comprehensive data warehouse solution"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "Backend Development Centralized SQL Server database Comprehensive data warehouse solution Data Data Science Database Database Administration Database Skills Infrastructure Programming Languages Python Robust database system for JAMF Software, MN SQL Server performance tuning and optimization Software"
   },
   {
     "user_id": "user_048",
     "name": "Chloe Martinez",
+    "domains": [],
     "skills": [
       "Java",
       "React Native",
@@ -779,20 +827,20 @@
       "Spring Boot",
       "JavaScript"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Backend Skills C# Frontend Skills Java JavaScript Programming Languages React React Native Redux Spring Boot"
   },
   {
     "user_id": "user_049",
     "name": "Carol M OCA",
-    "skills": [
-      "SQL",
-      "Python"
-    ],
     "domains": [
       "Data Science",
       "Database"
+    ],
+    "skills": [
+      "SQL",
+      "Python"
     ],
     "projects": [
       "SSRS Reporting",
@@ -804,11 +852,15 @@
     "experience": [
       "SQL Developer",
       "Freelance SSRS Reporting"
-    ]
+    ],
+    "search_text": "Data Data Science Database Freelance SSRS Reporting Infrastructure MCSA: BI Reporting MCSA: SQL 2016 Database Administration MCSA: SQL 2016 Database Development Migration to SQL Server 2015 Programming Languages Python SQL SQL Developer SSRS Reporting"
   },
   {
     "user_id": "user_050",
     "name": "Brandon Smith",
+    "domains": [
+      "Web Development"
+    ],
     "skills": [
       "JavaScript",
       "CSS",
@@ -818,52 +870,58 @@
       "MongoDB",
       "MySQL"
     ],
-    "domains": [
-      "Web Development"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Bootstrap CSS Database Skills Frontend Skills HTML JavaScript MongoDB MySQL Programming Languages React Software Web Development"
   },
   {
     "user_id": "user_051",
     "name": "Lilah Harryman",
-    "skills": [
-      "Python"
-    ],
     "domains": [
       "Database",
       "Cloud Computing"
     ],
+    "skills": [
+      "Python"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Cloud Computing Database Infrastructure Programming Languages Python"
   },
   {
     "user_id": "user_052",
     "name": "Letitia Taman",
-    "skills": [
-      "Oracle"
-    ],
     "domains": [
       "Database"
     ],
+    "skills": [
+      "Oracle"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Database Database Skills Infrastructure Oracle"
   },
   {
     "user_id": "user_053",
     "name": "Mary O'Brien",
-    "skills": [
-      "Oracle"
-    ],
     "domains": [
       "Database"
     ],
+    "skills": [
+      "Oracle"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Database Database Skills Infrastructure Oracle"
   },
   {
     "user_id": "user_054",
     "name": "Diana Dawa",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "Java",
@@ -878,24 +936,13 @@
       "HTML",
       "SQL"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Libraries AI Skills Backend Skills Big Data Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Deep Learning Django Frontend Skills HTML Hadoop Java Machine Learning OpenCV Programming Languages Python SQL Scikit-learn Spark"
   },
   {
     "user_id": "user_055",
     "name": "Kennedy Klekamp",
-    "skills": [
-      "Python",
-      "Django",
-      "Flask",
-      "Pandas",
-      "TensorFlow"
-    ],
     "domains": [
       "AI",
       "Computer Vision",
@@ -904,12 +951,21 @@
       "Web Development",
       "Backend Development"
     ],
+    "skills": [
+      "Python",
+      "Django",
+      "Flask",
+      "Pandas",
+      "TensorFlow"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Libraries Backend Development Backend Skills Computer Vision Data Data Science Django Flask Natural Language Processing Pandas Programming Languages Python Software TensorFlow Web Development"
   },
   {
     "user_id": "user_056",
     "name": "Issac Tunnel",
+    "domains": [],
     "skills": [
       "Java",
       "C",
@@ -918,18 +974,18 @@
       "Docker",
       "AWS"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AWS C C++ DevOps Skills Docker Java Kubernetes Programming Languages"
   },
   {
     "user_id": "user_057",
     "name": "Bennet Campos",
-    "skills": [
-      "Java"
-    ],
     "domains": [
       "Computer Vision"
+    ],
+    "skills": [
+      "Java"
     ],
     "projects": [
       "Calorie-burn counter using Java, Raspberry Pi, and IMU",
@@ -937,15 +993,12 @@
       "Android extensible media player",
       "Billing management system for a local HVAC company"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Android extensible media player Billing management system for a local HVAC company Calorie-burn counter using Java, Raspberry Pi, and IMU Computer Vision Hacker News reader for Android with Android Studio Java Programming Languages"
   },
   {
     "user_id": "user_058",
     "name": "Charlotte May",
-    "skills": [
-      "Python",
-      "Java"
-    ],
     "domains": [
       "AI",
       "Computer Vision",
@@ -955,64 +1008,77 @@
       "Backend Development",
       "Cloud Computing"
     ],
+    "skills": [
+      "Python",
+      "Java"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Backend Development Cloud Computing Computer Vision Data Data Science Infrastructure Java Natural Language Processing Programming Languages Python Software Web Development"
   },
   {
     "user_id": "user_059",
     "name": "Elisa Rasgado",
-    "skills": [],
     "domains": [],
+    "skills": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": ""
   },
   {
     "user_id": "user_060",
     "name": "arin",
-    "skills": [
-      "Java"
-    ],
     "domains": [
       "Computer Vision"
     ],
+    "skills": [
+      "Java"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Computer Vision Java Programming Languages"
   },
   {
     "user_id": "user_061",
     "name": "Paul Desmond",
-    "skills": [
-      "Python",
-      "Machine Learning",
-      "Statistics",
-      "Data Visualization"
-    ],
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "Data Visualization"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Machine Learning Natural Language Processing Programming Languages Python Statistics"
   },
   {
     "user_id": "user_062",
     "name": "Hashira Nara",
+    "domains": [
+      "Data Science"
+    ],
     "skills": [
       "Database Design",
       "Database Administration",
       "Query Optimization"
     ],
-    "domains": [
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Data Data Science Database Administration Database Design Database Skills Query Optimization"
   },
   {
     "user_id": "user_063",
     "name": "Data Scientist",
+    "domains": [
+      "AI",
+      "Data Science"
+    ],
     "skills": [
       "Machine Learning",
       "Deep Learning",
@@ -1021,27 +1087,24 @@
       "Statistics",
       "Data Visualization"
     ],
-    "domains": [
-      "AI",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Deep Learning Machine Learning NLP Statistics"
   },
   {
     "user_id": "user_064",
     "name": "Trisha Stam",
-    "skills": [
-      "Python",
-      "R",
-      "Machine Learning",
-      "Data Visualization"
-    ],
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
+    ],
+    "skills": [
+      "Python",
+      "R",
+      "Machine Learning",
+      "Data Visualization"
     ],
     "projects": [
       "Pylearn 2",
@@ -1051,23 +1114,26 @@
       "Data Scientist, Microsoft",
       "Exend Capital Inc.",
       "Supracy Real Estate Inc."
-    ]
+    ],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Scientist, Microsoft Data Visualization Exend Capital Inc. FootForest Machine Learning Natural Language Processing Programming Languages Pylearn 2 Python R Supracy Real Estate Inc."
   },
   {
     "user_id": "user_065",
     "name": "Steffanie Mountains",
-    "skills": [
-      "SQL"
-    ],
     "domains": [
       "Database"
     ],
+    "skills": [
+      "SQL"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Database Infrastructure Programming Languages SQL"
   },
   {
     "user_id": "user_066",
     "name": "Vannesa Branch",
+    "domains": [],
     "skills": [
       "Python",
       "Java",
@@ -1076,18 +1142,18 @@
       "Git",
       "DevOps"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Agile DevOps DevOps Skills Engineering Skills Git Java JavaScript Other Skills Programming Languages Python"
   },
   {
     "user_id": "user_067",
     "name": "Malik Rabb",
-    "skills": [
-      "Python"
-    ],
     "domains": [
       "Data Science"
+    ],
+    "skills": [
+      "Python"
     ],
     "projects": [
       "Fuzzy matching algorithm using k-nearest neighbors",
@@ -1096,17 +1162,18 @@
       "Sentiment analysis model that helped improve sales and marketing strategies",
       "Tools for detecting botnets with machine learning and data mining"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "Data Data Science Fuzzy matching algorithm using k-nearest neighbors Personalization algorithms for 1M+ customers on web and mobile Programming Languages Python Real time recommendation engine to rank sales leads for upsell Opportunities Sentiment analysis model that helped improve sales and marketing strategies Tools for detecting botnets with machine learning and data mining"
   },
   {
     "user_id": "user_068",
     "name": "Kevin Brandon",
+    "domains": [],
     "skills": [
       "Python",
       "C++",
       "SQL"
     ],
-    "domains": [],
     "projects": [
       "Llamasoft Data Management",
       "Mass Shootings Model"
@@ -1114,11 +1181,18 @@
     "experience": [
       "Research Assistant",
       "Lead Data Analyst, Web Developer, and Communications Liaison"
-    ]
+    ],
+    "search_text": "C++ Lead Data Analyst, Web Developer, and Communications Liaison Llamasoft Data Management Mass Shootings Model Programming Languages Python Research Assistant SQL"
   },
   {
     "user_id": "user_069",
     "name": "Helen Mackay",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "JavaScript",
@@ -1131,23 +1205,24 @@
       "NLP",
       "Computer Vision"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [
       "Convolutional Neural Network Based Emotions Recognition System"
     ],
     "experience": [
       "Junior Python Developer",
       "Python Database Developer Intern"
-    ]
+    ],
+    "search_text": "AI AI Skills AWS Computer Vision Convolutional Neural Network Based Emotions Recognition System Data Data Analysis Skills Data Science Data Visualization Database Skills Deep Learning DevOps Skills JavaScript Junior Python Developer Machine Learning MongoDB MySQL NLP Natural Language Processing Programming Languages Python Python Database Developer Intern"
   },
   {
     "user_id": "user_070",
     "name": "Eric Nathan",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "Java",
@@ -1168,24 +1243,19 @@
       "Statistics",
       "Data Visualization"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills C C# C++ Computer Vision Data Data Analysis Skills Data Science Data Visualization Deep Learning Java JavaScript Machine Learning NLP Natural Language Processing PHP Programming Languages Python R SQL Scala Statistics Swift TypeScript"
   },
   {
     "user_id": "user_071",
     "name": "Chris Coger",
-    "skills": [
-      "Python"
-    ],
     "domains": [
       "Business",
       "Finance"
+    ],
+    "skills": [
+      "Python"
     ],
     "projects": [
       "Downbeat",
@@ -1194,29 +1264,37 @@
     "experience": [
       "Co-Founder & Partner at Politech LLC",
       "Data Director at Obama for America"
-    ]
+    ],
+    "search_text": "Business Co-Founder & Partner at Politech LLC Data Director at Obama for America Downbeat Finance Financial Playbook Rewards Programming Languages Python"
   },
   {
     "user_id": "user_072",
     "name": "NAME",
-    "skills": [
-      "Java",
-      "Spring"
-    ],
     "domains": [
       "Computer Vision",
       "Natural Language Processing"
+    ],
+    "skills": [
+      "Java",
+      "Spring"
     ],
     "projects": [
       "Pv6-enabled digital library",
       "Reporting module of the PMS",
       "Bank tasks life cycle management system"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Backend Skills Bank tasks life cycle management system Computer Vision Java Natural Language Processing Programming Languages Pv6-enabled digital library Reporting module of the PMS Spring"
   },
   {
     "user_id": "user_073",
     "name": "Trish Mathers",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "SQL",
@@ -1225,23 +1303,18 @@
       "NLP",
       "Data Visualization"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [
       "Fantasy Football Models",
       "Entertainment Engine"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Deep Learning Entertainment Engine Fantasy Football Models Machine Learning NLP Natural Language Processing Programming Languages Python SQL"
   },
   {
     "user_id": "user_074",
     "name": "Ann Simpson",
-    "skills": [],
     "domains": [],
+    "skills": [],
     "projects": [
       "Served as DBA or project lead in the completion of 80+ medium- to large-scale implementations",
       "Managed a $1.2 million data-integration project for financial services firm that consolidated information from accounting applications, third-party market data and internal equities/fixed income applications",
@@ -1249,14 +1322,12 @@
       "Innovated time-saving, robust employee data-intake system that automated database update functions, enabling new salary and process-exception information to be automatically populated",
       "Developed and tested storage strategies and disaster-recovery plan for large manufacturing company’s operational database, delivering solution that guaranteed recovery performance and high availability"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "Created Web-enabled, group-scheduling system for a large university, allowing students to view and print schedules for current and future semesters Developed and tested storage strategies and disaster-recovery plan for large manufacturing company’s operational database, delivering solution that guaranteed recovery performance and high availability Innovated time-saving, robust employee data-intake system that automated database update functions, enabling new salary and process-exception information to be automatically populated Managed a $1.2 million data-integration project for financial services firm that consolidated information from accounting applications, third-party market data and internal equities/fixed income applications Served as DBA or project lead in the completion of 80+ medium- to large-scale implementations"
   },
   {
     "user_id": "user_075",
     "name": "Evalyn Simonis",
-    "skills": [
-      "Python"
-    ],
     "domains": [
       "Computer Vision",
       "Natural Language Processing",
@@ -1265,12 +1336,17 @@
       "Backend Development",
       "Database"
     ],
+    "skills": [
+      "Python"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Backend Development Computer Vision Data Data Science Database Infrastructure Natural Language Processing Programming Languages Python Software Web Development"
   },
   {
     "user_id": "user_076",
     "name": "Ms.",
+    "domains": [],
     "skills": [
       "Python",
       "Django",
@@ -1282,31 +1358,33 @@
       "GraphQL",
       "AWS"
     ],
-    "domains": [],
     "projects": [
       "Cryptocurrency Price Tracker"
     ],
     "experience": [
       "Python Developer"
-    ]
+    ],
+    "search_text": "AWS Angular Backend Skills Cryptocurrency Price Tracker Database Skills DevOps Skills Django Frontend Skills GraphQL JavaScript Oracle PostgreSQL Programming Languages Python Python Developer SQL"
   },
   {
     "user_id": "user_077",
     "name": "Andy Koch",
-    "skills": [
-      "Java"
-    ],
     "domains": [
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
+    "skills": [
+      "Java"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Computer Vision Data Data Science Java Natural Language Processing Programming Languages"
   },
   {
     "user_id": "user_078",
     "name": "Warren Taylor",
+    "domains": [],
     "skills": [
       "Python",
       "R",
@@ -1318,42 +1396,49 @@
       "Statistics",
       "Data Visualization"
     ],
-    "domains": [],
     "projects": [
       "Credit Card Fraud Detection",
       "Stock Sentiment Analysis Model",
       "Customer support system"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Skills Computer Vision Credit Card Fraud Detection Customer support system Data Analysis Skills Data Visualization Deep Learning Machine Learning NLP Programming Languages Python R SQL Statistics Stock Sentiment Analysis Model"
   },
   {
     "user_id": "user_079",
     "name": "Maria Hibisson",
+    "domains": [],
     "skills": [
       "Java"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Java Programming Languages"
   },
   {
     "user_id": "user_080",
     "name": "Anne Caroll Lounsberry",
+    "domains": [
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "R",
       "Java",
       "Scala"
     ],
-    "domains": [
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Data Data Science Java Programming Languages Python R Scala"
   },
   {
     "user_id": "user_081",
     "name": "Michael Hibbison",
+    "domains": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Java",
       "JavaScript",
@@ -1365,17 +1450,19 @@
       "Matplotlib",
       "SciPy"
     ],
-    "domains": [
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Libraries Backend Skills Computer Vision Data Data Science Java JavaScript Matplotlib Natural Language Processing NumPy Pandas Programming Languages Python SciPy Scikit-learn Spring"
   },
   {
     "user_id": "user_082",
     "name": "Paul Satchell",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "SciPy",
@@ -1386,42 +1473,45 @@
       "Flask",
       "Matplotlib"
     ],
+    "projects": [],
+    "experience": [],
+    "search_text": "AI AI Libraries Backend Skills Computer Vision Data Data Science Django Flask Matplotlib Natural Language Processing NumPy Pandas Programming Languages Python SciPy Scikit-learn"
+  },
+  {
+    "user_id": "user_083",
+    "name": "jjamaica",
+    "domains": [
+      "Computer Vision"
+    ],
+    "skills": [
+      "Java"
+    ],
+    "projects": [],
+    "experience": [],
+    "search_text": "AI Computer Vision Java Programming Languages"
+  },
+  {
+    "user_id": "user_084",
+    "name": "Bob Markkula",
+    "domains": [
+      "Database"
+    ],
+    "skills": [
+      "SQL"
+    ],
+    "projects": [],
+    "experience": [],
+    "search_text": "Database Infrastructure Programming Languages SQL"
+  },
+  {
+    "user_id": "user_085",
+    "name": "Karina Blick",
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
-    "projects": [],
-    "experience": []
-  },
-  {
-    "user_id": "user_083",
-    "name": "jjamaica",
-    "skills": [
-      "Java"
-    ],
-    "domains": [
-      "Computer Vision"
-    ],
-    "projects": [],
-    "experience": []
-  },
-  {
-    "user_id": "user_084",
-    "name": "Bob Markkula",
-    "skills": [
-      "SQL"
-    ],
-    "domains": [
-      "Database"
-    ],
-    "projects": [],
-    "experience": []
-  },
-  {
-    "user_id": "user_085",
-    "name": "Karina Blick",
     "skills": [
       "Python",
       "R",
@@ -1429,18 +1519,19 @@
       "Machine Learning",
       "Data Visualization"
     ],
+    "projects": [],
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Machine Learning Natural Language Processing Programming Languages Python R SQL"
+  },
+  {
+    "user_id": "user_086",
+    "name": "Zelma Kunde",
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
-    "projects": [],
-    "experience": []
-  },
-  {
-    "user_id": "user_086",
-    "name": "Zelma Kunde",
     "skills": [
       "Machine Learning",
       "Deep Learning",
@@ -1449,39 +1540,35 @@
       "Python",
       "SQL"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Deep Learning Machine Learning Natural Language Processing Programming Languages Python SQL Statistics"
   },
   {
     "user_id": "user_087",
     "name": "Jared Arthur Maica",
-    "skills": [
-      "Java"
-    ],
     "domains": [
       "Computer Vision"
     ],
+    "skills": [
+      "Java"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Computer Vision Java Programming Languages"
   },
   {
     "user_id": "user_088",
     "name": "Dwight Tate",
+    "domains": [
+      "Data Science",
+      "Computer Vision"
+    ],
     "skills": [
       "Python",
       "Machine Learning",
       "Data Visualization",
       "Statistics"
-    ],
-    "domains": [
-      "Data Science",
-      "Computer Vision"
     ],
     "projects": [
       "Extracted data (2500 customer reviews)",
@@ -1491,30 +1578,32 @@
     "experience": [
       "Data Science Intern",
       "Business Development/Data Science Intern"
-    ]
+    ],
+    "search_text": "AI AI Skills Business Development/Data Science Intern Computer Vision Data Data Analysis Skills Data Science Data Science Intern Data Visualization Extracted data (2500 customer reviews) Machine Learning Massive social networks analysis using Hive, Pig, Python Programming Languages Python Real-time analytics dashboard using Tableau and D3,js Statistics"
   },
   {
     "user_id": "user_089",
     "name": "Jaleel Hermiston",
-    "skills": [
-      "Python"
-    ],
     "domains": [
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
+    "skills": [
+      "Python"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI Computer Vision Data Data Science Natural Language Processing Programming Languages Python"
   },
   {
     "user_id": "user_090",
     "name": "Bennet Campos",
-    "skills": [
-      "Java"
-    ],
     "domains": [
       "Computer Vision"
+    ],
+    "skills": [
+      "Java"
     ],
     "projects": [
       "serverless computing",
@@ -1526,11 +1615,18 @@
     "experience": [
       "Java Developer",
       "Junior Java Developer"
-    ]
+    ],
+    "search_text": "AI Android extensible media player Computer Vision Hacker News reader for Android Java Java Developer Junior Java Developer Programming Languages billing management system calorie-burn counter serverless computing"
   },
   {
     "user_id": "user_091",
     "name": "Lina Stark",
+    "domains": [
+      "AI",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science"
+    ],
     "skills": [
       "Python",
       "R",
@@ -1540,18 +1636,19 @@
       "SQL",
       "Machine Learning"
     ],
+    "projects": [],
+    "experience": [],
+    "search_text": "AI AI Skills Big Data Skills Computer Vision Data Data Science Hadoop Java Machine Learning Natural Language Processing Programming Languages Python R SQL Scala"
+  },
+  {
+    "user_id": "user_092",
+    "name": "Lindsay Beer",
     "domains": [
       "AI",
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
-    "projects": [],
-    "experience": []
-  },
-  {
-    "user_id": "user_092",
-    "name": "Lindsay Beer",
     "skills": [
       "Python",
       "Machine Learning",
@@ -1569,58 +1666,59 @@
       "Matplotlib",
       "SciPy"
     ],
-    "domains": [
-      "AI",
-      "Computer Vision",
-      "Natural Language Processing",
-      "Data Science"
-    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Libraries AI Skills Computer Vision Data Data Analysis Skills Data Science Data Visualization Deep Learning Machine Learning Matplotlib NLP Natural Language Processing NumPy OpenCV Pandas Programming Languages PyTorch Python SciPy Scikit-learn Statistics TensorFlow"
   },
   {
     "user_id": "user_093",
     "name": "Michéal Von",
-    "skills": [
-      "Java"
-    ],
     "domains": [
       "Backend Development"
     ],
+    "skills": [
+      "Java"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Backend Development Java Programming Languages Software"
   },
   {
     "user_id": "user_094",
     "name": "Tad Bode",
+    "domains": [],
     "skills": [
       "Java"
     ],
-    "domains": [],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Java Programming Languages"
   },
   {
     "user_id": "user_095",
     "name": "Paul Satchell",
-    "skills": [
-      "Python",
-      "Django",
-      "Flask",
-      "SQL"
-    ],
     "domains": [
       "Data Science",
       "Web Development",
       "Backend Development",
       "Database"
     ],
+    "skills": [
+      "Python",
+      "Django",
+      "Flask",
+      "SQL"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "Backend Development Backend Skills Data Data Science Database Django Flask Infrastructure Programming Languages Python SQL Software Web Development"
   },
   {
     "user_id": "user_096",
     "name": "John Smith",
+    "domains": [
+      "Finance"
+    ],
     "skills": [
       "Python",
       "Django",
@@ -1631,29 +1729,28 @@
       "Git",
       "SQL"
     ],
-    "domains": [
-      "Finance"
-    ],
     "projects": [
       "Web-based financial management platform",
       "Automated testing process",
       "Real-time data analysis dashboard"
     ],
-    "experience": []
+    "experience": [],
+    "search_text": "Automated testing process Backend Skills DevOps Skills Django Docker Finance Financial Flask Frontend Skills Git Kubernetes Other Skills Programming Languages Python React Real-time data analysis dashboard SQL Web-based financial management platform"
   },
   {
     "user_id": "user_097",
     "name": "Philip Higginbottom",
-    "skills": [
-      "Python",
-      "Machine Learning"
-    ],
     "domains": [
       "Computer Vision",
       "Natural Language Processing",
       "Data Science"
     ],
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ],
     "projects": [],
-    "experience": []
+    "experience": [],
+    "search_text": "AI AI Skills Computer Vision Data Data Science Machine Learning Natural Language Processing Programming Languages Python"
   }
 ]

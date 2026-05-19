@@ -5,7 +5,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 2,
@@ -18,7 +19,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 3,
@@ -30,7 +32,8 @@
     "skills": [
       "Data Analysis",
       "AI"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis"
   },
   {
     "contest_id": 4,
@@ -42,7 +45,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 5,
@@ -55,7 +59,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 6,
@@ -66,7 +71,8 @@
     "skills": [
       "AI",
       "Programming Languages"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 7,
@@ -78,7 +84,8 @@
     "skills": [
       "Data Analysis",
       "AI"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis"
   },
   {
     "contest_id": 8,
@@ -90,7 +97,8 @@
     "skills": [
       "Data Analysis",
       "AI"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis"
   },
   {
     "contest_id": 9,
@@ -102,7 +110,8 @@
     "skills": [
       "Big Data",
       "Database"
-    ]
+    ],
+    "search_text": "Big Data Data Database Software"
   },
   {
     "contest_id": 10,
@@ -110,7 +119,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 11,
@@ -123,7 +133,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 12,
@@ -134,7 +145,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 13,
@@ -145,7 +157,8 @@
     ],
     "skills": [
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis Software"
   },
   {
     "contest_id": 14,
@@ -157,7 +170,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Emerging Tech Programming Languages Software"
   },
   {
     "contest_id": 15,
@@ -170,7 +184,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages"
   },
   {
     "contest_id": 16,
@@ -183,7 +198,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Infrastructure Programming Languages Software"
   },
   {
     "contest_id": 17,
@@ -195,7 +211,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 18,
@@ -207,7 +224,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Analysis Healthcare Programming Languages Software"
   },
   {
     "contest_id": 19,
@@ -220,7 +238,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages"
   },
   {
     "contest_id": 20,
@@ -232,7 +251,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Analysis Financial Other Programming Languages"
   },
   {
     "contest_id": 21,
@@ -243,7 +263,8 @@
     "skills": [
       "Programming Languages",
       "Backend"
-    ]
+    ],
+    "search_text": "Backend Programming Languages Software"
   },
   {
     "contest_id": 22,
@@ -251,7 +272,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 23,
@@ -264,7 +286,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 24,
@@ -276,7 +299,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Analysis Infrastructure Programming Languages Software"
   },
   {
     "contest_id": 25,
@@ -287,7 +311,8 @@
     ],
     "skills": [
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis Software"
   },
   {
     "contest_id": 26,
@@ -299,7 +324,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 27,
@@ -307,7 +333,8 @@
     "domains": [],
     "skills": [
       "AI"
-    ]
+    ],
+    "search_text": "AI"
   },
   {
     "contest_id": 28,
@@ -319,7 +346,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 29,
@@ -331,7 +359,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 30,
@@ -342,7 +371,8 @@
     ],
     "skills": [
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis Software"
   },
   {
     "contest_id": 31,
@@ -353,7 +383,8 @@
     ],
     "skills": [
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis Software"
   },
   {
     "contest_id": 32,
@@ -365,7 +396,8 @@
     "skills": [
       "Big Data",
       "Database"
-    ]
+    ],
+    "search_text": "Big Data Data Database Software"
   },
   {
     "contest_id": 33,
@@ -377,7 +409,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Data Programming Languages"
   },
   {
     "contest_id": 34,
@@ -389,7 +422,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 35,
@@ -402,7 +436,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages"
   },
   {
     "contest_id": 36,
@@ -415,7 +450,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 37,
@@ -423,7 +459,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 38,
@@ -435,7 +472,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 39,
@@ -448,7 +486,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages"
   },
   {
     "contest_id": 40,
@@ -460,13 +499,15 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 41,
     "title": "Sejong Cybersecurity Challenge",
     "domains": [],
-    "skills": []
+    "skills": [],
+    "search_text": ""
   },
   {
     "contest_id": 42,
@@ -478,7 +519,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages"
   },
   {
     "contest_id": 43,
@@ -490,7 +532,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 44,
@@ -501,7 +544,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 45,
@@ -513,7 +557,8 @@
     "skills": [
       "Big Data",
       "Database"
-    ]
+    ],
+    "search_text": "AI Big Data Data Database"
   },
   {
     "contest_id": 46,
@@ -521,7 +566,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 47,
@@ -534,7 +580,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 48,
@@ -546,7 +593,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Data Programming Languages"
   },
   {
     "contest_id": 49,
@@ -558,7 +606,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages"
   },
   {
     "contest_id": 50,
@@ -570,7 +619,8 @@
     "skills": [
       "Big Data",
       "Database"
-    ]
+    ],
+    "search_text": "Big Data Data Database Infrastructure"
   },
   {
     "contest_id": 51,
@@ -582,7 +632,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 52,
@@ -594,7 +645,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 53,
@@ -606,7 +658,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 54,
@@ -617,7 +670,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 55,
@@ -629,7 +683,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 56,
@@ -642,7 +697,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 57,
@@ -654,7 +710,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 58,
@@ -666,7 +723,8 @@
     "skills": [
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Infrastructure"
   },
   {
     "contest_id": 59,
@@ -674,7 +732,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 60,
@@ -687,7 +746,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 61,
@@ -697,7 +757,8 @@
     ],
     "skills": [
       "Programming Languages"
-    ]
+    ],
+    "search_text": "Programming Languages Software"
   },
   {
     "contest_id": 62,
@@ -709,13 +770,15 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 63,
     "title": "Whitehat 2025 Contest",
     "domains": [],
-    "skills": []
+    "skills": [],
+    "search_text": ""
   },
   {
     "contest_id": 64,
@@ -728,7 +791,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages"
   },
   {
     "contest_id": 65,
@@ -739,7 +803,8 @@
     "skills": [
       "AI",
       "Programming Languages"
-    ]
+    ],
+    "search_text": "AI Other Programming Languages"
   },
   {
     "contest_id": 66,
@@ -752,7 +817,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages"
   },
   {
     "contest_id": 67,
@@ -762,7 +828,8 @@
     ],
     "skills": [
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis"
   },
   {
     "contest_id": 68,
@@ -774,19 +841,22 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 69,
     "title": "Youth ChatGPT Speech Competition Participant Recruitment",
     "domains": [],
-    "skills": []
+    "skills": [],
+    "search_text": ""
   },
   {
     "contest_id": 70,
     "title": "Gangwon Region Cyber Security Hacking Defense Contest",
     "domains": [],
-    "skills": []
+    "skills": [],
+    "search_text": ""
   },
   {
     "contest_id": 71,
@@ -799,7 +869,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 72,
@@ -807,7 +878,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 73,
@@ -819,7 +891,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 74,
@@ -830,7 +903,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 75,
@@ -842,7 +916,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 76,
@@ -854,7 +929,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 77,
@@ -866,7 +942,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 78,
@@ -878,7 +955,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Data Programming Languages"
   },
   {
     "contest_id": 79,
@@ -891,7 +969,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 80,
@@ -902,7 +981,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 81,
@@ -914,7 +994,8 @@
     "skills": [
       "Programming Languages",
       "Database"
-    ]
+    ],
+    "search_text": "Data Database Programming Languages Software"
   },
   {
     "contest_id": 82,
@@ -922,7 +1003,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 83,
@@ -935,7 +1017,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 84,
@@ -947,7 +1030,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 85,
@@ -959,13 +1043,15 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Other Programming Languages Software"
   },
   {
     "contest_id": 86,
     "title": "D-TECH Contest",
     "domains": [],
-    "skills": []
+    "skills": [],
+    "search_text": ""
   },
   {
     "contest_id": 87,
@@ -977,7 +1063,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Infrastructure Programming Languages"
   },
   {
     "contest_id": 88,
@@ -989,7 +1076,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Infrastructure Programming Languages"
   },
   {
     "contest_id": 89,
@@ -1001,7 +1089,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages Software"
   },
   {
     "contest_id": 90,
@@ -1012,7 +1101,8 @@
     ],
     "skills": [
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis Software"
   },
   {
     "contest_id": 91,
@@ -1024,7 +1114,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 92,
@@ -1037,7 +1128,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages"
   },
   {
     "contest_id": 93,
@@ -1048,7 +1140,8 @@
     ],
     "skills": [
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis Software"
   },
   {
     "contest_id": 94,
@@ -1056,7 +1149,8 @@
     "domains": [
       "Software"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Software"
   },
   {
     "contest_id": 95,
@@ -1067,7 +1161,8 @@
     "skills": [
       "Programming Languages",
       "Backend"
-    ]
+    ],
+    "search_text": "Backend Programming Languages Software"
   },
   {
     "contest_id": 96,
@@ -1075,7 +1170,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 97,
@@ -1088,7 +1184,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 98,
@@ -1102,7 +1199,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 99,
@@ -1113,7 +1211,8 @@
     ],
     "skills": [
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis Software"
   },
   {
     "contest_id": 100,
@@ -1125,7 +1224,8 @@
       "Programming Languages",
       "Frontend",
       "Backend"
-    ]
+    ],
+    "search_text": "Backend Design Frontend Programming Languages"
   },
   {
     "contest_id": 101,
@@ -1136,7 +1236,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Analysis Media Programming Languages"
   },
   {
     "contest_id": 102,
@@ -1147,7 +1248,8 @@
     "skills": [
       "Programming Languages",
       "Backend"
-    ]
+    ],
+    "search_text": "Backend Programming Languages Software"
   },
   {
     "contest_id": 103,
@@ -1158,7 +1260,8 @@
     "skills": [
       "Programming Languages",
       "AI"
-    ]
+    ],
+    "search_text": "AI Programming Languages"
   },
   {
     "contest_id": 104,
@@ -1170,7 +1273,8 @@
     "skills": [
       "Big Data",
       "Database"
-    ]
+    ],
+    "search_text": "Big Data Data Database Software"
   },
   {
     "contest_id": 105,
@@ -1183,7 +1287,8 @@
       "Programming Languages",
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Other Programming Languages Software"
   },
   {
     "contest_id": 106,
@@ -1191,7 +1296,8 @@
     "domains": [
       "Other"
     ],
-    "skills": []
+    "skills": [],
+    "search_text": "Other"
   },
   {
     "contest_id": 107,
@@ -1203,7 +1309,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 108,
@@ -1215,7 +1322,8 @@
     "skills": [
       "AI",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "AI Data Analysis Financial"
   },
   {
     "contest_id": 109,
@@ -1226,7 +1334,8 @@
     "skills": [
       "Big Data",
       "Database"
-    ]
+    ],
+    "search_text": "Big Data Data Database"
   },
   {
     "contest_id": 110,
@@ -1237,7 +1346,8 @@
     "skills": [
       "Programming Languages",
       "Data Analysis"
-    ]
+    ],
+    "search_text": "Data Analysis Programming Languages Software"
   },
   {
     "contest_id": 111,
@@ -1248,6 +1358,7 @@
     "skills": [
       "Programming Languages",
       "Backend"
-    ]
+    ],
+    "search_text": "Backend Programming Languages Software"
   }
 ]
