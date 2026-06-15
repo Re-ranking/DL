@@ -11,22 +11,21 @@ MODEL_NAME = "llama3"
 
 
 ALLOWED_DOMAINS = [
-    "AI", 
-    "Data", 
-    "Software", 
-    "Infrastructure", 
+    "AI",
+    "Data",
+    "Software",
+    "Infrastructure",
     "Emerging Tech",
-    "Business", 
-    "Financial", 
-    "Healthcare", 
-    "Commerce", 
+    "Business",
+    "Financial",
+    "Healthcare",
+    "Commerce",
     "Design",
-    "Media", 
+    "Media",
     "Other"
 ]
 
 ALLOWED_SKILLS = [
-
     "Programming Languages",
     "AI",
     "Data Analysis",
@@ -41,9 +40,7 @@ ALLOWED_SKILLS = [
 ]
 
 
-
 def extract_json(text):
-
     try:
         return json.loads(text)
 
@@ -59,14 +56,12 @@ def extract_json(text):
 
 
 def clean_list(values, allowed_values):
-
     if not isinstance(values, list):
         return []
 
     result = []
 
     for value in values:
-
         value = str(value).strip()
 
         if value in allowed_values and value not in result:
@@ -76,7 +71,6 @@ def clean_list(values, allowed_values):
 
 
 def should_exclude_contest(contest):
-
     text = " ".join([
         str(contest.get("name", "")),
         str(contest.get("분야", "")),
@@ -92,18 +86,15 @@ def should_exclude_contest(contest):
 
 
 def call_llm(contest):
-
     title = contest.get("name", "")
-    field = contest.get("분야", "")
     description = contest.get("description", "")
 
     prompt = f"""
 You are preprocessing contest data for a contest recommendation system.
 
 Your task:
-1. Translate the contest title into concise English.
-2. Extract domains only from ALLOWED_DOMAINS.
-3. Extract skills only from ALLOWED_SKILLS.
+1. Extract domains only from ALLOWED_DOMAINS.
+2. Extract skills only from ALLOWED_SKILLS.
 
 Important rules:
 - domains must be selected only from ALLOWED_DOMAINS.
@@ -123,14 +114,12 @@ ALLOWED_SKILLS:
 
 Contest information:
 Title: {title}
-Field: {field}
 
 Description:
 {description}
 
 Output format:
 {{
-  "title": "",
   "domains": [],
   "skills": []
 }}
@@ -158,8 +147,6 @@ Output format:
 
     parsed = extract_json(raw_text)
 
-    english_title = str(parsed.get("title", "")).strip()
-
     domains = clean_list(
         parsed.get("domains", []),
         ALLOWED_DOMAINS
@@ -171,14 +158,12 @@ Output format:
     )
 
     return {
-        "title": english_title,
         "domains": domains,
         "skills": skills
     }
 
 
 def main():
-
     with open(INPUT_PATH, "r", encoding="utf-8") as f:
         contests = json.load(f)
 
@@ -188,40 +173,44 @@ def main():
     error_count = 0
 
     for idx, contest in enumerate(contests, start=1):
-
         if should_exclude_contest(contest):
-
             skipped_count += 1
-
             print(f"[SKIP] {idx}/{len(contests)} - {contest.get('name', '')}")
-
             continue
 
         try:
-
             normalized = call_llm(contest)
 
             item = {
                 "contest_id": len(result) + 1,
-                "title": normalized["title"],
+
+                "title": contest.get("name", ""),
+
                 "domains": normalized["domains"],
-                "skills": normalized["skills"]
+                "skills": normalized["skills"],
+
+                "source_url": contest.get("source_url", ""),
+                "target": contest.get("응모대상", ""),
+                "host": contest.get("주최/주관", ""),
+                "period": contest.get("접수기간", ""),
+                "total_prize": contest.get("총 상금", ""),
+                "first_prize": contest.get("1등 상금", ""),
+                "homepage": contest.get("홈페이지", ""),
+                "image_url": contest.get("image_url", ""),
+                "description": contest.get("description", "")
             }
 
             result.append(item)
 
-            print(f"[DONE] {idx}/{len(contests)} - {normalized['title']}")
+            print(f"[DONE] {idx}/{len(contests)} - {item['title']}")
 
         except Exception as e:
-
             error_count += 1
 
             print(f"[ERROR] {idx}/{len(contests)} - {contest.get('name', '')}")
-
             print(e)
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-
         json.dump(
             result,
             f,
