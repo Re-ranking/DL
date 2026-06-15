@@ -1,10 +1,15 @@
 import json
 import os
+import subprocess
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
 
-CV_PATH = "json/cv_result.json"
-CONTEST_PATH = "json/contest_normalize.json"
-OUTPUT_PATH = "result_json/ontology_match_result.json"
+CV_ONE_PATH = BASE_DIR / "cv" / "cv_one.py"
+
+CV_PATH = BASE_DIR / "json" / "cv_result_one.json"
+CONTEST_PATH = BASE_DIR / "json" / "contest_normalize.json"
+OUTPUT_PATH = BASE_DIR / "result_json" / "ontology_match_result.json"
 
 TOP_K = 5
 
@@ -130,6 +135,16 @@ SKILL_PARENT = {
     "Unreal Engine": "Other Skills"
 }
 
+def run_cv_one():
+    print("\n===== [STEP 1] CV OCR + LLM 구조화 실행 =====")
+
+    subprocess.run(
+        ["python", str(CV_ONE_PATH)],
+        check=True
+    )
+
+    print("===== [STEP 1 DONE] cv_result_one.json 생성 완료 =====\n")
+
 
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -241,9 +256,18 @@ def match_score(cv, contest):
 
 
 def main():
-    os.makedirs("result_json", exist_ok=True)
+    os.makedirs(OUTPUT_PATH.parent, exist_ok=True)
 
+    # 1. cv_one.py 먼저 실행
+    run_cv_one()
+
+    # 2. cv_one.py가 만든 cv_result_one.json 읽기
     cvs = load_json(CV_PATH)
+
+    # cv_result_one.json이 객체 하나인 경우 리스트로 변환
+    if isinstance(cvs, dict):
+        cvs = [cvs]
+
     contests = load_json(CONTEST_PATH)
 
     results = []

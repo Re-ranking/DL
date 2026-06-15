@@ -1,0 +1,26 @@
+{
+  "user_id": "user_001",
+  "name": "Jessica Claire",
+  "skills": [
+    "Python",
+    "Java",
+    "Spark"
+  ],
+  "domains": [
+    "Data Science"
+  ],
+  "projects": [
+    "Recommendations Simulator",
+    "Al ChatOps Bot",
+    "Personalized Recommendations API",
+    "Rules Engine",
+    "ChatOps",
+    "Feedback Data Collection",
+    "Impressions Analysis",
+    "Operational Monitoring and SLA Alerting",
+    "Synchronization",
+    "Forecasting",
+    "Recommendations Engine and Visual State Monitoring and Profiling"
+  ],
+  "experience": []
+}
