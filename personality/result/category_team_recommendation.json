@@ -1,0 +1,197 @@
+{
+  "base_user_id": "user_001",
+  "base_user_name": "Jessica Claire",
+  "base_user_domains": [
+    "AI",
+    "Computer Vision",
+    "Natural Language Processing",
+    "Data Science"
+  ],
+  "base_user_skills": [
+    "Python",
+    "Java",
+    "Machine Learning",
+    "Data Visualization"
+  ],
+  "contest_id": 95,
+  "contest_title": "새싹 해커톤(SeSAC Hackathon)] 2025년 새싹(SeSAC) 해커톤 (내용변경)",
+  "contest_domains": [
+    "AI",
+    "Software"
+  ],
+  "contest_skills": [
+    "AI",
+    "Programming Languages"
+  ],
+  "recommended_teammates": [
+    {
+      "rank": 1,
+      "candidate_user_id": "user_019",
+      "candidate_name": "William",
+      "team_score": 0.9625,
+      "score_detail": {
+        "missing_parent_score": 1.0,
+        "new_child_score": 0.75,
+        "diversity_score": 1.0
+      },
+      "covered_missing_domains": [
+        "Web Development",
+        "Backend Development"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [],
+      "covered_new_skills": [
+        "JavaScript"
+      ],
+      "candidate_domains": [
+        "Web Development",
+        "Backend Development"
+      ],
+      "candidate_skills": [
+        "CSS",
+        "JavaScript",
+        "React"
+      ]
+    },
+    {
+      "rank": 2,
+      "candidate_user_id": "user_034",
+      "candidate_name": "Marko Bogdanovski",
+      "team_score": 0.9625,
+      "score_detail": {
+        "missing_parent_score": 1.0,
+        "new_child_score": 0.75,
+        "diversity_score": 1.0
+      },
+      "covered_missing_domains": [
+        "Web Development",
+        "Mobile Development",
+        "Backend Development"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [],
+      "covered_new_skills": [],
+      "candidate_domains": [
+        "Web Development",
+        "Mobile Development",
+        "Backend Development"
+      ],
+      "candidate_skills": [
+        "React"
+      ]
+    },
+    {
+      "rank": 3,
+      "candidate_user_id": "user_095",
+      "candidate_name": "Paul Satchell",
+      "team_score": 0.9375,
+      "score_detail": {
+        "missing_parent_score": 1.0,
+        "new_child_score": 0.75,
+        "diversity_score": 0.75
+      },
+      "covered_missing_domains": [
+        "Web Development",
+        "Backend Development"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [],
+      "covered_new_skills": [
+        "SQL"
+      ],
+      "candidate_domains": [
+        "Data Science",
+        "Database",
+        "Web Development",
+        "Backend Development"
+      ],
+      "candidate_skills": [
+        "Python",
+        "Django",
+        "SQL",
+        "Flask"
+      ]
+    },
+    {
+      "rank": 4,
+      "candidate_user_id": "user_025",
+      "candidate_name": "React JS Developer i",
+      "team_score": 0.925,
+      "score_detail": {
+        "missing_parent_score": 1.0,
+        "new_child_score": 0.5,
+        "diversity_score": 1.0
+      },
+      "covered_missing_domains": [
+        "Web Development"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [],
+      "covered_new_skills": [
+        "JavaScript"
+      ],
+      "candidate_domains": [
+        "Web Development"
+      ],
+      "candidate_skills": [
+        "JavaScript"
+      ]
+    },
+    {
+      "rank": 5,
+      "candidate_user_id": "user_033",
+      "candidate_name": "Proficient React Developer | Front-end Specialist",
+      "team_score": 0.925,
+      "score_detail": {
+        "missing_parent_score": 1.0,
+        "new_child_score": 0.5,
+        "diversity_score": 1.0
+      },
+      "covered_missing_domains": [
+        "Web Development"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [],
+      "covered_new_skills": [
+        "JavaScript"
+      ],
+      "candidate_domains": [
+        "Web Development"
+      ],
+      "candidate_skills": [
+        "CSS",
+        "JavaScript",
+        "Redux",
+        "HTML"
+      ]
+    },
+    {
+      "rank": 6,
+      "candidate_user_id": "user_046",
+      "candidate_name": "Christa Nathan",
+      "team_score": 0.925,
+      "score_detail": {
+        "missing_parent_score": 1.0,
+        "new_child_score": 0.5,
+        "diversity_score": 1.0
+      },
+      "covered_missing_domains": [
+        "Web Development"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [],
+      "covered_new_skills": [
+        "JavaScript"
+      ],
+      "candidate_domains": [
+        "Web Development"
+      ],
+      "candidate_skills": [
+        "JavaScript",
+        "Redux",
+        "React",
+        "HTML"
+      ]
+    }
+  ]
+}

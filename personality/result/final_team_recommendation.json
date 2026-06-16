@@ -1,0 +1,262 @@
+{
+  "base_user_id": "user_006",
+  "base_user_name": "Rachelle Thompson",
+  "base_user_domains": [
+    "Data Science"
+  ],
+  "base_user_skills": [
+    "Python",
+    "PHP"
+  ],
+  "contest_id": 95,
+  "contest_title": "새싹 해커톤(SeSAC Hackathon)] 2025년 새싹(SeSAC) 해커톤 (내용변경)",
+  "contest_domains": [
+    "AI",
+    "Software"
+  ],
+  "contest_skills": [
+    "AI",
+    "Programming Languages"
+  ],
+  "weight": {
+    "model_weight": 0.5,
+    "category_weight": 0.5
+  },
+  "recommended_teammates": [
+    {
+      "rank": 1,
+      "base_user_id": "user_006",
+      "candidate_user_id": "user_086",
+      "final_score": 0.6896,
+      "recommend_probability": 0.6493,
+      "category_team_score": 0.73,
+      "predicted_label": 1,
+      "candidate_name": "Zelma Kunde",
+      "score_detail": {
+        "missing_parent_score": 0.6667,
+        "new_child_score": 1.0,
+        "diversity_score": 0.8
+      },
+      "covered_missing_domains": [
+        "AI",
+        "Natural Language Processing",
+        "Computer Vision"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "covered_new_skills": [
+        "SQL"
+      ],
+      "candidate_domains": [
+        "Data Science",
+        "AI",
+        "Natural Language Processing",
+        "Computer Vision"
+      ],
+      "candidate_skills": [
+        "SQL",
+        "Machine Learning",
+        "Statistics",
+        "Deep Learning",
+        "Python",
+        "Data Visualization"
+      ]
+    },
+    {
+      "rank": 2,
+      "base_user_id": "user_006",
+      "candidate_user_id": "user_058",
+      "final_score": 0.6875,
+      "recommend_probability": 0.6472,
+      "category_team_score": 0.7278,
+      "predicted_label": 1,
+      "candidate_name": "Charlotte May",
+      "score_detail": {
+        "missing_parent_score": 0.6667,
+        "new_child_score": 1.0,
+        "diversity_score": 0.7778
+      },
+      "covered_missing_domains": [
+        "Web Development",
+        "AI",
+        "Backend Development",
+        "Computer Vision",
+        "Natural Language Processing"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [],
+      "covered_new_skills": [
+        "Java"
+      ],
+      "candidate_domains": [
+        "Web Development",
+        "AI",
+        "Backend Development",
+        "Cloud Computing",
+        "Computer Vision",
+        "Data Science",
+        "Natural Language Processing"
+      ],
+      "candidate_skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "rank": 3,
+      "base_user_id": "user_006",
+      "candidate_user_id": "user_092",
+      "final_score": 0.6567,
+      "recommend_probability": 0.5738,
+      "category_team_score": 0.7395,
+      "predicted_label": 1,
+      "candidate_name": "Lindsay Beer",
+      "score_detail": {
+        "missing_parent_score": 0.6667,
+        "new_child_score": 1.0,
+        "diversity_score": 0.8947
+      },
+      "covered_missing_domains": [
+        "AI",
+        "Natural Language Processing",
+        "Computer Vision"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [
+        "NLP",
+        "Machine Learning",
+        "Computer Vision",
+        "Deep Learning"
+      ],
+      "covered_new_skills": [],
+      "candidate_domains": [
+        "Data Science",
+        "AI",
+        "Natural Language Processing",
+        "Computer Vision"
+      ],
+      "candidate_skills": [
+        "Pandas",
+        "Matplotlib",
+        "NLP",
+        "NumPy",
+        "PyTorch",
+        "Machine Learning",
+        "SciPy",
+        "Scikit-learn",
+        "TensorFlow",
+        "Computer Vision",
+        "Statistics",
+        "Deep Learning",
+        "Python",
+        "OpenCV",
+        "Data Visualization"
+      ]
+    },
+    {
+      "rank": 4,
+      "base_user_id": "user_006",
+      "candidate_user_id": "user_097",
+      "final_score": 0.6401,
+      "recommend_probability": 0.6077,
+      "category_team_score": 0.6725,
+      "predicted_label": 1,
+      "candidate_name": "Philip Higginbottom",
+      "score_detail": {
+        "missing_parent_score": 0.6667,
+        "new_child_score": 0.75,
+        "diversity_score": 0.6
+      },
+      "covered_missing_domains": [
+        "Natural Language Processing",
+        "Computer Vision"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [
+        "Machine Learning"
+      ],
+      "covered_new_skills": [],
+      "candidate_domains": [
+        "Data Science",
+        "Natural Language Processing",
+        "Computer Vision"
+      ],
+      "candidate_skills": [
+        "Machine Learning",
+        "Python"
+      ]
+    },
+    {
+      "rank": 5,
+      "base_user_id": "user_006",
+      "candidate_user_id": "user_055",
+      "final_score": 0.6302,
+      "recommend_probability": 0.5286,
+      "category_team_score": 0.7318,
+      "predicted_label": 1,
+      "candidate_name": "Kennedy Klekamp",
+      "score_detail": {
+        "missing_parent_score": 0.6667,
+        "new_child_score": 1.0,
+        "diversity_score": 0.8182
+      },
+      "covered_missing_domains": [
+        "Web Development",
+        "AI",
+        "Backend Development",
+        "Computer Vision",
+        "Natural Language Processing"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [],
+      "covered_new_skills": [],
+      "candidate_domains": [
+        "Web Development",
+        "AI",
+        "Backend Development",
+        "Computer Vision",
+        "Data Science",
+        "Natural Language Processing"
+      ],
+      "candidate_skills": [
+        "Pandas",
+        "Flask",
+        "Django",
+        "TensorFlow",
+        "Python"
+      ]
+    },
+    {
+      "rank": 6,
+      "base_user_id": "user_006",
+      "candidate_user_id": "user_087",
+      "final_score": 0.6197,
+      "recommend_probability": 0.8145,
+      "category_team_score": 0.425,
+      "predicted_label": 1,
+      "candidate_name": "Jared Arthur Maica",
+      "score_detail": {
+        "missing_parent_score": 0.3333,
+        "new_child_score": 0.5,
+        "diversity_score": 1.0
+      },
+      "covered_missing_domains": [
+        "Computer Vision"
+      ],
+      "covered_new_domains": [],
+      "covered_missing_skills": [],
+      "covered_new_skills": [
+        "Java"
+      ],
+      "candidate_domains": [
+        "Computer Vision"
+      ],
+      "candidate_skills": [
+        "Java"
+      ]
+    }
+  ]
+}
