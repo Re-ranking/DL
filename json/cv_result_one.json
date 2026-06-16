@@ -4,9 +4,14 @@
   "skills": [
     "Python",
     "Java",
+    "Machine Learning",
+    "Data Visualization",
     "Spark"
   ],
   "domains": [
+    "AI",
+    "Computer Vision",
+    "Natural Language Processing",
     "Data Science"
   ],
   "projects": [
