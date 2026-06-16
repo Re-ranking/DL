@@ -1,0 +1,6434 @@
+[
+  {
+    "user_id": "user_001",
+    "name": "Jessica Claire",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_002",
+    "name": "Alina Rudimenko",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "기획자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "아침형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "진로 탐색",
+        "실무 경험",
+        "수상"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "발표 중심형",
+        "기획형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_003",
+    "name": "June Ondricka",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "보조/지원 역할",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "발표/전략",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_004",
+    "name": "",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "기획자"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "대면 회의"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "발표 중심형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_005",
+    "name": "Dennis Scherrer",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 1,
+      "personality_04": 0,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "주말 위주"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍",
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색",
+        "수상"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_006",
+    "name": "Rachelle Thompson",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "발표 중심형",
+        "기획형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_007",
+    "name": "Trisha Stamm",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "디자인 담당",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "아이디어 제시",
+        "실행력"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_008",
+    "name": "David Clark",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "아이디어 제안자"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오전"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "포트폴리오 강화",
+        "수상"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "발표 중심형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_009",
+    "name": "Data Scientist | NLP Expert | Document Analysis",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 2,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "발표/문서화 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "대면 회의",
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "개발형",
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_010",
+    "name": "Jane Knightley",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 2,
+      "personality_05": 2,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "직접 대화로 해결",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_011",
+    "name": "Robert Smith",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 2,
+      "personality_04": 2,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "발표/문서화 담당",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "일정 관리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "대면 회의",
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "취업 준비",
+        "포트폴리오 강화",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_012",
+    "name": "Alina Rudimenko",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "디자인 담당",
+        "아이디어 제안자"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "주말 위주"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "발표 중심형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_013",
+    "name": "Christa Tim",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_014",
+    "name": "Jasmine Bell",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "아이디어 제안자"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "디자인형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_015",
+    "name": "Khalid Rosenbaum",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 0,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "자료조사 담당",
+        "기획자"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "발표/전략",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 오후"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "대면 회의"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_016",
+    "name": "Unknown",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 2,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_017",
+    "name": "Jill Van Beest",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 1,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "개발형",
+        "창업/비즈니스형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_018",
+    "name": "Philip Nguyen",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "자료 정리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형",
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "취업 준비",
+        "실무 경험"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_019",
+    "name": "William",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "아이디어 제안자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "일정 관리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "직접 대화로 해결",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "취업 준비",
+        "포트폴리오 강화",
+        "수상"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "발표 중심형",
+        "개발형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_020",
+    "name": "First Last",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "실행력",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "전화/음성통화",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "발표 중심형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_021",
+    "name": "John Smith",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_022",
+    "name": "Latisha Hamilton",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "보조/지원 역할",
+        "기획자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "시간 유동적",
+        "주말 위주"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "전화/음성통화",
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "실무 경험",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_023",
+    "name": "Steph Alcaatins",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 2,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "일정 관리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 오후"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행",
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "포트폴리오 강화",
+        "취업 준비"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_024",
+    "name": "HNTZ Schultz-Welch",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 2,
+      "personality_05": 0,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "아이디어 제안자",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "자료 정리",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_025",
+    "name": "React JS Developer i",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "기획형",
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_026",
+    "name": "David Johnson",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "발표/전략",
+        "실행력"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "전화/음성통화",
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "수상",
+        "취업 준비"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_027",
+    "name": "Kaylee Frye",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 2,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "분위기 조율",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "직접 대화로 해결",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_028",
+    "name": "Joclla Dargo",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "일정 관리",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "기획형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_029",
+    "name": "Maria Tanner",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "일정 관리",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "디자인형",
+        "개발형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_030",
+    "name": "Senior SQL Developer",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형",
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "주말 위주"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "대면 회의"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "진로 탐색",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "발표 중심형",
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_031",
+    "name": "Jarrod Tunnel",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 2,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "보조/지원 역할",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "일정 관리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "포트폴리오 강화",
+        "인맥 형성",
+        "실무 경험"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "기획형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_032",
+    "name": "Paul Desmond",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "직접 대화로 해결",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형",
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "수상",
+        "취업 준비"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_033",
+    "name": "Proficient React Developer | Front-end Specialist",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_034",
+    "name": "Marko Bogdanovski",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "발표 중심형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_035",
+    "name": "Madhuvaran Dussa",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "자료조사 담당",
+        "아이디어 제안자"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "발표/전략",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "직접 대화로 해결",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍",
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "취업 준비",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "발표 중심형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_036",
+    "name": "Anne Caroll Lounsberry",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "디자인 담당",
+        "발표/문서화 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "기획형",
+        "창업/비즈니스형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_037",
+    "name": "Trisha Stamm",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 2,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "기획자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "실행력"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오후"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_038",
+    "name": "Anna Ffoley",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 1,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "발표/문서화 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "실행력",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_039",
+    "name": "Louetta Brewton",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "발표/문서화 담당",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "자료 정리",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행",
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "포트폴리오 강화",
+        "팀 프로젝트 경험",
+        "실무 경험"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "발표 중심형",
+        "개발형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_040",
+    "name": "E. Hernandez",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 1,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "아이디어 제안자"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "발표/전략",
+        "실행력"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색",
+        "수상"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_041",
+    "name": "Lila Patel",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 1,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형",
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의",
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_042",
+    "name": "CHRISTOPHER KANE",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "일정 관리",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "대면 회의"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "진로 탐색",
+        "실무 경험"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "개발형",
+        "발표 중심형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_043",
+    "name": "Maudie Leffler",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 2,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "아이디어 제시",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형",
+        "아침형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "취업 준비",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_044",
+    "name": "Results-driven data scientist with a strong background in data analytics and machine learning.",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "전화/음성통화",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "창업/비즈니스형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_045",
+    "name": "DAN BOWEN",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 1,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "진로 탐색",
+        "실무 경험"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_046",
+    "name": "Christa Nathan",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_047",
+    "name": "Abigail Biwer",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "발표/문서화 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "디자인형",
+        "발표 중심형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_048",
+    "name": "Chloe Martinez",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "자료조사 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "실행력",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오후"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "진로 탐색",
+        "포트폴리오 강화",
+        "취업 준비"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_049",
+    "name": "Carol M OCA",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 2,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형",
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_050",
+    "name": "Brandon Smith",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 0,
+      "personality_03": 2,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "디자인 담당",
+        "기획자"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "일정 관리",
+        "실행력"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "수상",
+        "실무 경험"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_051",
+    "name": "Lilah Harryman",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 2,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "발표/문서화 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "자료 정리",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "직접 대화로 해결",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오전"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_052",
+    "name": "Letitia Taman",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 1,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "직접 대화로 해결",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오후"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "기획형",
+        "개발형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_053",
+    "name": "Mary O'Brien",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "전화/음성통화",
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "개발형",
+        "창업/비즈니스형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_054",
+    "name": "Diana Dawa",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "수상"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "창업/비즈니스형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_055",
+    "name": "Kennedy Klekamp",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 0,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "일정 관리",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "대면 회의"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "취업 준비",
+        "진로 탐색",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_056",
+    "name": "Issac Tunnel",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형"
+      ],
+      "life_available_time": [
+        "시간 유동적",
+        "평일 오후"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "창업/비즈니스형",
+        "디자인형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_057",
+    "name": "Bennet Campos",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_058",
+    "name": "Charlotte May",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "발표/문서화 담당",
+        "기획자"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "디자인형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_059",
+    "name": "Elisa Rasgado",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "기획자"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "발표/전략",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 오후"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "실무 경험"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "디자인형",
+        "발표 중심형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_060",
+    "name": "arin",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 2,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "포트폴리오 강화",
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_061",
+    "name": "Paul Desmond",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "기획자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "개발형",
+        "창업/비즈니스형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_062",
+    "name": "Hashira Nara",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오후"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_063",
+    "name": "Data Scientist",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "보조/지원 역할",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "실행력",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "직접 대화로 해결",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 오전"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "대면 회의",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍",
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_064",
+    "name": "Trisha Stam",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "전화/음성통화",
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "발표 중심형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_065",
+    "name": "Steffanie Mountains",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_066",
+    "name": "Vannesa Branch",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "분위기 조율",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "진로 탐색",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_067",
+    "name": "Malik Rabb",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "아이디어 제안자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "분위기 조율",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 오전"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_068",
+    "name": "Kevin Brandon",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "아이디어 제안자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "전화/음성통화",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "디자인형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_069",
+    "name": "Helen Mackay",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "발표/문서화 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_070",
+    "name": "Eric Nathan",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "분위기 조율",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "포트폴리오 강화",
+        "실무 경험"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "발표 중심형",
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_071",
+    "name": "Chris Coger",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "발표/문서화 담당",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "일정 관리",
+        "실행력"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "디자인형",
+        "개발형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_072",
+    "name": "NAME",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "자료조사 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_073",
+    "name": "Trish Mathers",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_074",
+    "name": "Ann Simpson",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 2,
+      "personality_04": 0,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "아이디어 제안자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "일정 관리",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "포트폴리오 강화",
+        "실무 경험"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_075",
+    "name": "Evalyn Simonis",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 2,
+      "personality_04": 1,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "발표/문서화 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행",
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_076",
+    "name": "Ms.",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 2,
+      "personality_03": 2,
+      "personality_04": 0,
+      "personality_05": 2,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "기획자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "실무 경험",
+        "수상"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_077",
+    "name": "Andy Koch",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_078",
+    "name": "Warren Taylor",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "자료조사 담당",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형",
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "진로 탐색",
+        "포트폴리오 강화",
+        "실무 경험"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "디자인형",
+        "창업/비즈니스형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_079",
+    "name": "Maria Hibisson",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 2,
+      "personality_04": 2,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "발표/문서화 담당",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "일정 관리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_080",
+    "name": "Anne Caroll Lounsberry",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_081",
+    "name": "Michael Hibbison",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "매우 협업형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오후"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "바로 이야기하기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_082",
+    "name": "Paul Satchell",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 1,
+      "personality_04": 0,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "발표/전략",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_083",
+    "name": "jjamaica",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 2,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "디자인 담당",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "일정 관리",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "글로 정리해서 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "포트폴리오 강화",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "디자인형",
+        "발표 중심형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_084",
+    "name": "Bob Markkula",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "아이디어 제안자",
+        "자료조사 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오후"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "전화/음성통화",
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "취업 준비",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "기획형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_085",
+    "name": "Karina Blick",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 0,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의",
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "창업/비즈니스형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_086",
+    "name": "Zelma Kunde",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 1,
+      "personality_03": 1,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "아이디어 제안자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "자료 정리",
+        "실행력"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오전"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "실무 경험",
+        "수상"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "개발형",
+        "데이터/AI형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_087",
+    "name": "Jared Arthur Maica",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 2,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "리더/조율자",
+        "기획자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "일정 관리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "하루 이내"
+    },
+    "communication": {
+      "communication_frequency": "자주 소통 선호",
+      "communication_channel": [
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자유롭게 브레인스토밍"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "매우 높음",
+      "objective_contest_type": [
+        "기획형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_088",
+    "name": "Dwight Tate",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 2,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형",
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 오전"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "문서 기반 정리",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "포트폴리오 강화"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "발표 중심형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_089",
+    "name": "Jaleel Hermiston",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 1,
+      "personality_05": 1,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "온라인 회의 선호",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_090",
+    "name": "Bennet Campos",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 2,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "자료조사 담당",
+        "리더/조율자"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "근거와 자료 기반 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "저녁형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙",
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행",
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "진로 탐색",
+        "실무 경험",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "개발형",
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_091",
+    "name": "Lina Stark",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 2,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 2,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "디자인 담당",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "빠르게 결정하고 실행",
+      "collaboration_contribution": [
+        "실행력",
+        "분위기 조율"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형",
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오전",
+        "주말 위주"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "마감 집중형",
+      "life_meeting_frequency": "주 1회",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "대면 회의",
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "취업 준비",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "수상 목표",
+      "objective_commitment_level": "제한적",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "단기 집중형",
+      "objective_team_atmosphere": "자유롭고 유연한 분위기"
+    }
+  },
+  {
+    "user_id": "user_092",
+    "name": "Lindsay Beer",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 1,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 2,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "개발/구현 담당",
+        "디자인 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "직접 대화로 해결",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "즉흥형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "필요할 때만 가능",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "전화/음성통화",
+        "카톡/메신저"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "진로 탐색",
+        "실무 경험"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "데이터/AI형",
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_093",
+    "name": "Michéal Von",
+    "personality": {
+      "personality_01": 0,
+      "personality_02": 0,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "자료 정리",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형",
+        "낮형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "직설적인 피드백",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "창업/비즈니스형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_094",
+    "name": "Tad Bode",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 2,
+      "personality_04": 2,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "발표/문서화 담당"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "일정 관리"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "시간 유동적",
+        "평일 오후"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "불규칙"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "전화/음성통화"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "안건 정리 후 짧고 효율적으로",
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "기획형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  },
+  {
+    "user_id": "user_095",
+    "name": "Paul Satchell",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 0,
+      "personality_03": 1,
+      "personality_04": 2,
+      "personality_05": 2,
+      "personality_06": 2
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "아이디어 제안자",
+        "개발/구현 담당"
+      ],
+      "collaboration_work_style": "실시간 협업 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "일정 관리",
+        "발표/전략"
+      ],
+      "collaboration_conflict_style": "일단 피하고 나중에 이야기",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "낮형"
+      ],
+      "life_available_time": [
+        "주말 위주",
+        "시간 유동적"
+      ],
+      "life_schedule_style": "계획형",
+      "life_deadline_style": "미리 준비형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "문서 기반 정리"
+      ],
+      "communication_feedback_style": "구체적 근거 중심 피드백",
+      "communication_expression_style": "상대 분위기 보고 표현형",
+      "communication_meeting_style": [
+        "리더 중심 진행"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "수상",
+        "팀 프로젝트 경험"
+      ],
+      "objective_goal_level": "결과보다 완주 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "디자인형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "빡세게 성과내는 분위기"
+    }
+  },
+  {
+    "user_id": "user_096",
+    "name": "John Smith",
+    "personality": {
+      "personality_01": 2,
+      "personality_02": 1,
+      "personality_03": 0,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 1
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "개인 작업 선호",
+      "collaboration_decision_style": "리더 중심 결정 선호",
+      "collaboration_contribution": [
+        "일정 관리",
+        "아이디어 제시"
+      ],
+      "collaboration_conflict_style": "중재자 필요",
+      "collaboration_preference_level": "독립형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "아침형"
+      ],
+      "life_available_time": [
+        "평일 저녁",
+        "평일 오후"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "반나절 이내"
+    },
+    "communication": {
+      "communication_frequency": "최소 소통 선호",
+      "communication_channel": [
+        "디스코드/슬랙"
+      ],
+      "communication_feedback_style": "부드럽고 조심스러운 피드백",
+      "communication_expression_style": "즉시 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "시간을 두고 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "팀 프로젝트 경험",
+        "인맥 형성"
+      ],
+      "objective_goal_level": "경험 자체가 중요",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형",
+        "기획형"
+      ],
+      "objective_project_duration": "장기형",
+      "objective_team_atmosphere": "체계적이고 규칙적인 분위기"
+    }
+  },
+  {
+    "user_id": "user_097",
+    "name": "Philip Higginbottom",
+    "personality": {
+      "personality_01": 1,
+      "personality_02": 0,
+      "personality_03": 2,
+      "personality_04": 0,
+      "personality_05": 0,
+      "personality_06": 0
+    },
+    "collaboration_style": {
+      "collaboration_role": [
+        "기획자",
+        "보조/지원 역할"
+      ],
+      "collaboration_work_style": "분업 후 공유 선호",
+      "collaboration_decision_style": "충분히 논의 후 결정",
+      "collaboration_contribution": [
+        "실행력",
+        "자료 정리"
+      ],
+      "collaboration_conflict_style": "다수 의견 따름",
+      "collaboration_preference_level": "혼합형"
+    },
+    "life_pattern": {
+      "life_active_time": [
+        "밤형"
+      ],
+      "life_available_time": [
+        "평일 오후",
+        "평일 저녁"
+      ],
+      "life_schedule_style": "단계별형",
+      "life_deadline_style": "중간 점검형",
+      "life_meeting_frequency": "주 2~3회",
+      "life_response_speed": "1시간 이내"
+    },
+    "communication": {
+      "communication_frequency": "적당한 소통 선호",
+      "communication_channel": [
+        "카톡/메신저",
+        "대면 회의"
+      ],
+      "communication_feedback_style": "문서로 정리된 피드백 선호",
+      "communication_expression_style": "숙고 후 표현형",
+      "communication_meeting_style": [
+        "자료 기반 차분한 논의"
+      ],
+      "communication_conflict_method": "중재자를 통한 이야기"
+    },
+    "objective": {
+      "objective_participation_goal": [
+        "인맥 형성",
+        "진로 탐색"
+      ],
+      "objective_goal_level": "본선 진출 목표",
+      "objective_commitment_level": "중간",
+      "objective_contest_type": [
+        "개발형"
+      ],
+      "objective_project_duration": "중기형",
+      "objective_team_atmosphere": "서로 배려하면서 가는 분위기"
+    }
+  }
+]

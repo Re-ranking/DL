@@ -1,0 +1,154 @@
+[
+  {
+    "feature": "role_complementary",
+    "importance": 0.12154985867524264
+  },
+  {
+    "feature": "goal_level_same",
+    "importance": 0.11226219540922477
+  },
+  {
+    "feature": "available_time_overlap",
+    "importance": 0.11184518084553688
+  },
+  {
+    "feature": "available_time_overlap_count",
+    "importance": 0.09693612127214457
+  },
+  {
+    "feature": "commitment_level_same",
+    "importance": 0.08500444003486096
+  },
+  {
+    "feature": "communication_channel_overlap_count",
+    "importance": 0.07582969504438314
+  },
+  {
+    "feature": "communication_channel_overlap",
+    "importance": 0.06788010078559464
+  },
+  {
+    "feature": "contest_type_overlap",
+    "importance": 0.06421614051856193
+  },
+  {
+    "feature": "contest_type_overlap_count",
+    "importance": 0.06226554906448036
+  },
+  {
+    "feature": "feedback_style_same",
+    "importance": 0.018098370181273027
+  },
+  {
+    "feature": "participation_goal_overlap_count",
+    "importance": 0.01274824838775571
+  },
+  {
+    "feature": "conflict_style_same",
+    "importance": 0.012528734772441501
+  },
+  {
+    "feature": "project_duration_same",
+    "importance": 0.01175172607839752
+  },
+  {
+    "feature": "decision_style_compatible",
+    "importance": 0.011088557866561153
+  },
+  {
+    "feature": "contribution_overlap_count",
+    "importance": 0.010259573335265443
+  },
+  {
+    "feature": "participation_goal_overlap",
+    "importance": 0.009907800652993667
+  },
+  {
+    "feature": "deadline_style_same",
+    "importance": 0.009377295249585417
+  },
+  {
+    "feature": "team_atmosphere_same",
+    "importance": 0.00929254106149264
+  },
+  {
+    "feature": "active_time_overlap_count",
+    "importance": 0.008301256525951744
+  },
+  {
+    "feature": "expression_style_same",
+    "importance": 0.00816780532072952
+  },
+  {
+    "feature": "contribution_overlap",
+    "importance": 0.006904574840836509
+  },
+  {
+    "feature": "meeting_frequency_same",
+    "importance": 0.0067552273060245025
+  },
+  {
+    "feature": "work_style_compatible",
+    "importance": 0.0060468404664255435
+  },
+  {
+    "feature": "active_time_overlap",
+    "importance": 0.005858067164489913
+  },
+  {
+    "feature": "personality_04_same",
+    "importance": 0.004997364449172752
+  },
+  {
+    "feature": "meeting_style_overlap_count",
+    "importance": 0.004617649962646915
+  },
+  {
+    "feature": "personality_02_same",
+    "importance": 0.004403688330720518
+  },
+  {
+    "feature": "response_speed_same",
+    "importance": 0.004353467070008112
+  },
+  {
+    "feature": "role_overlap",
+    "importance": 0.00431161011735657
+  },
+  {
+    "feature": "personality_01_same",
+    "importance": 0.0041532955112486445
+  },
+  {
+    "feature": "communication_frequency_same",
+    "importance": 0.004028966752578095
+  },
+  {
+    "feature": "schedule_style_same",
+    "importance": 0.003822187393452961
+  },
+  {
+    "feature": "personality_06_same",
+    "importance": 0.0037000093349217273
+  },
+  {
+    "feature": "preference_level_compatible",
+    "importance": 0.0036905121280838616
+  },
+  {
+    "feature": "communication_conflict_same",
+    "importance": 0.003483253529270304
+  },
+  {
+    "feature": "personality_05_same",
+    "importance": 0.0034395527369369626
+  },
+  {
+    "feature": "personality_03_same",
+    "importance": 0.0034183417337007404
+  },
+  {
+    "feature": "meeting_style_overlap",
+    "importance": 0.0027042000896481478
+  }
+]

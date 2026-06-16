@@ -10,6 +10,8 @@ from urllib.parse import urljoin
 BASE = "https://www.wevity.com"
 CATEGORY_ID = 20  # 웹/모바일/IT
 
+OUTPUT_JSON = "contests_result.json"
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
     "Referer": BASE,
@@ -97,27 +99,80 @@ def cut_unnecessary_description(description):
     return description
 
 
+def is_valid_image_url(image_url):
+    """
+    실제 사용할 수 있는 이미지 URL인지 검사
+    """
+    if not image_url:
+        return False
+
+    image_url_lower = image_url.lower()
+
+    # 위비티 기본 이미지 제외
+    if "noimgs.png" in image_url_lower:
+        return False
+
+    # 로고, 아이콘, 버튼, 배너 제외
+    exclude_keywords = [
+        "icon",
+        "logo",
+        "btn",
+        "button",
+        "banner",
+        "sns",
+        "facebook",
+        "twitter",
+        "kakao"
+    ]
+
+    if any(keyword in image_url_lower for keyword in exclude_keywords):
+        return False
+
+    # 이미지 확장자 확인
+    image_exts = [".jpg", ".jpeg", ".png", ".gif", ".webp"]
+    if not any(ext in image_url_lower for ext in image_exts):
+        return False
+
+    return True
+
+
 def extract_image_url(soup):
     """
     상세 페이지에서 대표 이미지 URL 추출
+    - noimgs.png 제외
+    - lazy loading 속성 확인
+    - upload 이미지 우선 선택
     """
+
+    candidates = []
+
     for img in soup.select("img"):
-        src = img.get("src", "").strip()
+        src = (
+            img.get("src")
+            or img.get("data-src")
+            or img.get("data-original")
+            or img.get("data-lazy")
+            or ""
+        ).strip()
 
         if not src:
             continue
 
-        src_lower = src.lower()
-
-        # 아이콘, 로고, 버튼류 제외
-        if any(x in src_lower for x in ["icon", "logo", "btn", "banner"]):
-            continue
-
         image_url = urljoin(BASE, src)
 
-        # 이미지 확장자가 있는 것 우선
-        if any(ext in image_url.lower() for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]):
-            return image_url
+        if not is_valid_image_url(image_url):
+            continue
+
+        candidates.append(image_url)
+
+    # 실제 공모전 포스터는 upload 경로일 가능성이 높음
+    for url in candidates:
+        if "upload" in url.lower():
+            return url
+
+    # upload 이미지가 없으면 후보 중 첫 번째 반환
+    if candidates:
+        return candidates[0]
 
     return ""
 
@@ -182,7 +237,7 @@ def should_skip_contest(field_text):
     return any(keyword in str(field_text) for keyword in skip_keywords)
 
 
-def crawl_wevity_web_mobile_it(max_pages=1):
+def crawl_wevity_web_mobile_it(max_pages=7):
     results = []
     seen_urls = set()
 
@@ -213,7 +268,10 @@ def crawl_wevity_web_mobile_it(max_pages=1):
                 print("건너뜀(광고/마케팅):", item["name"])
                 continue
 
+            contest_id = len(results) + 1
+
             row = {
+                "contest_id": contest_id,
                 "name": item["name"],
                 "source_url": item["source_url"],
                 "분야": detail["분야"],
@@ -228,7 +286,10 @@ def crawl_wevity_web_mobile_it(max_pages=1):
             }
 
             results.append(row)
+
             print("저장:", row["name"])
+            print("이미지 URL:", row["image_url"] if row["image_url"] else "없음")
+            print()
 
             time.sleep(0.3)
 
@@ -236,11 +297,12 @@ def crawl_wevity_web_mobile_it(max_pages=1):
 
 
 def main():
-    contests = crawl_wevity_web_mobile_it(max_pages=1)
+    contests = crawl_wevity_web_mobile_it(max_pages=7)
 
     df = pd.DataFrame(contests)
 
     columns = [
+        "contest_id",
         "name",
         "source_url",
         "분야",
@@ -257,7 +319,7 @@ def main():
     df = df[columns]
 
     df.to_json(
-        "contests_result.json",
+        OUTPUT_JSON,
         orient="records",
         force_ascii=False,
         indent=2
@@ -265,7 +327,7 @@ def main():
 
     print()
     print(f"저장 완료: {len(df)}개")
-    print("파일명: contests_result.json")
+    print(f"JSON 파일명: {OUTPUT_JSON}")
 
 
 if __name__ == "__main__":
