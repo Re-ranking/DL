@@ -4,148 +4,30 @@
     "name": "Jessica Claire",
     "recommendations": [
       {
-        "contest_id": 3,
-        "title": "2026년 임업통계 활용 경진대회",
-        "domain_score": 0.5,
-        "skill_score": 0.5,
-        "final_score": 0.5,
-        "matched_domains": [
-          {
-            "cv_value": "Data Science",
-            "cv_parent": "Data",
-            "contest_value": "Data",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "matched_skills": [
-          {
-            "cv_value": "Python",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Java",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "cv_domains": [
-          "Data Science"
-        ],
-        "cv_skills": [
-          "Python",
-          "Java",
-          "Spark"
-        ],
-        "contest_domains": [
-          "Software",
-          "Data"
-        ],
-        "contest_skills": [
-          "Programming Languages",
-          "Data Analysis"
-        ]
-      },
-      {
-        "contest_id": 61,
-        "title": "2026년 임업통계 활용 경진대회",
-        "domain_score": 0.5,
-        "skill_score": 0.5,
-        "final_score": 0.5,
-        "matched_domains": [
-          {
-            "cv_value": "Data Science",
-            "cv_parent": "Data",
-            "contest_value": "Data",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "matched_skills": [
-          {
-            "cv_value": "Python",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Java",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "cv_domains": [
-          "Data Science"
-        ],
-        "cv_skills": [
-          "Python",
-          "Java",
-          "Spark"
-        ],
-        "contest_domains": [
-          "Software",
-          "Data"
-        ],
-        "contest_skills": [
-          "Programming Languages",
-          "Data Analysis"
-        ]
-      },
-      {
-        "contest_id": 4,
-        "title": "제4회 대한민국 청년 인재양성 프로젝트 참가자 모집",
-        "domain_score": 0.5,
-        "skill_score": 0.3333,
-        "final_score": 0.4,
-        "matched_domains": [
-          {
-            "cv_value": "Data Science",
-            "cv_parent": "Data",
-            "contest_value": "Data",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "matched_skills": [
-          {
-            "cv_value": "Python",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Java",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "cv_domains": [
-          "Data Science"
-        ],
-        "cv_skills": [
-          "Python",
-          "Java",
-          "Spark"
-        ],
-        "contest_domains": [
-          "Software",
-          "Data"
-        ],
-        "contest_skills": [
-          "Programming Languages",
-          "AI",
-          "Data Analysis"
-        ]
-      },
-      {
         "contest_id": 6,
         "title": "2026년 물류데이터·AI 활용 및 분석 아이디어 공모전 신규",
-        "domain_score": 0.5,
+        "domain_score": 1.0,
         "skill_score": 0.3333,
-        "final_score": 0.4,
+        "final_score": 0.6,
         "matched_domains": [
+          {
+            "cv_value": "AI",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "exact"
+          },
+          {
+            "cv_value": "Computer Vision",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Natural Language Processing",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
           {
             "cv_value": "Data Science",
             "cv_parent": "Data",
@@ -168,11 +50,16 @@
           }
         ],
         "cv_domains": [
+          "AI",
+          "Computer Vision",
+          "Natural Language Processing",
           "Data Science"
         ],
         "cv_skills": [
           "Python",
           "Java",
+          "Machine Learning",
+          "Data Visualization",
           "Spark"
         ],
         "contest_domains": [
@@ -188,10 +75,28 @@
       {
         "contest_id": 7,
         "title": "제주 바이오 AX 해커톤: AI로 설계하는 제주 바이오의 미래 참가팀 모집",
-        "domain_score": 0.5,
+        "domain_score": 1.0,
         "skill_score": 0.3333,
-        "final_score": 0.4,
+        "final_score": 0.6,
         "matched_domains": [
+          {
+            "cv_value": "AI",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "exact"
+          },
+          {
+            "cv_value": "Computer Vision",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Natural Language Processing",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
           {
             "cv_value": "Data Science",
             "cv_parent": "Data",
@@ -214,11 +119,223 @@
           }
         ],
         "cv_domains": [
+          "AI",
+          "Computer Vision",
+          "Natural Language Processing",
           "Data Science"
         ],
         "cv_skills": [
           "Python",
           "Java",
+          "Machine Learning",
+          "Data Visualization",
+          "Spark"
+        ],
+        "contest_domains": [
+          "AI",
+          "Data"
+        ],
+        "contest_skills": [
+          "Programming Languages",
+          "AI",
+          "Data Analysis"
+        ]
+      },
+      {
+        "contest_id": 11,
+        "title": "2026년 임업통계 활용 경진대회",
+        "domain_score": 1.0,
+        "skill_score": 0.3333,
+        "final_score": 0.6,
+        "matched_domains": [
+          {
+            "cv_value": "AI",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "exact"
+          },
+          {
+            "cv_value": "Computer Vision",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Natural Language Processing",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Data Science",
+            "cv_parent": "Data",
+            "contest_value": "Data",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "matched_skills": [
+          {
+            "cv_value": "Python",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Java",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "cv_domains": [
+          "AI",
+          "Computer Vision",
+          "Natural Language Processing",
+          "Data Science"
+        ],
+        "cv_skills": [
+          "Python",
+          "Java",
+          "Machine Learning",
+          "Data Visualization",
+          "Spark"
+        ],
+        "contest_domains": [
+          "AI",
+          "Data"
+        ],
+        "contest_skills": [
+          "Programming Languages",
+          "AI",
+          "Data Analysis"
+        ]
+      },
+      {
+        "contest_id": 18,
+        "title": "2026년 대한민국 AI 콘텐츠 어워즈 - 경쟁 부문 출품 공고",
+        "domain_score": 1.0,
+        "skill_score": 0.3333,
+        "final_score": 0.6,
+        "matched_domains": [
+          {
+            "cv_value": "AI",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "exact"
+          },
+          {
+            "cv_value": "Computer Vision",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Natural Language Processing",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Data Science",
+            "cv_parent": "Data",
+            "contest_value": "Data",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "matched_skills": [
+          {
+            "cv_value": "Python",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Java",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "cv_domains": [
+          "AI",
+          "Computer Vision",
+          "Natural Language Processing",
+          "Data Science"
+        ],
+        "cv_skills": [
+          "Python",
+          "Java",
+          "Machine Learning",
+          "Data Visualization",
+          "Spark"
+        ],
+        "contest_domains": [
+          "AI",
+          "Data"
+        ],
+        "contest_skills": [
+          "Programming Languages",
+          "AI",
+          "Data Analysis"
+        ]
+      },
+      {
+        "contest_id": 19,
+        "title": "2026년 대한민국 AI 콘텐츠 어워즈 - 백남준 특별상 부문",
+        "domain_score": 1.0,
+        "skill_score": 0.3333,
+        "final_score": 0.6,
+        "matched_domains": [
+          {
+            "cv_value": "AI",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "exact"
+          },
+          {
+            "cv_value": "Computer Vision",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Natural Language Processing",
+            "cv_parent": "AI",
+            "contest_value": "AI",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Data Science",
+            "cv_parent": "Data",
+            "contest_value": "Data",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "matched_skills": [
+          {
+            "cv_value": "Python",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
+            "match_type": "child_of_contest"
+          },
+          {
+            "cv_value": "Java",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "cv_domains": [
+          "AI",
+          "Computer Vision",
+          "Natural Language Processing",
+          "Data Science"
+        ],
+        "cv_skills": [
+          "Python",
+          "Java",
+          "Machine Learning",
+          "Data Visualization",
           "Spark"
         ],
         "contest_domains": [

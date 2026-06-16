@@ -7,6 +7,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 CV_ONE_PATH = BASE_DIR / "cv" / "cv_one.py"
+CV_DB_PATH = BASE_DIR / "json" / "cv_result.json"
 
 CV_PATH = BASE_DIR / "json" / "cv_result_one.json"
 CONTEST_PATH = BASE_DIR / "json" / "contest_normalize.json"
@@ -141,13 +142,20 @@ def run_cv_one():
 
     subprocess.run(
         [sys.executable, str(CV_ONE_PATH)],
-        check=True
+        check=True,
+        cwd=str(BASE_DIR)
     )
 
     print("===== [STEP 1 DONE] cv_result_one.json 생성 완료 =====\n")
 
 
-def load_json(path):
+def load_json_safe(path, default):
+    if not path.exists():
+        return default
+
+    if path.stat().st_size == 0:
+        return default
+
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -155,6 +163,96 @@ def load_json(path):
 def get_parent(value, mapping):
     return mapping.get(value, value)
 
+def normalize_text(value):
+    if value is None:
+        return ""
+
+    return str(value).strip().lower()
+
+
+def make_person_key(cv):
+    """
+    중복 인물 판단 기준.
+    1순위: user_id
+    2순위: email
+    3순위: name
+
+    cv 구조에 email이 없으면 name 기준으로 중복 확인.
+    """
+
+    user_id = normalize_text(cv.get("user_id"))
+    email = normalize_text(cv.get("email"))
+    name = normalize_text(cv.get("name"))
+
+    if user_id:
+        return f"user_id:{user_id}"
+
+    if email:
+        return f"email:{email}"
+
+    if name:
+        return f"name:{name}"
+
+    return None
+
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+    
+def update_cv_database(new_cvs):
+    """
+    새로 구조화된 CV 결과를 기존 cv_result.json에 추가.
+    단, user_id/email/name 기준으로 이미 있으면 추가하지 않음.
+    """
+
+    existing_cvs = load_json_safe(CV_DB_PATH, [])
+
+    if isinstance(existing_cvs, dict):
+        existing_cvs = [existing_cvs]
+
+    if isinstance(new_cvs, dict):
+        new_cvs = [new_cvs]
+
+    existing_keys = set()
+
+    for cv in existing_cvs:
+        key = make_person_key(cv)
+        if key:
+            existing_keys.add(key)
+
+    added_count = 0
+    skipped_count = 0
+
+    for new_cv in new_cvs:
+        new_key = make_person_key(new_cv)
+
+        if new_key is None:
+            print("[SKIP] user_id/name/email이 없어 중복 판단 불가")
+            skipped_count += 1
+            continue
+
+        if new_key in existing_keys:
+            print(f"[SKIP] 이미 존재하는 인물: {new_key}")
+            skipped_count += 1
+            continue
+
+        existing_cvs.append(new_cv)
+        existing_keys.add(new_key)
+        added_count += 1
+
+        print(f"[ADD] 새 인물 추가: {new_key}")
+
+    os.makedirs(CV_DB_PATH.parent, exist_ok=True)
+
+    with open(CV_DB_PATH, "w", encoding="utf-8") as f:
+        json.dump(existing_cvs, f, ensure_ascii=False, indent=2)
+
+    print(f"\n===== CV DB 업데이트 완료 =====")
+    print(f"추가: {added_count}명")
+    print(f"중복/스킵: {skipped_count}명")
+    print(f"저장 위치: {CV_DB_PATH}\n")
+
+    return existing_cvs
 
 def match_by_parent(cv_values, contest_values, mapping):
     """
@@ -263,11 +361,16 @@ def main():
     run_cv_one()
 
     # 2. cv_one.py가 만든 cv_result_one.json 읽기
-    cvs = load_json(CV_PATH)
+    new_cvs = load_json(CV_PATH)
 
-    # cv_result_one.json이 객체 하나인 경우 리스트로 변환
-    if isinstance(cvs, dict):
-        cvs = [cvs]
+    if isinstance(new_cvs, dict):
+        new_cvs = [new_cvs]
+
+    # 3. 기존 cv_result.json에 중복 없으면 추가
+    update_cv_database(new_cvs)
+
+    # 4. 추천은 방금 업로드한 CV 기준으로만 실행
+    cvs = new_cvs
 
     contests = load_json(CONTEST_PATH)
 

@@ -51,19 +51,20 @@
         "SQL"
       ],
       "candidate_domains": [
-        "Data Science",
         "AI",
         "Natural Language Processing",
-        "Computer Vision"
+        "Computer Vision",
+        "Data Science"
       ],
       "candidate_skills": [
-        "SQL",
         "Machine Learning",
-        "Statistics",
         "Deep Learning",
         "Python",
-        "Data Visualization"
-      ]
+        "Data Visualization",
+        "SQL",
+        "Statistics"
+      ],
+      "reason": "협업 방식과 역할 선호가 기준 사용자와 잘 맞아 팀 프로젝트에서 자연스럽게 역할을 나누기 좋습니다. 작업 스타일과 목표 방향도 비슷해 일정 조율과 의사소통 과정에서 안정적인 협업이 기대됩니다."
     },
     {
       "rank": 2,
@@ -80,11 +81,11 @@
         "diversity_score": 0.7778
       },
       "covered_missing_domains": [
+        "Natural Language Processing",
         "Web Development",
-        "AI",
-        "Backend Development",
         "Computer Vision",
-        "Natural Language Processing"
+        "Backend Development",
+        "AI"
       ],
       "covered_new_domains": [],
       "covered_missing_skills": [],
@@ -92,18 +93,19 @@
         "Java"
       ],
       "candidate_domains": [
-        "Web Development",
-        "AI",
-        "Backend Development",
         "Cloud Computing",
-        "Computer Vision",
+        "Natural Language Processing",
         "Data Science",
-        "Natural Language Processing"
+        "Web Development",
+        "Computer Vision",
+        "Backend Development",
+        "AI"
       ],
       "candidate_skills": [
         "Java",
         "Python"
-      ]
+      ],
+      "reason": "협업 방식과 역할 선호가 기준 사용자와 잘 맞아 팀 프로젝트에서 자연스럽게 역할을 나누기 좋습니다. 작업 스타일과 목표 방향도 비슷해 일정 조율과 의사소통 과정에서 안정적인 협업이 기대됩니다."
     },
     {
       "rank": 3,
@@ -126,35 +128,36 @@
       ],
       "covered_new_domains": [],
       "covered_missing_skills": [
-        "NLP",
         "Machine Learning",
+        "Deep Learning",
         "Computer Vision",
-        "Deep Learning"
+        "NLP"
       ],
       "covered_new_skills": [],
       "candidate_domains": [
-        "Data Science",
         "AI",
         "Natural Language Processing",
-        "Computer Vision"
+        "Computer Vision",
+        "Data Science"
       ],
       "candidate_skills": [
-        "Pandas",
-        "Matplotlib",
-        "NLP",
-        "NumPy",
-        "PyTorch",
         "Machine Learning",
-        "SciPy",
-        "Scikit-learn",
-        "TensorFlow",
-        "Computer Vision",
-        "Statistics",
         "Deep Learning",
+        "Scikit-learn",
         "Python",
+        "NumPy",
+        "Data Visualization",
+        "Pandas",
+        "Computer Vision",
+        "PyTorch",
+        "Statistics",
+        "SciPy",
         "OpenCV",
-        "Data Visualization"
-      ]
+        "TensorFlow",
+        "Matplotlib",
+        "NLP"
+      ],
+      "reason": "협업 방식과 역할 선호가 기준 사용자와 잘 맞아 팀 프로젝트에서 자연스럽게 역할을 나누기 좋습니다. 작업 스타일과 목표 방향도 비슷해 일정 조율과 의사소통 과정에서 안정적인 협업이 기대됩니다."
     },
     {
       "rank": 4,
@@ -180,14 +183,15 @@
       ],
       "covered_new_skills": [],
       "candidate_domains": [
-        "Data Science",
         "Natural Language Processing",
-        "Computer Vision"
+        "Computer Vision",
+        "Data Science"
       ],
       "candidate_skills": [
         "Machine Learning",
         "Python"
-      ]
+      ],
+      "reason": "협업 방식과 역할 선호가 기준 사용자와 잘 맞아 팀 프로젝트에서 자연스럽게 역할을 나누기 좋습니다. 작업 스타일과 목표 방향도 비슷해 일정 조율과 의사소통 과정에서 안정적인 협업이 기대됩니다."
     },
     {
       "rank": 5,
@@ -204,30 +208,31 @@
         "diversity_score": 0.8182
       },
       "covered_missing_domains": [
+        "Natural Language Processing",
         "Web Development",
-        "AI",
-        "Backend Development",
         "Computer Vision",
-        "Natural Language Processing"
+        "Backend Development",
+        "AI"
       ],
       "covered_new_domains": [],
       "covered_missing_skills": [],
       "covered_new_skills": [],
       "candidate_domains": [
-        "Web Development",
-        "AI",
-        "Backend Development",
-        "Computer Vision",
+        "Natural Language Processing",
         "Data Science",
-        "Natural Language Processing"
+        "Web Development",
+        "Computer Vision",
+        "Backend Development",
+        "AI"
       ],
       "candidate_skills": [
-        "Pandas",
-        "Flask",
-        "Django",
+        "Python",
         "TensorFlow",
-        "Python"
-      ]
+        "Django",
+        "Pandas",
+        "Flask"
+      ],
+      "reason": "협업 방식과 역할 선호가 기준 사용자와 잘 맞아 팀 프로젝트에서 자연스럽게 역할을 나누기 좋습니다. 작업 스타일과 목표 방향도 비슷해 일정 조율과 의사소통 과정에서 안정적인 협업이 기대됩니다."
     },
     {
       "rank": 6,
@@ -256,7 +261,8 @@
       ],
       "candidate_skills": [
         "Java"
-      ]
+      ],
+      "reason": "협업 방식과 역할 선호가 기준 사용자와 잘 맞아 팀 프로젝트에서 자연스럽게 역할을 나누기 좋습니다. 작업 스타일과 목표 방향도 비슷해 일정 조율과 의사소통 과정에서 안정적인 협업이 기대됩니다."
     }
   ]
 }
