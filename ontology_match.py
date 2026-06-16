@@ -1,3 +1,4 @@
+import sys
 import json
 import os
 import subprocess
@@ -139,7 +140,7 @@ def run_cv_one():
     print("\n===== [STEP 1] CV OCR + LLM 구조화 실행 =====")
 
     subprocess.run(
-        ["python", str(CV_ONE_PATH)],
+        [sys.executable, str(CV_ONE_PATH)],
         check=True
     )
 
