@@ -4,13 +4,21 @@ import re
 import json
 import requests
 import os
+import platform
+import shutil
 from pathlib import Path
 import fitz  # PyMuPDF
 from PIL import Image
 import pytesseract
 
-TESSERACT_CMD = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-pytesseract.pytesseract.tesseract_cmd = TESSERACT_CMD
+
+# =========================
+# Tesseract 경로 설정
+# =========================
+if platform.system() == "Windows":
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+else:
+    pytesseract.pytesseract.tesseract_cmd = shutil.which("tesseract") or "/usr/bin/tesseract"
 
 # =========================
 # 1. Allowed Lists
