@@ -5,7 +5,8 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-from fastapi import FastAPI, UploadFile, File, Body
+from typing import Optional
+from fastapi import FastAPI, UploadFile, File, Body, HTTPException, Request
 from fastapi.responses import JSONResponse
 
 
@@ -171,35 +172,67 @@ async def personality_train(payload: dict = Body(...)):
 # 5. 성향 기반 팀원 추천 API
 # =========================
 
-@app.post("/personality/recommend")
-async def personality_recommend(payload: dict = Body(...)):
+@app.post("/recommend")
+async def recommend(
+    request: Request,
+    file: Optional[UploadFile] = File(None),
+    cv: Optional[UploadFile] = File(None),
+    cvFile: Optional[UploadFile] = File(None),
+    uploadFile: Optional[UploadFile] = File(None),
+    multipartFile: Optional[UploadFile] = File(None),
+    resume: Optional[UploadFile] = File(None),
+):
     """
-    백엔드에서 성향 설문 최종 제출 JSON을 받아
-    팀원 추천 결과를 반환하는 API
+    CV 파일을 받아 ontology_match.py 실행 후
+    공모전 추천 결과 반환
 
-    실행 흐름:
-    1. payload를 personality/json/base_user_submit.json으로 저장
-    2. personality/llm_reason.py 실행
-       - 내부에서 final_recommendation.py 실행
-       - 추천 결과에 reason 추가
-    3. personality/result/final_team_recommendation_user_001.json 반환
+    백엔드 multipart field name이 file이 아닐 수도 있어서
+    여러 이름을 허용한다.
     """
 
-    PERSONALITY_DATA_DIR.mkdir(parents=True, exist_ok=True)
-    PERSONALITY_RESULT_DIR.mkdir(parents=True, exist_ok=True)
+    # 1. 백엔드가 어떤 multipart key로 보내는지 로그 확인
+    try:
+        form = await request.form()
+        print("===== /recommend form keys =====")
+        print(list(form.keys()))
+    except Exception as e:
+        print("[WARN] form key 확인 실패:", e)
 
-    # 1. 백엔드 설문 JSON 저장
-    with open(BASE_USER_SUBMIT_PATH, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+    # 2. 가능한 파일 필드명 중 하나 선택
+    uploaded_file = file or cv or cvFile or uploadFile or multipartFile or resume
 
-    print("===== [PERSONALITY RECOMMEND] 설문 JSON 저장 완료 =====")
-    print(BASE_USER_SUBMIT_PATH)
+    if uploaded_file is None:
+        return JSONResponse(
+            status_code=400,
+            content={
+                "success": False,
+                "message": "CV 파일을 찾지 못했습니다.",
+                "hint": "multipart field name이 file, cv, cvFile, uploadFile, multipartFile, resume 중 하나여야 합니다."
+            }
+        )
 
-    # 2. llm_reason.py 실행
+    print("===== [RECOMMEND] 업로드 파일 수신 =====")
+    print("filename:", uploaded_file.filename)
+    print("content_type:", uploaded_file.content_type)
+
+    CV_DIR.mkdir(exist_ok=True)
+
+    # 기존 단일 CV 파일 삭제
+    for old_file in CV_DIR.iterdir():
+        if old_file.is_file():
+            old_file.unlink()
+
+    # 파일명 없을 경우 대비
+    original_filename = uploaded_file.filename or "uploaded_cv.pdf"
+    file_path = CV_DIR / original_filename
+
+    with open(file_path, "wb") as buffer:
+        shutil.copyfileobj(uploaded_file.file, buffer)
+
     try:
         subprocess.run(
-            [sys.executable, "llm_reason.py"],
-            cwd=PERSONALITY_DIR,
+            [sys.executable, "ontology_match.py"],
+            cwd=BASE_DIR,
             check=True
         )
     except subprocess.CalledProcessError as e:
@@ -207,29 +240,26 @@ async def personality_recommend(payload: dict = Body(...)):
             status_code=500,
             content={
                 "success": False,
-                "message": "llm_reason.py 실행 중 오류 발생",
-                "error": str(e),
-                "cwd": str(PERSONALITY_DIR)
+                "message": "ontology_match.py 실행 중 오류 발생",
+                "error": str(e)
             }
         )
 
-    # 3. 추천 결과 파일 확인
-    if not PERSONALITY_RECOMMEND_RESULT_PATH.exists():
+    if not ONTOLOGY_RESULT_PATH.exists():
         return JSONResponse(
             status_code=500,
             content={
                 "success": False,
-                "message": "팀원 추천 결과 파일을 찾을 수 없습니다.",
-                "expected_path": str(PERSONALITY_RECOMMEND_RESULT_PATH)
+                "message": "공모전 추천 결과 파일을 찾을 수 없습니다.",
+                "expected_path": str(ONTOLOGY_RESULT_PATH)
             }
         )
 
-    # 4. 추천 결과 반환
-    with open(PERSONALITY_RECOMMEND_RESULT_PATH, "r", encoding="utf-8") as f:
+    with open(ONTOLOGY_RESULT_PATH, "r", encoding="utf-8") as f:
         result = json.load(f)
 
     return {
         "success": True,
-        "message": "팀원 추천 성공",
+        "message": "공모전 추천 성공",
         "data": result
     }
