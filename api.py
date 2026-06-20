@@ -224,11 +224,7 @@ async def recommend(request: Request):
     with open(ONTOLOGY_RESULT_PATH, "r", encoding="utf-8") as f:
         result = json.load(f)
 
-    return {
-        "success": True,
-        "message": "공모전 추천 성공",
-        "data": result
-    }
+    return result
 
 # =========================
 # 4. 성향 설문 데이터 저장 API
