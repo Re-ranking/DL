@@ -1,72 +1,63 @@
 {
-  "success": true,
-  "message": "성향 테스트 최종 제출 성공",
-  "data": {
-    "surveyId": 2,
-    "memberId": 6,
-    "status": "SUBMITTED",
-    "dlSyncStatus": "FAILED",
-    "currentStep": 5,
-    "personality": {
-      "startInitiative": "아니다",
-      "completionTendency": "보통",
-      "adaptability": "그렇다",
-      "challengeOrientation": "그렇다",
-      "consistency": "보통",
-      "pressureHandling": "아니다"
-    },
-    "collaborationStyle": {
-      "rolePreference": [
-        "리더/조율자",
-        "리더/조율자"
-      ],
-      "workStyle": "분업 후 공유 선호",
-      "decisionStyle": "충분히 논의 후 결정",
-      "contributionStyle": [
-        "아이디어 제시",
-        "아이디어 제시"
-      ],
-      "conflictHandling": "중재자 필요",
-      "cooperationLevel": "혼합형"
-    },
-    "lifePattern": {
-      "activityTime": [
-        "아침형",
-        "아침형"
-      ],
-      "availableTime": [
-        "평일 오전",
-        "평일 오전"
-      ],
-      "scheduleManagementStyle": "즉흥형",
-      "deadlineHandlingStyle": "중간 점검형",
-      "meetingFrequency": "주 2~3회",
-      "responseSpeed": "반나절 이내"
-    },
-    "communication": {
-      "communicationFrequency": "적당한 소통 선호",
-      "channelPreference": [
-        "카톡/메신저"
-      ],
-      "feedbackStyle": "문서로 정리된 피드백",
-      "opinionExpressionStyle": "숙고 후 표현형",
-      "meetingStyle": [
-        "자유롭게 브레인스토밍"
-      ],
-      "conflictCommunicationStyle": "시간을 두고 이야기"
-    },
-    "objective": {
-      "participationPurpose": [
-        "수상"
-      ],
-      "goalLevel": "본선 진출 목표",
-      "commitmentLevel": "중간",
-      "preferredCompetitionType": [
-        "기획"
-      ],
-      "projectDurationPreference": "중기",
-      "desiredTeamMood": "서로 배려하면서 가는 분위기"
-    },
-    "submittedAt": "2026-06-16T17:40:05.022035"
+  "step": 1,
+  "personality": {
+    "startInitiative": "아니다",
+    "completionTendency": "보통",
+    "adaptability": "그렇다",
+    "challengeOrientation": "그렇다",
+    "consistency": "보통",
+    "pressureHandling": "아니다"
+  },
+  "collaborationStyle": {
+    "rolePreference": [
+      "리더/조율자",
+      "리더/조율자"
+    ],
+    "workStyle": "분업 후 공유 선호",
+    "decisionStyle": "충분히 논의 후 결정",
+    "contributionStyle": [
+      "아이디어 제시",
+      "아이디어 제시"
+    ],
+    "conflictHandling": "중재자 필요",
+    "cooperationLevel": "혼합형"
+  },
+  "lifePattern": {
+    "activityTime": [
+      "아침형",
+      "아침형"
+    ],
+    "availableTime": [
+      "평일 오전",
+      "평일 오전"
+    ],
+    "scheduleManagementStyle": "즉흥형",
+    "deadlineHandlingStyle": "중간 점검형",
+    "meetingFrequency": "주 2~3회",
+    "responseSpeed": "반나절 이내"
+  },
+  "communication": {
+    "communicationFrequency": "적당한 소통 선호",
+    "channelPreference": [
+      "카톡/메신저"
+    ],
+    "feedbackStyle": "문서로 정리된 피드백",
+    "opinionExpressionStyle": "숙고 후 표현형",
+    "meetingStyle": [
+      "자유롭게 브레인스토밍"
+    ],
+    "conflictCommunicationStyle": "시간을 두고 이야기"
+  },
+  "objective": {
+    "participationPurpose": [
+      "수상"
+    ],
+    "goalLevel": "본선 진출 목표",
+    "commitmentLevel": "중간",
+    "preferredCompetitionType": [
+      "기획"
+    ],
+    "projectDurationPreference": "중기",
+    "desiredTeamMood": "서로 배려하면서 가는 분위기"
   }
 }
