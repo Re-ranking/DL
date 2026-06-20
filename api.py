@@ -45,7 +45,7 @@ PERSONALITY_TRAIN_DATA_PATH = PERSONALITY_DATA_DIR / "personality_survey_data.js
 
 # final_recommendation.py 실행 결과 경로
 PERSONALITY_RECOMMEND_RESULT_PATH = (
-    PERSONALITY_RESULT_DIR / "final_team_recommendation_user_001.json"
+    PERSONALITY_RESULT_DIR / "final_team_recommendation.json"
 )
 
 
@@ -345,5 +345,47 @@ async def personality_recommend(payload: dict = Body(...)):
     return {
         "success": True,
         "message": "팀원 추천 성공",
+        "data": result
+    }
+
+# =========================
+# 6. 마이페이지 팀원 추천 결과 조회 API
+# =========================
+
+@app.get("/api/mypage/recommendations/team-members")
+async def get_team_member_recommendations():
+    """
+    마이페이지에서 팀원 추천 결과를 조회하는 API
+
+    반환 대상:
+    personality/result/final_team_recommendation.json
+    """
+
+    result_path = PERSONALITY_RECOMMEND_RESULT_PATH
+
+    # final_team_recommendation.json이 없으면
+    # 기존 파일명 final_team_recommendation_user_001.json도 fallback으로 확인
+    if not result_path.exists():
+        fallback_path = PERSONALITY_RESULT_DIR / "final_team_recommendation_user_001.json"
+
+        if fallback_path.exists():
+            result_path = fallback_path
+        else:
+            return JSONResponse(
+                status_code=404,
+                content={
+                    "success": False,
+                    "message": "팀원 추천 결과 파일을 찾을 수 없습니다.",
+                    "expected_path": str(PERSONALITY_RECOMMEND_RESULT_PATH),
+                    "fallback_path": str(fallback_path)
+                }
+            )
+
+    with open(result_path, "r", encoding="utf-8") as f:
+        result = json.load(f)
+
+    return {
+        "success": True,
+        "message": "팀원 추천 결과 조회 성공",
         "data": result
     }
