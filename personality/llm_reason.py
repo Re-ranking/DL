@@ -3,8 +3,11 @@
 import sys
 import json
 import subprocess
-import requests
 from pathlib import Path
+import os
+
+from dotenv import load_dotenv
+from openai import OpenAI
 
 
 # =========================
@@ -26,14 +29,16 @@ FINAL_RECOMMENDATION_PATH = RESULT_DIR / "final_team_recommendation.json"
 # 실행할 추천 코드
 FINAL_RECOMMENDATION_SCRIPT = BASE_DIR / "final_recommendation.py"
 
-
 # =========================
 # 2. LLM 설정
 # =========================
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
-LLM_MODEL_NAME = "llama3"
+load_dotenv(BASE_DIR.parent / ".env")
+load_dotenv(BASE_DIR / ".env")
 
+OPENAI_MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # =========================
 # 3. JSON 유틸
@@ -181,23 +186,26 @@ Based on the provided user information, this candidate is suitable.
 """
 
     try:
-        response = requests.post(
-            OLLAMA_URL,
-            json={
-                "model": LLM_MODEL_NAME,
-                "prompt": prompt,
-                "stream": False,
-                "options": {
-                    "temperature": 0.3
+        completion = client.chat.completions.create(
+            model=OPENAI_MODEL_NAME,
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "너는 팀 프로젝트 팀원 추천 시스템의 설명 생성기야. "
+                        "항상 한국어로만 답하고, 불필요한 도입 문구 없이 추천 이유만 작성해."
+                    )
+                },
+                {
+                    "role": "user",
+                    "content": prompt
                 }
-            },
+            ],
+            temperature=0.3,
             timeout=60
         )
 
-        response.raise_for_status()
-        result = response.json()
-
-        reason = result.get("response", "").strip()
+        reason = completion.choices[0].message.content.strip()
 
         if not reason:
             return make_fallback_reason(candidate)

@@ -2,30 +2,42 @@
   "user_id": "user_001",
   "name": "Jessica Claire",
   "skills": [
-    "Python",
     "Java",
-    "Machine Learning",
-    "Data Visualization",
-    "Spark"
+    "Python",
+    "Spark",
+    "MapReduce"
   ],
   "domains": [
-    "AI",
-    "Computer Vision",
-    "Natural Language Processing",
-    "Data Science"
+    "Data Science",
+    "Cloud Computing",
+    "Business"
   ],
   "projects": [
+    "Data Quality Inspector",
     "Recommendations Simulator",
-    "Al ChatOps Bot",
+    "AI ChatOps Bot",
     "Personalized Recommendations API",
     "Rules Engine",
     "ChatOps",
     "Feedback Data Collection",
     "Impressions Analysis",
-    "Operational Monitoring and SLA Alerting",
+    "Operational Monitoring",
+    "SLA Alerting",
     "Synchronization",
     "Forecasting",
-    "Recommendations Engine and Visual State Monitoring and Profiling"
+    "Recommendations Engine",
+    "Visual State Monitoring",
+    "Profiling",
+    "Orthotix Personalization",
+    "Customization",
+    "Operational Control",
+    "Metrics Reporting",
+    "Visualization",
+    "SLA Monitoring"
   ],
-  "experience": []
+  "experience": [
+    "Principal, Data Science and Engineering",
+    "Principal Engineer/Product Owner",
+    "Led SDK Architect"
+  ]
 }

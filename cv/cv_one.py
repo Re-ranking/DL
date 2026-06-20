@@ -4,13 +4,31 @@ import re
 import json
 import requests
 import os
+import platform
+import shutil
 from pathlib import Path
 import fitz  # PyMuPDF
 from PIL import Image
 import pytesseract
+from dotenv import load_dotenv
+from openai import OpenAI
 
-TESSERACT_CMD = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-pytesseract.pytesseract.tesseract_cmd = TESSERACT_CMD
+load_dotenv()
+
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY")
+)
+
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
+
+
+# =========================
+# Tesseract 경로 설정
+# =========================
+if platform.system() == "Windows":
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+else:
+    pytesseract.pytesseract.tesseract_cmd = shutil.which("tesseract") or "/usr/bin/tesseract"
 
 # =========================
 # 1. Allowed Lists
@@ -207,25 +225,20 @@ def extract_text_from_file(file_path):
 
 
 # =========================
-# 3. Ollama LLM 호출
+# 3. OpenAI LLM 호출
 # =========================
 def run_llm(prompt):
-    url = "http://localhost:11434/api/generate"
+    if not os.getenv("OPENAI_API_KEY"):
+        raise ValueError("OPENAI_API_KEY가 설정되어 있지 않습니다. .env 파일을 확인하세요.")
 
-    payload = {
-        "model": "llama3",
-        "prompt": prompt,
-        "stream": False,
-        "options": {
-            "temperature": 0.1,
-            "num_predict": 700
-        }
-    }
+    response = client.responses.create(
+        model=OPENAI_MODEL,
+        input=prompt,
+        temperature=0.1,
+        max_output_tokens=700
+    )
 
-    res = requests.post(url, json=payload)
-    res.raise_for_status()
-
-    return res.json()["response"]
+    return response.output_text
 
 
 # =========================

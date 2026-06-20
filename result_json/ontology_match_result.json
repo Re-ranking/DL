@@ -4,168 +4,12 @@
     "name": "Jessica Claire",
     "recommendations": [
       {
-        "contest_id": 6,
-        "title": "2026년 물류데이터·AI 활용 및 분석 아이디어 공모전 신규",
-        "domain_score": 1.0,
-        "skill_score": 0.3333,
-        "final_score": 0.6,
-        "matched_domains": [
-          {
-            "cv_value": "AI",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "exact"
-          },
-          {
-            "cv_value": "Computer Vision",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Natural Language Processing",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Data Science",
-            "cv_parent": "Data",
-            "contest_value": "Data",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "matched_skills": [
-          {
-            "cv_value": "Python",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Java",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "cv_domains": [
-          "AI",
-          "Computer Vision",
-          "Natural Language Processing",
-          "Data Science"
-        ],
-        "cv_skills": [
-          "Python",
-          "Java",
-          "Machine Learning",
-          "Data Visualization",
-          "Spark"
-        ],
-        "contest_domains": [
-          "AI",
-          "Data"
-        ],
-        "contest_skills": [
-          "Programming Languages",
-          "AI",
-          "Data Analysis"
-        ]
-      },
-      {
-        "contest_id": 7,
-        "title": "제주 바이오 AX 해커톤: AI로 설계하는 제주 바이오의 미래 참가팀 모집",
-        "domain_score": 1.0,
-        "skill_score": 0.3333,
-        "final_score": 0.6,
-        "matched_domains": [
-          {
-            "cv_value": "AI",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "exact"
-          },
-          {
-            "cv_value": "Computer Vision",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Natural Language Processing",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Data Science",
-            "cv_parent": "Data",
-            "contest_value": "Data",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "matched_skills": [
-          {
-            "cv_value": "Python",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Java",
-            "cv_parent": "Programming Languages",
-            "contest_value": "Programming Languages",
-            "match_type": "child_of_contest"
-          }
-        ],
-        "cv_domains": [
-          "AI",
-          "Computer Vision",
-          "Natural Language Processing",
-          "Data Science"
-        ],
-        "cv_skills": [
-          "Python",
-          "Java",
-          "Machine Learning",
-          "Data Visualization",
-          "Spark"
-        ],
-        "contest_domains": [
-          "AI",
-          "Data"
-        ],
-        "contest_skills": [
-          "Programming Languages",
-          "AI",
-          "Data Analysis"
-        ]
-      },
-      {
-        "contest_id": 11,
+        "contest_id": 3,
         "title": "2026년 임업통계 활용 경진대회",
-        "domain_score": 1.0,
-        "skill_score": 0.3333,
-        "final_score": 0.6,
+        "domain_score": 0.5,
+        "skill_score": 0.5,
+        "final_score": 0.5,
         "matched_domains": [
-          {
-            "cv_value": "AI",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "exact"
-          },
-          {
-            "cv_value": "Computer Vision",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Natural Language Processing",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "child_of_contest"
-          },
           {
             "cv_value": "Data Science",
             "cv_parent": "Data",
@@ -175,66 +19,141 @@
         ],
         "matched_skills": [
           {
-            "cv_value": "Python",
+            "cv_value": "Java",
             "cv_parent": "Programming Languages",
             "contest_value": "Programming Languages",
             "match_type": "child_of_contest"
           },
           {
-            "cv_value": "Java",
+            "cv_value": "Python",
             "cv_parent": "Programming Languages",
             "contest_value": "Programming Languages",
             "match_type": "child_of_contest"
           }
         ],
         "cv_domains": [
-          "AI",
-          "Computer Vision",
-          "Natural Language Processing",
-          "Data Science"
+          "Data Science",
+          "Cloud Computing",
+          "Business"
         ],
         "cv_skills": [
-          "Python",
           "Java",
-          "Machine Learning",
-          "Data Visualization",
-          "Spark"
+          "Python",
+          "Spark",
+          "MapReduce"
         ],
         "contest_domains": [
-          "AI",
+          "Software",
           "Data"
         ],
         "contest_skills": [
           "Programming Languages",
-          "AI",
           "Data Analysis"
         ]
       },
       {
-        "contest_id": 18,
-        "title": "2026년 대한민국 AI 콘텐츠 어워즈 - 경쟁 부문 출품 공고",
-        "domain_score": 1.0,
-        "skill_score": 0.3333,
-        "final_score": 0.6,
+        "contest_id": 33,
+        "title": "2026 아두이노 메이커 공모전",
+        "domain_score": 0.5,
+        "skill_score": 0.5,
+        "final_score": 0.5,
         "matched_domains": [
           {
-            "cv_value": "AI",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "exact"
-          },
+            "cv_value": "Cloud Computing",
+            "cv_parent": "Infrastructure",
+            "contest_value": "Infrastructure",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "matched_skills": [
           {
-            "cv_value": "Computer Vision",
-            "cv_parent": "AI",
-            "contest_value": "AI",
+            "cv_value": "Java",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
             "match_type": "child_of_contest"
           },
           {
-            "cv_value": "Natural Language Processing",
-            "cv_parent": "AI",
-            "contest_value": "AI",
+            "cv_value": "Python",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "cv_domains": [
+          "Data Science",
+          "Cloud Computing",
+          "Business"
+        ],
+        "cv_skills": [
+          "Java",
+          "Python",
+          "Spark",
+          "MapReduce"
+        ],
+        "contest_domains": [
+          "Software",
+          "Infrastructure"
+        ],
+        "contest_skills": [
+          "Programming Languages",
+          "AI"
+        ]
+      },
+      {
+        "contest_id": 53,
+        "title": "2026 관광데이터 활용 공모전 (웹ㆍ앱 개발)",
+        "domain_score": 0.5,
+        "skill_score": 0.5,
+        "final_score": 0.5,
+        "matched_domains": [
+          {
+            "cv_value": "Cloud Computing",
+            "cv_parent": "Infrastructure",
+            "contest_value": "Infrastructure",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "matched_skills": [
+          {
+            "cv_value": "Java",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
             "match_type": "child_of_contest"
           },
+          {
+            "cv_value": "Python",
+            "cv_parent": "Programming Languages",
+            "contest_value": "Programming Languages",
+            "match_type": "child_of_contest"
+          }
+        ],
+        "cv_domains": [
+          "Data Science",
+          "Cloud Computing",
+          "Business"
+        ],
+        "cv_skills": [
+          "Java",
+          "Python",
+          "Spark",
+          "MapReduce"
+        ],
+        "contest_domains": [
+          "Software",
+          "Infrastructure"
+        ],
+        "contest_skills": [
+          "Programming Languages",
+          "Backend"
+        ]
+      },
+      {
+        "contest_id": 61,
+        "title": "2026년 임업통계 활용 경진대회",
+        "domain_score": 0.5,
+        "skill_score": 0.5,
+        "final_score": 0.5,
+        "matched_domains": [
           {
             "cv_value": "Data Science",
             "cv_parent": "Data",
@@ -244,108 +163,84 @@
         ],
         "matched_skills": [
           {
-            "cv_value": "Python",
+            "cv_value": "Java",
             "cv_parent": "Programming Languages",
             "contest_value": "Programming Languages",
             "match_type": "child_of_contest"
           },
           {
-            "cv_value": "Java",
+            "cv_value": "Python",
             "cv_parent": "Programming Languages",
             "contest_value": "Programming Languages",
             "match_type": "child_of_contest"
           }
         ],
         "cv_domains": [
-          "AI",
-          "Computer Vision",
-          "Natural Language Processing",
-          "Data Science"
+          "Data Science",
+          "Cloud Computing",
+          "Business"
         ],
         "cv_skills": [
-          "Python",
           "Java",
-          "Machine Learning",
-          "Data Visualization",
-          "Spark"
+          "Python",
+          "Spark",
+          "MapReduce"
         ],
         "contest_domains": [
-          "AI",
+          "Software",
           "Data"
         ],
         "contest_skills": [
           "Programming Languages",
-          "AI",
           "Data Analysis"
         ]
       },
       {
-        "contest_id": 19,
-        "title": "2026년 대한민국 AI 콘텐츠 어워즈 - 백남준 특별상 부문",
-        "domain_score": 1.0,
-        "skill_score": 0.3333,
-        "final_score": 0.6,
+        "contest_id": 98,
+        "title": "2025 스마트건설·안전·AI 엑스포 제2회 생성형 AI 공모전",
+        "domain_score": 0.5,
+        "skill_score": 0.5,
+        "final_score": 0.5,
         "matched_domains": [
           {
-            "cv_value": "AI",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "exact"
-          },
-          {
-            "cv_value": "Computer Vision",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Natural Language Processing",
-            "cv_parent": "AI",
-            "contest_value": "AI",
-            "match_type": "child_of_contest"
-          },
-          {
-            "cv_value": "Data Science",
-            "cv_parent": "Data",
-            "contest_value": "Data",
+            "cv_value": "Cloud Computing",
+            "cv_parent": "Infrastructure",
+            "contest_value": "Infrastructure",
             "match_type": "child_of_contest"
           }
         ],
         "matched_skills": [
           {
-            "cv_value": "Python",
+            "cv_value": "Java",
             "cv_parent": "Programming Languages",
             "contest_value": "Programming Languages",
             "match_type": "child_of_contest"
           },
           {
-            "cv_value": "Java",
+            "cv_value": "Python",
             "cv_parent": "Programming Languages",
             "contest_value": "Programming Languages",
             "match_type": "child_of_contest"
           }
         ],
         "cv_domains": [
-          "AI",
-          "Computer Vision",
-          "Natural Language Processing",
-          "Data Science"
+          "Data Science",
+          "Cloud Computing",
+          "Business"
         ],
         "cv_skills": [
-          "Python",
           "Java",
-          "Machine Learning",
-          "Data Visualization",
-          "Spark"
+          "Python",
+          "Spark",
+          "MapReduce"
         ],
         "contest_domains": [
           "AI",
-          "Data"
+          "Infrastructure"
         ],
         "contest_skills": [
-          "Programming Languages",
           "AI",
-          "Data Analysis"
+          "Programming Languages"
         ]
       }
     ]
