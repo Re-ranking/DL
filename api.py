@@ -62,56 +62,49 @@ def health():
 async def recommend(request: Request):
     """
     CV 파일을 받아 ontology_match.py 실행 후
-    공모전 추천 결과 반환
+    공모전 추천 결과 반환.
 
-    백엔드 multipart 전송 방식이 FastAPI UploadFile 검증과 안 맞을 수 있어서
-    Request에서 form을 직접 파싱한다.
+    1. 정상 multipart file 파트 탐색
+    2. multipart 파싱 실패/빈 form이면 raw body에서 PDF 추출 시도
     """
 
-    try:
-        form = await request.form()
-    except Exception as e:
-        return JSONResponse(
-            status_code=400,
-            content={
-                "success": False,
-                "message": "multipart/form-data 파싱 실패",
-                "error": str(e),
-                "content_type": request.headers.get("content-type")
-            }
-        )
+    content_type = request.headers.get("content-type", "")
+    content_length = request.headers.get("content-length", "")
+
+    raw_body = await request.body()
 
     print("===== /recommend called =====")
-    print("content-type:", request.headers.get("content-type"))
-    print("form keys:", list(form.keys()))
+    print("content-type:", content_type)
+    print("content-length:", content_length)
+    print("raw body length:", len(raw_body))
+    print("raw body head:", raw_body[:300])
 
     uploaded_file = None
-    uploaded_key = None
+    filename = "uploaded_cv.pdf"
 
-    # form 안에서 파일 객체를 자동 탐색
-    for key, value in form.items():
-        print("FORM KEY:", key, "TYPE:", type(value))
+    # =========================
+    # 1. multipart form 파싱 시도
+    # =========================
+    try:
+        form = await request.form()
 
-        if hasattr(value, "filename") and hasattr(value, "file"):
-            uploaded_file = value
-            uploaded_key = key
-            break
+        print("form keys:", list(form.keys()))
 
-    if uploaded_file is None:
-        return JSONResponse(
-            status_code=400,
-            content={
-                "success": False,
-                "message": "업로드 파일을 찾지 못했습니다.",
-                "received_keys": list(form.keys()),
-                "content_type": request.headers.get("content-type")
-            }
-        )
+        for key, value in form.items():
+            print("FORM KEY:", key, "TYPE:", type(value))
 
-    print("===== [RECOMMEND] 업로드 파일 수신 =====")
-    print("field name:", uploaded_key)
-    print("filename:", uploaded_file.filename)
-    print("content_type:", uploaded_file.content_type)
+            if hasattr(value, "filename") and hasattr(value, "file"):
+                uploaded_file = value
+                filename = value.filename or "uploaded_cv.pdf"
+
+                print("===== [RECOMMEND] multipart 파일 수신 =====")
+                print("field name:", key)
+                print("filename:", filename)
+                print("content_type:", getattr(value, "content_type", None))
+                break
+
+    except Exception as e:
+        print("[WARN] multipart form 파싱 실패:", e)
 
     CV_DIR.mkdir(exist_ok=True)
 
@@ -120,12 +113,62 @@ async def recommend(request: Request):
         if old_file.is_file():
             old_file.unlink()
 
-    filename = uploaded_file.filename or "uploaded_cv.pdf"
     file_path = CV_DIR / filename
 
-    with open(file_path, "wb") as buffer:
-        shutil.copyfileobj(uploaded_file.file, buffer)
+    # =========================
+    # 2. 정상 UploadFile이면 저장
+    # =========================
+    if uploaded_file is not None:
+        with open(file_path, "wb") as buffer:
+            shutil.copyfileobj(uploaded_file.file, buffer)
 
+    else:
+        # =========================
+        # 3. form이 비어 있으면 raw body에서 PDF 추출 시도
+        # =========================
+        if not raw_body:
+            return JSONResponse(
+                status_code=400,
+                content={
+                    "success": False,
+                    "message": "요청 body가 비어 있습니다.",
+                    "content_type": content_type,
+                    "content_length": content_length
+                }
+            )
+
+        pdf_start = raw_body.find(b"%PDF")
+
+        if pdf_start == -1:
+            return JSONResponse(
+                status_code=400,
+                content={
+                    "success": False,
+                    "message": "multipart에서 파일을 찾지 못했고 raw body에서도 PDF를 찾지 못했습니다.",
+                    "content_type": content_type,
+                    "content_length": content_length,
+                    "raw_body_length": len(raw_body),
+                    "raw_body_head": raw_body[:200].decode("latin1", errors="replace")
+                }
+            )
+
+        pdf_bytes = raw_body[pdf_start:]
+
+        # multipart boundary가 뒤에 붙어 있으면 제거
+        boundary_pos = pdf_bytes.find(b"\r\n--")
+        if boundary_pos != -1:
+            pdf_bytes = pdf_bytes[:boundary_pos]
+
+        with open(file_path, "wb") as f:
+            f.write(pdf_bytes)
+
+        print("===== [RECOMMEND] raw body에서 PDF 추출 저장 =====")
+        print("saved_path:", file_path)
+        print("pdf_bytes:", len(pdf_bytes))
+
+    # =========================
+    # 4. ontology_match.py 실행
+    # =========================
     try:
         subprocess.run(
             [sys.executable, "ontology_match.py"],
@@ -142,6 +185,9 @@ async def recommend(request: Request):
             }
         )
 
+    # =========================
+    # 5. 결과 파일 반환
+    # =========================
     if not ONTOLOGY_RESULT_PATH.exists():
         return JSONResponse(
             status_code=500,
