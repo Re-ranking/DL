@@ -1,6 +1,9 @@
+#cv 전체 데이터셋 대상
+
 import re
 import json
 import requests
+
 import os
 
 
