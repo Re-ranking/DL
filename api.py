@@ -226,95 +226,26 @@ async def recommend(request: Request):
 
     return result
 
-# =========================
-# 4. 성향 설문 데이터 저장 API
-# =========================
-
-@app.post("/personality/train")
-async def personality_train(payload: dict = Body(...)):
-    """
-    백엔드에서 성향 설문 데이터를 받아
-    나중에 재학습용 데이터로 누적 저장하는 API
-
-    저장 위치:
-    CV_DESCRIPTION/personality/json/personality_survey_data.json
-    """
-
-    PERSONALITY_DATA_DIR.mkdir(parents=True, exist_ok=True)
-
-    # 백엔드 응답 구조가 { success, message, data } 형태이면 data만 사용
-    survey_data = payload.get("data", payload)
-
-    saved_item = {
-        "survey_id": survey_data.get("surveyId"),
-        "member_id": survey_data.get("memberId"),
-        "status": survey_data.get("status"),
-        "dl_sync_status": survey_data.get("dlSyncStatus"),
-        "current_step": survey_data.get("currentStep"),
-
-        "personality": survey_data.get("personality", {}),
-        "collaboration_style": survey_data.get("collaborationStyle", {}),
-        "life_pattern": survey_data.get("lifePattern", {}),
-        "communication": survey_data.get("communication", {}),
-        "objective": survey_data.get("objective", {}),
-
-        "submitted_at": survey_data.get("submittedAt"),
-        "received_at": datetime.now().isoformat(timespec="seconds")
-    }
-
-    if PERSONALITY_TRAIN_DATA_PATH.exists():
-        with open(PERSONALITY_TRAIN_DATA_PATH, "r", encoding="utf-8") as f:
-            train_data = json.load(f)
-    else:
-        train_data = []
-
-    train_data.append(saved_item)
-
-    with open(PERSONALITY_TRAIN_DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(train_data, f, ensure_ascii=False, indent=2)
-
-    return {
-        "success": True,
-        "message": "personality survey data received",
-        "saved_path": str(PERSONALITY_TRAIN_DATA_PATH),
-        "data": saved_item
-    }
-
 
 # =========================
 # 5. 성향 기반 팀원 추천 API
 # =========================
 
-@app.post("/personality/recommend")
-async def personality_recommend(payload: dict = Body(...)):
+def run_personality_recommendation():
     """
-    백엔드 /api/personality-surveys/submit에서 받은 성향 설문 최종 JSON을 받아
-    팀원 추천 결과를 생성하고 반환하는 API
+    팀원 추천 실행 공통 함수
 
     실행 흐름:
-    1. 백엔드 설문 JSON을 personality/json/base_user.json으로 저장
-    2. personality/llm_reason.py 실행
+    1. personality/llm_reason.py 실행
        - 내부에서 final_recommendation.py 실행
        - 추천 결과에 reason 추가
-    3. personality/result/final_team_recommendation.json 반환
+    2. personality/result/final_team_recommendation.json 반환
     """
 
     PERSONALITY_DATA_DIR.mkdir(parents=True, exist_ok=True)
     PERSONALITY_RESULT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # 백엔드가 { success, message, data } 형태로 보내면 data만 사용
-    # data 없이 설문 JSON만 보내면 payload 그대로 사용
-    survey_data = payload.get("data", payload)
-
-    # 1. 백엔드 설문 JSON 저장
-    # final_recommendation.py / llm_reason.py가 읽는 파일명과 반드시 같아야 함
-    with open(BASE_USER_SUBMIT_PATH, "w", encoding="utf-8") as f:
-        json.dump(survey_data, f, ensure_ascii=False, indent=2)
-
-    print("===== [PERSONALITY RECOMMEND] 설문 JSON 저장 완료 =====")
-    print("saved_path:", BASE_USER_SUBMIT_PATH)
-
-    # 2. llm_reason.py 실행
+    # 1. llm_reason.py 실행
     try:
         run_result = subprocess.run(
             [sys.executable, "llm_reason.py"],
@@ -341,7 +272,7 @@ async def personality_recommend(payload: dict = Body(...)):
             }
         )
 
-    # 3. 추천 결과 파일 확인
+    # 2. 추천 결과 파일 확인
     if not PERSONALITY_RECOMMEND_RESULT_PATH.exists():
         return JSONResponse(
             status_code=500,
@@ -352,8 +283,50 @@ async def personality_recommend(payload: dict = Body(...)):
             }
         )
 
-    # 4. final_team_recommendation.json 그대로 반환
+    # 3. 추천 결과 반환
     with open(PERSONALITY_RECOMMEND_RESULT_PATH, "r", encoding="utf-8") as f:
         result = json.load(f)
 
     return result
+
+
+@app.get("/api/mypage/recommendations/team-members")
+async def get_team_members():
+    """
+    백엔드가 팀원 추천 조회 시 호출할 수 있는 GET API.
+    Swagger의 GET /api/mypage/recommendations/team-members 흐름에 대응.
+    """
+    return run_personality_recommendation()
+
+
+@app.get("/personality/recommend")
+async def get_personality_recommend():
+    """
+    백엔드가 ML 서버에 GET /personality/recommend로 호출하는 경우 대응.
+    """
+    return run_personality_recommendation()
+
+
+@app.post("/personality/recommend")
+async def post_personality_recommend(payload: Optional[dict] = Body(default=None)):
+    """
+    백엔드가 ML 서버에 POST /personality/recommend로 호출하는 경우 대응.
+
+    body가 있으면 base_user.json을 갱신하고,
+    body가 없으면 기존 base_user.json 기준으로 추천 실행.
+    """
+
+    PERSONALITY_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    if payload is not None:
+        survey_data = payload.get("data", payload)
+
+        with open(BASE_USER_SUBMIT_PATH, "w", encoding="utf-8") as f:
+            json.dump(survey_data, f, ensure_ascii=False, indent=2)
+
+        print("===== [PERSONALITY RECOMMEND] 설문 JSON 저장 완료 =====")
+        print("saved_path:", BASE_USER_SUBMIT_PATH)
+    else:
+        print("===== [PERSONALITY RECOMMEND] payload 없음 → 기존 base_user.json 사용 =====")
+
+    return run_personality_recommendation()
