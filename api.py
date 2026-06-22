@@ -245,7 +245,10 @@ def run_personality_recommendation():
     PERSONALITY_DATA_DIR.mkdir(parents=True, exist_ok=True)
     PERSONALITY_RESULT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # 1. llm_reason.py 실행
+    print("===== [PERSONALITY RECOMMEND] 추천 실행 시작 =====")
+    print("PERSONALITY_DIR:", PERSONALITY_DIR)
+    print("RESULT_PATH:", PERSONALITY_RECOMMEND_RESULT_PATH)
+
     try:
         run_result = subprocess.run(
             [sys.executable, "llm_reason.py"],
@@ -258,9 +261,14 @@ def run_personality_recommendation():
         )
 
         print("===== [PERSONALITY RECOMMEND] llm_reason.py 실행 완료 =====")
-        print(run_result.stdout)
+        print("stdout:", run_result.stdout)
+        print("stderr:", run_result.stderr)
 
     except subprocess.CalledProcessError as e:
+        print("===== [PERSONALITY RECOMMEND] llm_reason.py 실행 실패 =====")
+        print("stdout:", e.stdout)
+        print("stderr:", e.stderr)
+
         return JSONResponse(
             status_code=500,
             content={
@@ -272,8 +280,10 @@ def run_personality_recommendation():
             }
         )
 
-    # 2. 추천 결과 파일 확인
     if not PERSONALITY_RECOMMEND_RESULT_PATH.exists():
+        print("===== [PERSONALITY RECOMMEND] 결과 파일 없음 =====")
+        print("expected_path:", PERSONALITY_RECOMMEND_RESULT_PATH)
+
         return JSONResponse(
             status_code=500,
             content={
@@ -283,50 +293,69 @@ def run_personality_recommendation():
             }
         )
 
-    # 3. 추천 결과 반환
     with open(PERSONALITY_RECOMMEND_RESULT_PATH, "r", encoding="utf-8") as f:
         result = json.load(f)
 
+    print("===== [PERSONALITY RECOMMEND] 추천 결과 반환 성공 =====")
+
     return result
+
+
+async def save_payload_if_exists(payload: Optional[dict]):
+    """
+    POST body가 있으면 base_user.json으로 저장.
+    GET이거나 body가 없으면 기존 base_user.json 그대로 사용.
+    """
+
+    PERSONALITY_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    if payload is None:
+        print("===== [PERSONALITY RECOMMEND] payload 없음 → 기존 base_user.json 사용 =====")
+        return
+
+    survey_data = payload.get("data", payload)
+
+    with open(BASE_USER_SUBMIT_PATH, "w", encoding="utf-8") as f:
+        json.dump(survey_data, f, ensure_ascii=False, indent=2)
+
+    print("===== [PERSONALITY RECOMMEND] 설문 JSON 저장 완료 =====")
+    print("saved_path:", BASE_USER_SUBMIT_PATH)
 
 
 @app.get("/api/mypage/recommendations/team-members")
 async def get_team_members():
     """
-    백엔드가 팀원 추천 조회 시 호출할 수 있는 GET API.
-    Swagger의 GET /api/mypage/recommendations/team-members 흐름에 대응.
+    백엔드/Swagger 경로와 같은 이름으로 ML에도 열어두는 GET API.
     """
+    print("===== GET /api/mypage/recommendations/team-members called =====")
+    return run_personality_recommendation()
+
+
+@app.post("/api/mypage/recommendations/team-members")
+async def post_team_members(payload: Optional[dict] = Body(default=None)):
+    """
+    혹시 백엔드가 같은 경로로 POST를 보내는 경우 대응.
+    """
+    print("===== POST /api/mypage/recommendations/team-members called =====")
+    await save_payload_if_exists(payload)
     return run_personality_recommendation()
 
 
 @app.get("/personality/recommend")
 async def get_personality_recommend():
     """
-    백엔드가 ML 서버에 GET /personality/recommend로 호출하는 경우 대응.
+    백엔드가 GET /personality/recommend로 호출하는 경우 대응.
     """
+    print("===== GET /personality/recommend called =====")
     return run_personality_recommendation()
 
 
 @app.post("/personality/recommend")
 async def post_personality_recommend(payload: Optional[dict] = Body(default=None)):
     """
-    백엔드가 ML 서버에 POST /personality/recommend로 호출하는 경우 대응.
-
-    body가 있으면 base_user.json을 갱신하고,
-    body가 없으면 기존 base_user.json 기준으로 추천 실행.
+    백엔드 PersonalityDlClient가 호출하는 실제 후보:
+    POST /personality/recommend
     """
-
-    PERSONALITY_DATA_DIR.mkdir(parents=True, exist_ok=True)
-
-    if payload is not None:
-        survey_data = payload.get("data", payload)
-
-        with open(BASE_USER_SUBMIT_PATH, "w", encoding="utf-8") as f:
-            json.dump(survey_data, f, ensure_ascii=False, indent=2)
-
-        print("===== [PERSONALITY RECOMMEND] 설문 JSON 저장 완료 =====")
-        print("saved_path:", BASE_USER_SUBMIT_PATH)
-    else:
-        print("===== [PERSONALITY RECOMMEND] payload 없음 → 기존 base_user.json 사용 =====")
-
+    print("===== POST /personality/recommend called =====")
+    await save_payload_if_exists(payload)
     return run_personality_recommendation()
