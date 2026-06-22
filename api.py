@@ -38,7 +38,7 @@ PERSONALITY_DATA_DIR = PERSONALITY_DIR / "json"
 PERSONALITY_RESULT_DIR = PERSONALITY_DIR / "result"
 
 # 백엔드 설문 저장 경로
-BASE_USER_SUBMIT_PATH = PERSONALITY_DATA_DIR / "base_user_submit.json"
+BASE_USER_SUBMIT_PATH = PERSONALITY_DATA_DIR / "base_user.json"
 
 # 학습 데이터 누적 저장 경로
 PERSONALITY_TRAIN_DATA_PATH = PERSONALITY_DATA_DIR / "personality_survey_data.json"
@@ -288,41 +288,55 @@ async def personality_train(payload: dict = Body(...)):
 @app.post("/personality/recommend")
 async def personality_recommend(payload: dict = Body(...)):
     """
-    백엔드에서 성향 설문 최종 제출 JSON을 받아
-    팀원 추천 결과를 반환하는 API
+    백엔드 /api/personality-surveys/submit에서 받은 성향 설문 최종 JSON을 받아
+    팀원 추천 결과를 생성하고 반환하는 API
 
     실행 흐름:
-    1. payload를 personality/json/base_user_submit.json으로 저장
+    1. 백엔드 설문 JSON을 personality/json/base_user.json으로 저장
     2. personality/llm_reason.py 실행
        - 내부에서 final_recommendation.py 실행
        - 추천 결과에 reason 추가
-    3. personality/result/final_team_recommendation_user_001.json 반환
+    3. personality/result/final_team_recommendation.json 반환
     """
 
     PERSONALITY_DATA_DIR.mkdir(parents=True, exist_ok=True)
     PERSONALITY_RESULT_DIR.mkdir(parents=True, exist_ok=True)
 
+    # 백엔드가 { success, message, data } 형태로 보내면 data만 사용
+    # data 없이 설문 JSON만 보내면 payload 그대로 사용
+    survey_data = payload.get("data", payload)
+
     # 1. 백엔드 설문 JSON 저장
+    # final_recommendation.py / llm_reason.py가 읽는 파일명과 반드시 같아야 함
     with open(BASE_USER_SUBMIT_PATH, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+        json.dump(survey_data, f, ensure_ascii=False, indent=2)
 
     print("===== [PERSONALITY RECOMMEND] 설문 JSON 저장 완료 =====")
-    print(BASE_USER_SUBMIT_PATH)
+    print("saved_path:", BASE_USER_SUBMIT_PATH)
 
     # 2. llm_reason.py 실행
     try:
-        subprocess.run(
+        run_result = subprocess.run(
             [sys.executable, "llm_reason.py"],
-            cwd=PERSONALITY_DIR,
-            check=True
+            cwd=str(PERSONALITY_DIR),
+            check=True,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace"
         )
+
+        print("===== [PERSONALITY RECOMMEND] llm_reason.py 실행 완료 =====")
+        print(run_result.stdout)
+
     except subprocess.CalledProcessError as e:
         return JSONResponse(
             status_code=500,
             content={
                 "success": False,
                 "message": "llm_reason.py 실행 중 오류 발생",
-                "error": str(e),
+                "stdout": e.stdout,
+                "stderr": e.stderr,
                 "cwd": str(PERSONALITY_DIR)
             }
         )
@@ -338,54 +352,8 @@ async def personality_recommend(payload: dict = Body(...)):
             }
         )
 
-    # 4. 추천 결과 반환
+    # 4. final_team_recommendation.json 그대로 반환
     with open(PERSONALITY_RECOMMEND_RESULT_PATH, "r", encoding="utf-8") as f:
         result = json.load(f)
 
-    return {
-        "success": True,
-        "message": "팀원 추천 성공",
-        "data": result
-    }
-
-# =========================
-# 6. 마이페이지 팀원 추천 결과 조회 API
-# =========================
-
-@app.get("/api/mypage/recommendations/team-members")
-async def get_team_member_recommendations():
-    """
-    마이페이지에서 팀원 추천 결과를 조회하는 API
-
-    반환 대상:
-    personality/result/final_team_recommendation.json
-    """
-
-    result_path = PERSONALITY_RECOMMEND_RESULT_PATH
-
-    # final_team_recommendation.json이 없으면
-    # 기존 파일명 final_team_recommendation_user_001.json도 fallback으로 확인
-    if not result_path.exists():
-        fallback_path = PERSONALITY_RESULT_DIR / "final_team_recommendation_user_001.json"
-
-        if fallback_path.exists():
-            result_path = fallback_path
-        else:
-            return JSONResponse(
-                status_code=404,
-                content={
-                    "success": False,
-                    "message": "팀원 추천 결과 파일을 찾을 수 없습니다.",
-                    "expected_path": str(PERSONALITY_RECOMMEND_RESULT_PATH),
-                    "fallback_path": str(fallback_path)
-                }
-            )
-
-    with open(result_path, "r", encoding="utf-8") as f:
-        result = json.load(f)
-
-    return {
-        "success": True,
-        "message": "팀원 추천 결과 조회 성공",
-        "data": result
-    }
+    return result
