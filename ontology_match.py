@@ -4,15 +4,7 @@ import os
 import subprocess
 from pathlib import Path
 
-from dotenv import load_dotenv
-from openai import OpenAI
-
 BASE_DIR = Path(__file__).resolve().parent
-
-load_dotenv(BASE_DIR / ".env")
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 CV_ONE_PATH = BASE_DIR / "cv" / "cv_one.py"
 CV_DB_PATH = BASE_DIR / "json" / "cv_result.json"
@@ -207,195 +199,6 @@ def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
     
-def extract_json_from_text(text):
-    """
-    OpenAI 응답에서 JSON만 안전하게 추출.
-    혹시 ```json ... ``` 형태로 와도 처리.
-    """
-    text = text.strip()
-
-    if text.startswith("```"):
-        text = text.replace("```json", "").replace("```", "").strip()
-
-    start = text.find("{")
-    end = text.rfind("}")
-
-    if start == -1 or end == -1:
-        raise ValueError("OpenAI 응답에서 JSON 객체를 찾을 수 없습니다.")
-
-    return json.loads(text[start:end + 1])
-
-
-def validate_strength_weakness_items(items):
-    """
-    strengths/weaknesses가 정확히 4개가 되도록 검증.
-    OpenAI가 4개를 못 주면 부족한 만큼 '추가 분석 필요'로 채움.
-    score는 0~100 정수로 제한.
-    """
-    result = []
-
-    if isinstance(items, list):
-        for item in items:
-            if not isinstance(item, dict):
-                continue
-
-            name = str(item.get("name", "")).strip()
-            score = item.get("score", 50)
-
-            if not name:
-                continue
-
-            try:
-                score = int(score)
-            except Exception:
-                score = 50
-
-            score = max(0, min(100, score))
-
-            result.append({
-                "name": name,
-                "score": score
-            })
-
-    while len(result) < 4:
-        result.append({
-            "name": "추가 분석 필요",
-            "score": 50
-        })
-
-    return result[:4]
-
-
-def generate_strengths_weaknesses_with_openai(cv):
-    """
-    CV 구조화 결과를 바탕으로 strengths 4개, weaknesses 4개 생성.
-    항목명은 고정하지 않고 OpenAI가 CV 내용을 보고 자유롭게 생성한다.
-    """
-
-    prompt = f"""
-너는 이력서 분석 시스템의 역량 평가 모듈이다.
-
-아래 CV 분석 JSON을 보고 지원자의 장점 strengths 4개와 보완점 weaknesses 4개를 생성해라.
-
-조건:
-1. 반드시 JSON만 반환해라.
-2. strengths는 정확히 4개 생성해라.
-3. weaknesses는 정확히 4개 생성해라.
-4. 각 항목은 name, score를 가진다.
-5. name은 한국어로 작성한다.
-6. score는 0부터 100 사이의 정수다.
-7. strengths는 지원자의 강점 역량을 의미한다.
-8. weaknesses는 지원자가 상대적으로 보완하면 좋은 역량 영역을 의미한다.
-9. strengths와 weaknesses의 항목명은 고정된 목록에서 고르지 말고, CV 내용을 보고 자유롭게 정해라.
-10. 항목명은 너무 길지 않게 2~8단어 정도로 작성해라.
-11. CV에 없는 내용을 과하게 지어내지 마라.
-12. summary, skills, domains, projects, experience 정보를 근거로 판단해라.
-13. 서비스 화면에 보여줄 수 있도록 너무 부정적이거나 공격적인 표현은 피하라.
-14. weaknesses의 score도 현재 역량 점수로 해석한다. 즉 낮을수록 보완 필요성이 크다.
-
-반환 형식:
-{{
-  "strengths": [
-    {{
-      "name": "데이터 분석 역량",
-      "score": 92
-    }},
-    {{
-      "name": "AI 모델 활용 능력",
-      "score": 88
-    }},
-    {{
-      "name": "백엔드 개발 경험",
-      "score": 80
-    }},
-    {{
-      "name": "문제 해결력",
-      "score": 85
-    }}
-  ],
-  "weaknesses": [
-    {{
-      "name": "발표 경험",
-      "score": 45
-    }},
-    {{
-      "name": "협업 리딩 경험",
-      "score": 50
-    }},
-    {{
-      "name": "서비스 운영 경험",
-      "score": 48
-    }},
-    {{
-      "name": "문서화 역량",
-      "score": 55
-    }}
-  ]
-}}
-
-CV 분석 JSON:
-{json.dumps(cv, ensure_ascii=False, indent=2)}
-"""
-
-    response = client.chat.completions.create(
-        model=OPENAI_MODEL,
-        messages=[
-            {
-                "role": "system",
-                "content": "너는 CV 분석 결과를 바탕으로 strengths와 weaknesses를 JSON으로만 생성하는 평가 모듈이다."
-            },
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ],
-        response_format={"type": "json_object"},
-        temperature=0.2
-    )
-
-    content = response.choices[0].message.content
-    data = extract_json_from_text(content)
-
-    strengths = validate_strength_weakness_items(data.get("strengths"))
-    weaknesses = validate_strength_weakness_items(data.get("weaknesses"))
-
-    return {
-        "strengths": strengths,
-        "weaknesses": weaknesses
-    }
-
-def enrich_cv_with_strengths_weaknesses(cv):
-    """
-    CV 하나에 strengths, weaknesses 추가.
-    OpenAI 실패 시 기본값으로라도 응답이 깨지지 않게 처리.
-    """
-    try:
-        result = generate_strengths_weaknesses_with_openai(cv)
-
-        cv["strengths"] = result["strengths"]
-        cv["weaknesses"] = result["weaknesses"]
-
-        print(f"[OPENAI] strengths/weaknesses 생성 완료: {cv.get('name')}")
-
-    except Exception as e:
-        print(f"[OPENAI ERROR] strengths/weaknesses 생성 실패: {e}")
-
-        cv["strengths"] = [
-            {"name": "기술적 전문성", "score": 80},
-            {"name": "문제 해결력", "score": 75},
-            {"name": "학습 능력", "score": 70},
-            {"name": "프로젝트 수행력", "score": 65}
-        ]
-
-        cv["weaknesses"] = [
-            {"name": "커뮤니케이션", "score": 50},
-            {"name": "협업 및 영향력", "score": 50},
-            {"name": "발표", "score": 50},
-            {"name": "문서화", "score": 50}
-        ]
-
-    return cv
-    
 def update_cv_database(new_cvs):
     """
     새로 구조화된 CV 결과를 기존 cv_result.json에 추가.
@@ -562,16 +365,6 @@ def main():
 
     if isinstance(new_cvs, dict):
         new_cvs = [new_cvs]
-    
-    # 2-1. OpenAI로 strengths / weaknesses 추가
-    new_cvs = [
-        enrich_cv_with_strengths_weaknesses(cv)
-        for cv in new_cvs
-    ]
-
-    # 2-2. 보강된 cv_result_one.json 다시 저장
-    with open(CV_PATH, "w", encoding="utf-8") as f:
-        json.dump(new_cvs, f, ensure_ascii=False, indent=2)
 
     # 3. 기존 cv_result.json에 중복 없으면 추가
     update_cv_database(new_cvs)
@@ -604,8 +397,6 @@ def main():
         results.append({
             "user_id": cv.get("user_id"),
             "name": cv.get("name"),
-            "strengths": cv.get("strengths", []),
-            "weaknesses": cv.get("weaknesses", []),
             "recommendations": recommendations
         })
 
